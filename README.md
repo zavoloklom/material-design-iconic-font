@@ -6,7 +6,7 @@ created and maintained by [Google](https://github.com/google/material-design-ico
 
 Material Design Icons are the official open-source [icons](http://www.google.com/design/spec/resources/sticker-sheets.html#sticker-sheets-components) featured in the Google [Material Design](http://www.google.com/design/spec) specification.
 
-Demo: [http://zavoloklom.github.io/material-design-font](http://zavoloklom.github.io/material-design-iconic-font)
+Demo: [http://zavoloklom.github.io/material-design-iconic-font](http://zavoloklom.github.io/material-design-iconic-font)
 
 ## Licence
 

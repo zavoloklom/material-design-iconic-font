@@ -1,9 +1,5 @@
 @font-face {
-	font-family: 'Material Design Iconic Font';
-	src: url('../fonts/Material-Design-Iconic-Font.eot');
-}
-@font-face {
-    font-family: "Material-Design-Icons";
+    font-family: 'Material Design Iconic Font';
     src:url("../fonts/Material-Design-Iconic-Font.eot?-g7cqhn");
     src:url("../fonts/Material-Design-Iconic-Font.eot?#iefix-g7cqhn") format("embedded-opentype"),
     url("../fonts/Material-Design-Iconic-Font.woff?-g7cqhn") format("woff"),

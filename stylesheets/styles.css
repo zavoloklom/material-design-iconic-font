@@ -1,5 +1,5 @@
 body {
-    font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -50,7 +50,9 @@ h6 {
     text-align: center;
     border-bottom: 1px solid #eee;
 }
-.icon-set i,
 .icon-set p {
     font-size: 16px;
+}
+.icon-set p i {
+    margin-right: 8px;
 }

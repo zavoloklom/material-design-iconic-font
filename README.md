@@ -6,6 +6,7 @@ Material Design Iconic Font is a full suite of material design icons (created an
 Material Design Icons are the official open-source [icons](http://www.google.com/design/spec/resources/sticker-sheets.html#sticker-sheets-components) featured in the Google [Material Design](http://www.google.com/design/spec) specification.
 
 Demo: [http://zavoloklom.github.io/material-design-iconic-font](http://zavoloklom.github.io/material-design-iconic-font)
+Download: [v1.0.1 (ZIP)](http://zavoloklom.github.io/material-design-iconic-font)
 
 ## Licence
 

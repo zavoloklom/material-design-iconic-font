@@ -1,5 +1,5 @@
-#[Material Design Iconic Font v1.0.1](http://zavoloklom.github.io/material-design-iconic-font)
-###Material Design Iconic Font and CSS toolkit
+# [Material Design Iconic Font v1.0.1](http://zavoloklom.github.io/material-design-iconic-font)
+### Material Design Iconic Font and CSS toolkit
 
 Material Design Iconic Font is a full suite of material design icons (created and maintained by [Google](https://github.com/google/material-design-icons)) for easy scalable vector graphics on websites.
 
@@ -7,15 +7,17 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 
 Demo: [http://zavoloklom.github.io/material-design-iconic-font](http://zavoloklom.github.io/material-design-iconic-font)
 
+Download: [v1.0.1 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/v1.0.1/material-design-iconic-font.zip)
+
 ## Licence
 
-Material Design Iconic Font and all icons are released under an [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) license.
+The full details of how Material Design Iconic Font is licensed and 'Thanks to' section: [License page](http://zavoloklom.github.io/material-design-iconic-font/license.html).
 
-##Changelog
+## Changelog
 - v1.0.0 - add all available icons from [Google](https://github.com/google/material-design-icons)
 - v1.0.1 - fix bug with battery, charging-battery and wi-fi icons (device section)
 
-##Versioning
+## Versioning
 
 Material Design Iconic Font will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
 
@@ -29,7 +31,7 @@ And constructed with the following guidelines:
 
 For more information on SemVer, please visit http://semver.org.
 
-##Author
+## Author
 - Email: s.kupletsky@gmail.com
 - Website: design4net.ru
 - Twitter: https://twitter.com/zavoloklom

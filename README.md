@@ -14,7 +14,7 @@ Material Design Iconic Font and all icons are released under an [Attribution-Sha
 ##Changelog
 - v1.0.0 - add all available icons from [Google](https://github.com/google/material-design-icons)
 - v1.0.1 - fix bug with battery, charging-battery and wi-fi icons (device section)
-- 
+
 ##Versioning
 
 Material Design Iconic Font will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:

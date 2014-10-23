@@ -18,6 +18,11 @@ h5,
 h6 {
     font-weight: 400;
 }
+
+#navbar {
+    margin: 0;
+}
+
 .jumbotron {
     color: #f5f5f5;
     background-color: #039be5;

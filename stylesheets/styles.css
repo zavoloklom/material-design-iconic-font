@@ -27,8 +27,8 @@ h6 {
 .jumbotron {
     color: #f5f5f5;
     background-color: #039be5;
-    border-top: 1px solid #34a782;
-    border-bottom: 1px solid #1b926c;
+    border-top: 1px solid #039be5;
+    border-bottom: 1px solid #0288d1;
     margin-bottom: 0;
     padding: 50px 0 40px;
 }
@@ -66,6 +66,7 @@ h6 {
 
 .navbar-light-blue {
     background-color: #039be5;
+    border-color: #0288d1;
 }
 .navbar-light-blue .btn-animated > div,
 .navbar-light-blue .btn-animated > div:before,
@@ -100,9 +101,6 @@ h6 {
 .navbar-light-blue .navbar-nav li > a {
     color: #f5f5f5;
     background-color: transparent;
-}
-.navbar-light-blue .navbar-nav li > a i {
-    color: #f5f5f5;
 }
 .navbar-light-blue .navbar-nav li:hover > a,
 .navbar-light-blue .navbar-nav li > a:hover,

@@ -25,6 +25,13 @@ h6 {
     font-weight: normal;
 }
 
+.margin-top {
+    margin-top: 10px !important;
+}
+.padding-top-sm {
+    padding-top: 5px !important;
+}
+
 #navbar {
     margin: 0;
     font-weight: 400;

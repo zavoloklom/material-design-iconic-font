@@ -50,11 +50,13 @@
   border: solid 0.08em #808080;
   border-radius: 50%;
 }
-.md.pull-left {
+[class^="md-"].pull-left,
+[class*=" md-"].pull-left {
   float: left;
   margin-right: .3em;
 }
-.md.pull-right {
+[class^="md-"].pull-right,
+[class*=" md-"].pull-right {
   float: right;
   margin-left: .3em;
 }

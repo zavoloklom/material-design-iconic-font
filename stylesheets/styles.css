@@ -36,7 +36,20 @@ h6 {
 .jumbotron a:hover,
 .jumbotron a:visited {
     color: #f5f5f5;
-    text-decoration: none;
+}
+.jumbotron .btn-lg {
+    margin-top: 22px;
+    font-family: museo-slab, Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    padding: 17px 30px;
+    color: #ffffff;
+    border-color: #c7e7dc;
+    background-color: transparent;
+}
+.jumbotron .btn-lg:hover {
+    background-color: #f4faf8;
+    border-color: #f4faf8;
+    color: #039be5;
 }
 #social-buttons {
     padding: 22px 0 17px;

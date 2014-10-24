@@ -83,7 +83,7 @@
                         <li><a href="examples.html#rotated-flipped">Rotated &amp; Flipped Icons</a></li>
                     </ul>
                 </li>
-                <li><a href="/license.html">License</a></li>
+                <li><a href="license.html">License</a></li>
             </ul>
         </div>
     </div>
@@ -123,6 +123,39 @@
 <div id="download-buttons" class="container">
     <p><a href="#" target="_blank" class="btn btn-default">Download v1.0.1 (ZIP)</a></p>
 </div>
+
+<section id="default-css">
+    <h2 class="page-header">BASIC: Default CSS</h2>
+    <p>Use this method to get the default Material Design Iconic Font CSS.</p>
+    <ol>
+        <li>Download latest version of Material Design Iconic Font from this site or GitHub.</li>
+        <li>Unpack the entire <code>material-design-iconic-font</code> archive into your project.</li>
+        <li>
+            In the <code>&lt;head&gt;</code> of your html, reference the location to your material-design-iconic-font.min.css.
+            <div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"path/to/material-design-iconic-font/css/material-design-iconic-font.min.css"</span><span class="nt">&gt;</span>
+            </code></pre></div>
+        </li>
+        <li>Check out the <a href="examples.html">examples</a> to start using Material Design Iconic Font!</li>
+    </ol>
+</section>
+
+<section id="custom-less">
+    <h2 class="page-header">PRO: Custom LESS</h2>
+    <p>Use this method to customize Material Design Iconic Font using LESS.</p>
+    <ol>
+        <li>Download source code of Material Design Iconic Font from GitHub.</li>
+        <li>Copy the <code>less/</code> and <code>fonts/</code> directories into your project in <code>material-design-iconic-font</code> folder.</li>
+        <li>
+            Open your project's <code>path/to/material-design-iconic-font/less/variables.less</code> and edit the <code>@md-font-path</code>
+            variable to point to your font directory.
+            <div class="highlight"><pre><code class="scss"><span class="k">@md-font-path</span><span class="nd">:</span>   <span class="s2">"../font"</span><span class="o">;</span>
+            </code></pre></div>
+            <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
+        </li>
+        <li>Re-compile your LESS.</li>
+        <li>Check out the <a href="examples.html">examples</a> to start using Material Design Iconic Font!</li>
+    </ol>
+</section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

@@ -10,6 +10,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+code, kbd, pre, samp {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
 h1,
 h2,
 h3,
@@ -167,4 +170,18 @@ h6 {
 .navbar-light-blue .navbar-nav > .dropdown > .dropdown-menu > .active > a:focus {
     background-color: #f5f5f5;
     color: #212121;
+}
+
+pre {
+    display: block;
+    padding: 8px 16px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: #fafafa;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
 }

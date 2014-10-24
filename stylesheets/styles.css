@@ -19,6 +19,12 @@ h6 {
     font-weight: 400;
 }
 
+.text-default {
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: normal;
+}
+
 #navbar {
     margin: 0;
     font-weight: 400;

@@ -108,7 +108,7 @@
     <div class="container">
         <ul class="list-inline">
             <li class="git-tip">
-                <a href="https://gratipay.com/zavoloklom/" target="_blank" class="btn btn-default btn-xs">
+                <a id="gittip" href="https://gratipay.com/zavoloklom/" target="_blank" class="btn btn-default btn-xs">
                     Support me on GitTip
                 </a>
             </li>
@@ -322,6 +322,12 @@ Luigi Menabrea, a young Italian engineer, and future Prime Minister of Italy, wr
     ga('create', 'UA-56068812-1', 'auto');
     ga('send', 'pageview');
 
+</script>
+<script>
+    // Events
+    $('#gittip').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'GitTip');
+    });
 </script>
 </body>
 </html>

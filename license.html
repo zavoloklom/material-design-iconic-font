@@ -109,7 +109,7 @@
     <div class="container">
         <ul class="list-inline">
             <li class="git-tip">
-                <a href="https://gratipay.com/zavoloklom/" target="_blank" class="btn btn-default btn-xs">
+                <a id="gittip" href="https://gratipay.com/zavoloklom/" target="_blank" class="btn btn-default btn-xs">
                     Support me on GitTip
                 </a>
             </li>
@@ -130,13 +130,59 @@
 
 <div class="container">
     <section>
-        <h2 class="page-header">Icons License</h2>
+        <h2 class="page-header">Font License</h2>
         <ul>
             <li>
-                Material design icons created and maintained by <a href="https://github.com/google/material-design-icons">Google</a>.
+                Applies to all files in the following directory: <code>material-design-iconic-font/fonts/</code>.
+            </li>
+            <li>License: SIL OFL 1.1</li>
+            <li>URL: <a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="page-header">Code License</h2>
+        <ul>
+            <li>
+                Applies to all CSS and LESS files in the following directories:
+                <code>material-design-iconic-font/css/</code>,
+                <code>material-design-iconic-font/less/</code>.
+            </li>
+            <li>License: MIT License</li>
+            <li>URL: <a href="http://opensource.org/licenses/mit-license.html">http://opensource.org/licenses/mit-license.html</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="page-header">Google Icons License</h2>
+        <ul>
+            <li>
+                Material design icons created and maintained by <a href="https://github.com/google/material-design-icons">Google</a>.<br />
+                Applies to all files in the following directory: <code>material-design-iconic-font/svg/google/</code>.
             </li>
             <li>License: Attribution-ShareAlike 4.0 International license</li>
-            <li>URL: <a href="http://scripts.sil.org/OFL">http://creativecommons.org/licenses/by-sa/4.0/</a></li>
+            <li>URL: <a href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</a></li>
+        </ul>
+    </section>
+
+    <!--<section>
+        <h2 class="page-header">Templarian Icons License</h2>
+        <ul>
+            <li>
+                This icons are created by <a href="http://materialdesignicons.com/">Austin Andrews</a>.<br />
+                Applies to all files in the following directory: <code>material-design-iconic-font/svg/templarian/</code>.
+            </li>
+            <li>License: SIL OFL 1.1</li>
+            <li>URL: <a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a></li>
+        </ul>
+    </section>-->
+
+    <section>
+        <h2 class="page-header">Documentation License</h2>
+        <ul>
+            <li>Applies to all project files that are not a part of the other licenses.</li>
+            <li>License: Attribution-ShareAlike 4.0 International license</li>
+            <li>URL: <a href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</a></li>
         </ul>
     </section>
 
@@ -144,7 +190,7 @@
         <h2 class="page-header">Special Thanks</h2>
         <ul>
             <li>
-                Thanks for the idea of this site to FontAwesome.io.
+                Thanks for the idea of this site to <a href="http://twitter.com/davegandy">Dave Gandy</a>.
             </li>
             <li>URL: <a href="http://fontawesome.io/">http://fontawesome.io/</a></li>
         </ul>
@@ -164,6 +210,12 @@
     ga('create', 'UA-56068812-1', 'auto');
     ga('send', 'pageview');
 
+</script>
+<script>
+    // Events
+    $('#gittip').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'GitTip');
+    });
 </script>
 </body>
 </html>

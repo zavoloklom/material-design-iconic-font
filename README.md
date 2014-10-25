@@ -11,7 +11,7 @@ Download: [v1.0.1 (ZIP)](https://github.com/zavoloklom/material-design-iconic-fo
 
 ## Licence
 
-Material Design Iconic Font and all icons are released under an [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) license.
+The full details of how Material Design Iconic Font is licensed and 'Thanks to' section: [License page](http://zavoloklom.github.io/material-design-iconic-font/license.html).
 
 ## Changelog
 - v1.0.0 - add all available icons from [Google](https://github.com/google/material-design-icons)

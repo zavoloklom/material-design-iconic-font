@@ -1,13 +1,13 @@
-# [Material Design Iconic Font v1.0.1](http://zavoloklom.github.io/material-design-iconic-font)
+# [Material Design Iconic Font v1.1.0](http://zavoloklom.github.io/material-design-iconic-font)
 ### Material Design Iconic Font and CSS toolkit
 
 Material Design Iconic Font is a full suite of material design icons (created and maintained by [Google](https://github.com/google/material-design-icons)) for easy scalable vector graphics on websites.
 
 Material Design Icons are the official open-source [icons](http://www.google.com/design/spec/resources/sticker-sheets.html#sticker-sheets-components) featured in the Google [Material Design](http://www.google.com/design/spec) specification.
 
-Demo: [http://zavoloklom.github.io/material-design-iconic-font](http://zavoloklom.github.io/material-design-iconic-font)
+Get started at [http://zavoloklom.github.io/material-design-iconic-font](http://zavoloklom.github.io/material-design-iconic-font)
 
-Download: [v1.0.1 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/v1.0.1/material-design-iconic-font.zip)
+Download: [v1.1.0 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/v1.1.0/material-design-iconic-font.zip)
 
 ## Licence
 
@@ -16,6 +16,7 @@ The full details of how Material Design Iconic Font is licensed and 'Thanks to' 
 ## Changelog
 - v1.0.0 - add all available icons from [Google](https://github.com/google/material-design-icons)
 - v1.0.1 - fix bug with battery, charging-battery and wi-fi icons (device section)
+- v1.1.0 - add SCSS support (thanks to @davidkpiano)
 
 ## Versioning
 

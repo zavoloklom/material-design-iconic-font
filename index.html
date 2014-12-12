@@ -105,13 +105,13 @@
         </div>
         <div class="col-md-8 col-sm-8 text-center">
             <div class="actions">
-                <a id="download" class="btn btn-default btn-lg" href="https://github.com/zavoloklom/material-design-iconic-font/releases/download/v1.0.1/material-design-iconic-font.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
-                    <i class="fa fa-download fa-lg"></i>&nbsp;&nbsp;
-                    Download v1.0.1 (ZIP)
+                <a class="btn btn-default btn-lg download-btn" href="https://github.com/zavoloklom/material-design-iconic-font/releases/download/v1.1.0/material-design-iconic-font.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+                    <i class="md md-file-download md-lg"></i>&nbsp;&nbsp;
+                    Download v1.1.0 (ZIP)
                 </a>
             </div>
             <div class="inflated-egos">
-                Version 1.0.1
+                Version 1.1.0
                 &nbsp;&nbsp;
                 <a href="https://github.com/zavoloklom/material-design-iconic-font" target="_blank">GitHub Project</a>
                 &nbsp;&nbsp;
@@ -166,20 +166,20 @@
     </section>
 
     <section id="custom-less">
-        <h2 class="page-header">PRO: Custom LESS</h2>
-        <p>Use this method to customize Material Design Iconic Font using LESS.</p>
+        <h2 class="page-header">PRO: Custom LESS or SCSS</h2>
+        <p>Use this method to customize Material Design Iconic Font using LESS or SCSS.</p>
         <ol>
-            <li>Download source code of Material Design Iconic Font from GitHub.</li>
-            <li>Copy the <code>less/</code> and <code>fonts/</code> directories into your project in <code>material-design-iconic-font</code> folder.</li>
+            <li>Download latest version of Material Design Iconic Font from this site or GitHub.</li>
+            <li>Unpack the entire <code>material-design-iconic-font</code> archive into your project.</li>
             <li>
-                Open your project's <code>path/to/material-design-iconic-font/less/variables.less</code> and edit the <code>@md-font-path</code>
+                Open your project's <code>path/to/material-design-iconic-font/less/variables.less</code> or <code>path/to/material-design-iconic-font/scss/_variables.scss</code> and edit the <code>@md-font-path</code>
                 variable to point to your font directory.
                 <div class="highlight">
                     <pre><code class="scss"><span class="k">@md-font-path</span><span class="nd">:</span>   <span class="s2">"../font"</span><span class="o">;</span></code></pre>
                 </div>
-                <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
+                <p class="alert alert-success"><i class="md md-info-outline"></i> The font path is relative from your compiled CSS directory.</p>
             </li>
-            <li>Re-compile your LESS.</li>
+            <li>Re-compile your LESS or SCSS if using a static compiler.</li>
             <li>Check out the <a href="examples.html">examples</a> to start using Material Design Iconic Font!</li>
         </ol>
     </section>
@@ -204,7 +204,7 @@
     $('#gittip').on('click', function() {
         ga('send', 'event', 'button', 'click', 'GitTip');
     });
-    $('#download').on('click', function() {
+    $('.download-btn').on('click', function() {
         ga('send', 'event', 'button', 'click', 'Download');
     });
 </script>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<D:error xmlns:D="DAV:" xmlns:m="http://apache.org/dav/xmlns" xmlns:C="svn:">
+<C:error/>
+<m:human-readable errcode="160006">
+No such revision 10
+</m:human-readable>
+</D:error>

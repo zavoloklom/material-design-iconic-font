@@ -1,18 +1,18 @@
 /*!
- *  Material Design Iconic Font 1.0.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
+ *  Material Design Iconic Font 1.1.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
  *  License - https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/License.md (Attribution-ShareAlike 4.0 International license)
  */
 @font-face {
-  font-family: 'Material Design Iconic Font';
-  src: url('../fonts/Material-Design-Iconic-Font.eot?v=1.0.1');
-  src: url('../fonts/Material-Design-Iconic-Font.eot?#iefix&v=1.0.1') format('embedded-opentype'), url('../fonts/Material-Design-Iconic-Font.woff?v=1.0.1') format('woff'), url('../fonts/Material-Design-Iconic-Font.ttf?v=1.0.1') format('truetype'), url('../fonts/Material-Design-Iconic-Font.svg?v=1.0.1#Material-Design-Iconic-Font') format('svg');
+  font-family: 'Material-Design-Iconic-Font';
+  src: url('../fonts/Material-Design-Iconic-Font.eot?v=1.1.1');
+  src: url('../fonts/Material-Design-Iconic-Font.eot?#iefix&v=1.1.1') format('embedded-opentype'), url('../fonts/Material-Design-Iconic-Font.woff?v=1.1.1') format('woff'), url('../fonts/Material-Design-Iconic-Font.ttf?v=1.1.1') format('truetype'), url('../fonts/Material-Design-Iconic-Font.svg?v=1.1.1#Material-Design-Iconic-Font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 [class^="md-"],
 [class*=" md-"] {
   display: inline-block;
-  font: normal normal normal 14px/1 'Material Design Iconic Font';
+  font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
   font-size: inherit;
   speak: none;
   text-rendering: auto;

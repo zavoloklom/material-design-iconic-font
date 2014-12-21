@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
@@ -9,8 +9,27 @@
     <![endif]-->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <link href="favicon.png" rel="apple-touch-icon-precomposed" />
-    <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180x180.png">
+    <meta name="apple-mobile-web-app-title" content="MD Iconic Font">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <link rel="icon" type="image/png" href="icons/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="icons/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="icons/mstile-144x144.png">
+    <meta name="msapplication-config" content="icons/browserconfig.xml">
+    <meta name="application-name" content="MD Iconic Font">
 
     <meta name="google-site-verification" content="XHNX_nkb_oo_RNBCPHJPYaON8gh65P5t7cRMVrUjiXw" />
 
@@ -18,6 +37,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap.docs.min.css">
     <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
 
@@ -32,23 +52,24 @@
     <meta name="twitter:creator" content="@zavoloklom">
     <meta name="twitter:title" content="Material Design Iconic Font">
     <meta name="twitter:description" content="Material Design Iconic Font is a full suite of material design icons (created and maintained by Google) for easy scalable vector graphics on websites.">
-    <meta name="twitter:image:src" content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53474/Screenshot-Material-Design-Iconic-Font.png">
+    <meta name="twitter:image:src" content="http://zavoloklom.github.io/material-design-iconic-font/images/Material-Design-Iconic-Font.png">
 </head>
-<body>
-<a class="hidden-xs" target="_blank" href="https://github.com/zavoloklom/material-design-iconic-font"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 3000" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
 
-<div id="navbar" class="navbar navbar-light-blue navbar-static-top hidden-print">
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+<div id="top"></div>
+
+<div id="navbar" class="navbar navbar-default navbar-static-top hidden-print">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <i class="md md-menu md-lg"></i>
             </button>
-            <a class="navbar-brand" href="index.html">Material Design Iconic Font</a>
+            <a class="navbar-brand" href="index.html"><strong>Material Design</strong> Iconic Font</a>
         </div>
 
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
                 <li class="hidden-sm active"><a href="index.html">Get Started</a></li>
                 <li class="dropdown-split-left"><a href="icons.html">Icons</a></li>
                 <li class="dropdown dropdown-split-right hidden-xs">
@@ -90,28 +111,27 @@
                         <li><a href="examples.html#rotated-flipped">Rotated &amp; Flipped Icons</a></li>
                     </ul>
                 </li>
+                <li><a href="cheatsheet.html">Cheatsheet</a></li>
                 <li><a href="license.html">License</a></li>
             </ul>
         </div>
     </div>
 </div>
 
-<div class="jumbotron jumbotron-ad hidden-print">
+<div class="jumbotron jumbotron-img hidden-print"  style="background-image: url(images/header-bg.png)">
     <div class="container">
         <div class="col-xs-12">
+            <img src="icons/favicon-96x96.png" style="float: left; padding-top: 15px; padding-right: 24px;">
             <h1>Material Design Iconic Font</h1>
-            <p>The iconic font and CSS toolkit</p>
             <p>Material Design Iconic Font is a full suite of material design icons (created and maintained by <a href="https://github.com/google/material-design-icons" target="_blank">Google</a>) for easy scalable vector graphics on websites.</p>
-        </div>
-        <div class="col-md-8 col-sm-8 text-center">
             <div class="actions">
-                <a class="btn btn-default btn-lg download-btn" href="https://github.com/zavoloklom/material-design-iconic-font/releases/download/v1.1.0/material-design-iconic-font.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+                <a class="btn btn-default btn-lg download-btn" href="https://github.com/zavoloklom/material-design-iconic-font/releases/download/v1.1.1/material-design-iconic-font.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
                     <i class="md md-file-download md-lg"></i>&nbsp;&nbsp;
-                    Download v1.1.0 (ZIP)
+                    Download v1.1.1 (ZIP)
                 </a>
             </div>
             <div class="inflated-egos">
-                Version 1.1.0
+                Version 1.1.1
                 &nbsp;&nbsp;
                 <a href="https://github.com/zavoloklom/material-design-iconic-font" target="_blank">GitHub Project</a>
                 &nbsp;&nbsp;
@@ -125,8 +145,8 @@
     <div class="container">
         <ul class="list-inline">
             <li class="git-tip">
-                <a href="https://gratipay.com/zavoloklom/" target="_blank" class="btn btn-default btn-xs">
-                    Support me on GitTip
+                <a href="https://gratipay.com/zavoloklom/" target="_blank" class="btn btn-default btn-xs gittip-btn">
+                    Support me on Gratipay
                 </a>
             </li>
             <li>
@@ -143,51 +163,122 @@
     </div>
 </div>
 
+
 <div class="container">
+    <div class="row">
 
-    <section>
-        <h1 class="page-header">Getting Started</h1>
-    </section>
+        <div class="col-md-9 col-xs-12" role="main">
 
-    <section id="default-css">
-        <h2 class="page-header">BASIC: Default CSS</h2>
-        <p>Use this method to get the default Material Design Iconic Font CSS.</p>
-        <ol>
-            <li>Download latest version of Material Design Iconic Font from this site or GitHub.</li>
-            <li>Unpack the entire <code>material-design-iconic-font</code> archive into your project.</li>
-            <li>
-                In the <code>&lt;head&gt;</code> of your html, reference the location to your material-design-iconic-font.min.css.
-                <div class="highlight">
-                    <pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"path/to/material-design-iconic-font/css/material-design-iconic-font.min.css"</span><span class="nt">&gt;</span></code></pre>
-                </div>
-            </li>
-            <li>Check out the <a href="examples.html">examples</a> to start using Material Design Iconic Font!</li>
-        </ol>
-    </section>
+            <section id="getting-started">
+                <h2 class="page-header">Getting Started</h2>
+            </section>
 
-    <section id="custom-less">
-        <h2 class="page-header">PRO: Custom LESS or SCSS</h2>
-        <p>Use this method to customize Material Design Iconic Font using LESS or SCSS.</p>
-        <ol>
-            <li>Download latest version of Material Design Iconic Font from this site or GitHub.</li>
-            <li>Unpack the entire <code>material-design-iconic-font</code> archive into your project.</li>
-            <li>
-                Open your project's <code>path/to/material-design-iconic-font/less/variables.less</code> or <code>path/to/material-design-iconic-font/scss/_variables.scss</code> and edit the <code>@md-font-path</code>
-                variable to point to your font directory.
-                <div class="highlight">
-                    <pre><code class="scss"><span class="k">@md-font-path</span><span class="nd">:</span>   <span class="s2">"../font"</span><span class="o">;</span></code></pre>
-                </div>
-                <p class="alert alert-success"><i class="md md-info-outline"></i> The font path is relative from your compiled CSS directory.</p>
-            </li>
-            <li>Re-compile your LESS or SCSS if using a static compiler.</li>
-            <li>Check out the <a href="examples.html">examples</a> to start using Material Design Iconic Font!</li>
-        </ol>
-    </section>
+            <section id="default-css">
+                <h3 class="page-header">BASIC: Default CSS</h3>
+                <p>Use this method to get the default Material Design Iconic Font CSS.</p>
+                <ol>
+                    <li>Download latest version of Material Design Iconic Font from this site or GitHub.</li>
+                    <li>Unpack the entire <code>material-design-iconic-font</code> archive into your project.</li>
+                    <li>
+                        In the <code>&lt;head&gt;</code> of your html, reference the location to your material-design-iconic-font.min.css.
+                        <br /><br />
+                        <div class="highlight">
+                            <pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"path/to/material-design-iconic-font/css/material-design-iconic-font.min.css"</span><span class="nt">&gt;</span></code></pre>
+                        </div>
+                    </li>
+                    <li>Check out the <a href="examples.html">examples</a> to start using Material Design Iconic Font!</li>
+                </ol>
+            </section>
 
+            <section id="custom">
+                <h3 class="page-header">PRO: Custom LESS or SCSS</h3>
+                <p>Use this method to customize Material Design Iconic Font using LESS or SCSS.</p>
+                <ol>
+                    <li>Download latest version of Material Design Iconic Font from this site or GitHub.</li>
+                    <li>Unpack the entire <code>material-design-iconic-font</code> archive into your project.</li>
+                    <li>
+                        Open your project's <code>path/to/material-design-iconic-font/less/variables.less</code> or <code>path/to/material-design-iconic-font/scss/_variables.scss</code> and edit the <code>@md-font-path</code>
+                        variable to point to your font directory.
+                        <br /><br />
+                        <div class="highlight">
+                            <pre><code class="scss"><span class="k">@md-font-path</span><span class="nd">:</span>   <span class="s2">"../font"</span><span class="o">;</span></code></pre>
+                        </div>
+                        <p class="alert alert-success"><i class="md md-info-outline"></i> The font path is relative from your compiled CSS directory.</p>
+                    </li>
+                    <li>Re-compile your LESS or SCSS if using a static compiler.</li>
+                    <li>Check out the <a href="examples.html">examples</a> to start using Material Design Iconic Font!</li>
+                </ol>
+            </section>
+
+            <section id="license">
+                <h2 class="page-header">License</h2>
+                <p>The full details of how Material Design Iconic Font is licensed and 'Thanks to' section: <a href="license.html">License page</a>.</p>
+            </section>
+
+            <section id="changelog">
+                <h2 class="page-header">Changelog</h2>
+
+                <ul class="task-list">
+                    <li>v1.1.1 - add bower support and <a href="cheatsheet.html">Cheatsheet page</a></li>
+                    <li>v1.1.0 - add SCSS support (thanks to <a href="https://github.com/davidkpiano" class="user-mention" target="_blank">@davidkpiano</a>)</li>
+                    <li>v1.0.1 - fix bug with battery, charging-battery and wi-fi icons (device section)</li>
+                    <li>v1.0.0 - add all available icons from Google</li>
+                </ul>
+            </section>
+
+            <section id="author">
+                <h2 class="page-header">Author</h2>
+                <ul class="task-list">
+                    <li>Email: <a href="mailto:s.kupletsky@gmail.com">s.kupletsky@gmail.com</a>
+                    </li>
+                    <li>Website: design4net.ru</li>
+                    <li>Twitter: <a href="https://twitter.com/zavoloklom">https://twitter.com/zavoloklom</a>
+                    </li>
+                    <li>GitHub: <a href="https://github.com/zavoloklom/">https://github.com/zavoloklom/</a>
+                    </li>
+                    <li>CodePen: <a href="http://codepen.io/zavoloklom/">http://codepen.io/zavoloklom/</a>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+
+        <div class="col-md-3 hidden-sm hidden-xs hidden-print">
+            <div data-spy="affix" data-offset-top="450" data-offset-bottom="70" class="bs-docs-sidebar" role="complementary">
+                <ul class="nav bs-docs-sidenav">
+                    <li>
+                        <a href="#getting-started">Getting started</a>
+                        <ul class="nav">
+                            <li><a href="#default-css">Default CSS</a></li>
+                            <li><a href="#custom">Custom LESS or SCSS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#license">License</a></li>
+                    <li><a href="#changelog">Changelog</a></li>
+                </ul>
+                <a class="back-to-top" href="#top">Back to top</a>
+            </div>
+        </div>
+
+    </div>
 </div>
+
+<footer class="container">
+    <div class="col-md-9 col-xs-12">
+        <hr />
+        <span class="text-center"><a href="https://github.com/zavoloklom" target="_blank"><img src="images/doctocat.png"></a></span>
+        <p>
+            <a href="https://github.com">GitHub</a> is the best way to build and ship software.<br>
+            Powerful collaboration, code review, and code management for open source and private projects.
+        </p>
+    </div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src='javascripts/main.js'></script>
+
+<!-- Google Analytics -->
 <script src='https://apis.google.com/js/platform.js'></script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <script>
@@ -198,15 +289,45 @@
 
     ga('create', 'UA-56068812-1', 'auto');
     ga('send', 'pageview');
-</script>
-<script>
-    // Events
-    $('#gittip').on('click', function() {
+
+    // Custom events
+    jQuery('.gittip-btn').on('click', function() {
         ga('send', 'event', 'button', 'click', 'GitTip');
     });
-    $('.download-btn').on('click', function() {
+    jQuery('.download-btn').on('click', function() {
         ga('send', 'event', 'button', 'click', 'Download');
     });
 </script>
+<!-- /Google Analytics -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter27687525 = new Ya.Metrika({id:27687525,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    trackHash:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/27687525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
 </body>
 </html>

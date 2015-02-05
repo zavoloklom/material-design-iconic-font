@@ -9,8 +9,7 @@
   font-weight: normal;
   font-style: normal;
 }
-[class^="md-"],
-[class*=" md-"] {
+.md {
   display: inline-block;
   font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
   font-size: inherit;
@@ -18,8 +17,7 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-.md {
+  
   line-height: inherit;
   vertical-align: bottom;
 }

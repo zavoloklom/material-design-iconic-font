@@ -1,0 +1,8 @@
+// Material Design Iconic Font Utility functions
+// -------------------------
+.make-icon (@name, @code) {
+  @classname: ~"@{md-css-prefix}-@{name}";
+  .@{classname}:before {
+    content: @code;
+  }
+}

@@ -1,102 +1,34 @@
-.#{$md-css-prefix}-adb:before {
-  content: "\f2a7";
-}
-.#{$md-css-prefix}-bluetooth-audio:before {
-  content: "\f2a8";
-}
-.#{$md-css-prefix}-disc-full:before {
-  content: "\f2a9";
-}
-.#{$md-css-prefix}-dnd-forwardslash:before {
-  content: "\f2aa";
-}
-.#{$md-css-prefix}-do-not-disturb:before {
-  content: "\f2ab";
-}
-.#{$md-css-prefix}-drive-eta:before {
-  content: "\f2ac";
-}
-.#{$md-css-prefix}-event-available:before {
-  content: "\f2ad";
-}
-.#{$md-css-prefix}-event-busy:before {
-  content: "\f2ae";
-}
-.#{$md-css-prefix}-event-note:before {
-  content: "\f2af";
-}
-.#{$md-css-prefix}-folder-special:before {
-  content: "\f2b0";
-}
-.#{$md-css-prefix}-mms:before {
-  content: "\f2b1";
-}
-.#{$md-css-prefix}-more:before {
-  content: "\f2b2";
-}
-.#{$md-css-prefix}-network-locked:before {
-  content: "\f2b3";
-}
-.#{$md-css-prefix}-phone-bluetooth-speaker:before {
-  content: "\f2b4";
-}
-.#{$md-css-prefix}-phone-forwarded:before {
-  content: "\f2b5";
-}
-.#{$md-css-prefix}-phone-in-talk:before {
-  content: "\f2b6";
-}
-.#{$md-css-prefix}-phone-locked:before {
-  content: "\f2b7";
-}
-.#{$md-css-prefix}-phone-missed:before {
-  content: "\f2b8";
-}
-.#{$md-css-prefix}-phone-paused:before {
-  content: "\f2b9";
-}
-.#{$md-css-prefix}-play-download:before {
-  content: "\f2ba";
-}
-.#{$md-css-prefix}-play-install:before {
-  content: "\f2bb";
-}
-.#{$md-css-prefix}-sd-card:before {
-  content: "\f2bc";
-}
-.#{$md-css-prefix}-sim-card-alert:before {
-  content: "\f2bd";
-}
-.#{$md-css-prefix}-sms:before {
-  content: "\f2be";
-}
-.#{$md-css-prefix}-sms-failed:before {
-  content: "\f2bf";
-}
-.#{$md-css-prefix}-sync:before {
-  content: "\f2c0";
-}
-.#{$md-css-prefix}-sync-disabled:before {
-  content: "\f2c1";
-}
-.#{$md-css-prefix}-sync-problem:before {
-  content: "\f2c2";
-}
-.#{$md-css-prefix}-system-update:before {
-  content: "\f2c3";
-}
-.#{$md-css-prefix}-tap-and-play:before {
-  content: "\f2c4";
-}
-.#{$md-css-prefix}-time-to-leave:before {
-  content: "\f2c5";
-}
-.#{$md-css-prefix}-vibration:before {
-  content: "\f2c6";
-}
-.#{$md-css-prefix}-voice-chat:before {
-  content: "\f2c7";
-}
-.#{$md-css-prefix}-vpn-lock:before {
-  content: "\f2c8";
-}
+@include make-icon('adb', $md-var-adb);
+@include make-icon('bluetooth-audio', $md-var-bluetooth-audio);
+@include make-icon('disc-full', $md-var-disc-full);
+@include make-icon('dnd-forwardslash', $md-var-dnd-forwardslash);
+@include make-icon('do-not-disturb', $md-var-do-not-disturb);
+@include make-icon('drive-eta', $md-var-drive-eta);
+@include make-icon('event-available', $md-var-event-available);
+@include make-icon('event-busy', $md-var-event-busy);
+@include make-icon('event-note', $md-var-event-note);
+@include make-icon('folder-special', $md-var-folder-special);
+@include make-icon('mms', $md-var-mms);
+@include make-icon('more', $md-var-more);
+@include make-icon('network-locked', $md-var-network-locked);
+@include make-icon('phone-bluetooth-speaker', $md-var-phone-bluetooth-speaker);
+@include make-icon('phone-forwarded', $md-var-phone-forwarded);
+@include make-icon('phone-in-talk', $md-var-phone-in-talk);
+@include make-icon('phone-locked', $md-var-phone-locked);
+@include make-icon('phone-missed', $md-var-phone-missed);
+@include make-icon('phone-paused', $md-var-phone-paused);
+@include make-icon('play-download', $md-var-play-download);
+@include make-icon('play-install', $md-var-play-install);
+@include make-icon('sd-card', $md-var-sd-card);
+@include make-icon('sim-card-alert', $md-var-sim-card-alert);
+@include make-icon('sms', $md-var-sms);
+@include make-icon('sms-failed', $md-var-sms-failed);
+@include make-icon('sync', $md-var-sync);
+@include make-icon('sync-disabled', $md-var-sync-disabled);
+@include make-icon('sync-problem', $md-var-sync-problem);
+@include make-icon('system-update', $md-var-system-update);
+@include make-icon('tap-and-play', $md-var-tap-and-play);
+@include make-icon('time-to-leave', $md-var-time-to-leave);
+@include make-icon('vibration', $md-var-vibration);
+@include make-icon('voice-chat', $md-var-voice-chat);
+@include make-icon('vpn-lock', $md-var-vpn-lock);

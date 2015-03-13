@@ -1,480 +1,160 @@
-.#{$md-css-prefix}-3d-rotation:before {
-  content: "\f000";
-}
-.#{$md-css-prefix}-accessibility:before {
-  content: "\f001";
-}
-.#{$md-css-prefix}-account-balance:before {
-  content: "\f002";
-}
-.#{$md-css-prefix}-account-balance-wallet:before {
-  content: "\f003";
-}
-.#{$md-css-prefix}-account-box:before {
-  content: "\f004";
-}
-.#{$md-css-prefix}-account-child:before {
-  content: "\f005";
-}
-.#{$md-css-prefix}-account-circle:before {
-  content: "\f006";
-}
-.#{$md-css-prefix}-add-shopping-cart:before {
-  content: "\f007";
-}
-.#{$md-css-prefix}-alarm:before {
-  content: "\f008";
-}
-.#{$md-css-prefix}-alarm-add:before {
-  content: "\f009";
-}
-.#{$md-css-prefix}-alarm-off:before {
-  content: "\f00a";
-}
-.#{$md-css-prefix}-alarm-on:before {
-  content: "\f00b";
-}
-.#{$md-css-prefix}-android:before {
-  content: "\f00c";
-}
-.#{$md-css-prefix}-announcement:before {
-  content: "\f00d";
-}
-.#{$md-css-prefix}-aspect-ratio:before {
-  content: "\f00e";
-}
-.#{$md-css-prefix}-assessment:before {
-  content: "\f00f";
-}
-.#{$md-css-prefix}-assignment:before {
-  content: "\f010";
-}
-.#{$md-css-prefix}-assignment-ind:before {
-  content: "\f011";
-}
-.#{$md-css-prefix}-assignment-late:before {
-  content: "\f012";
-}
-.#{$md-css-prefix}-assignment-return:before {
-  content: "\f013";
-}
-.#{$md-css-prefix}-assignment-returned:before {
-  content: "\f014";
-}
-.#{$md-css-prefix}-assignment-turned-in:before {
-  content: "\f015";
-}
-.#{$md-css-prefix}-autorenew:before {
-  content: "\f016";
-}
-.#{$md-css-prefix}-backup:before {
-  content: "\f017";
-}
-.#{$md-css-prefix}-book:before {
-  content: "\f018";
-}
-.#{$md-css-prefix}-bookmark:before {
-  content: "\f019";
-}
-.#{$md-css-prefix}-bookmark-outline:before {
-  content: "\f01a";
-}
-.#{$md-css-prefix}-bug-report:before {
-  content: "\f01b";
-}
-.#{$md-css-prefix}-cached:before {
-  content: "\f01c";
-}
-.#{$md-css-prefix}-class:before {
-  content: "\f01d";
-}
-.#{$md-css-prefix}-credit-card:before {
-  content: "\f01e";
-}
-.#{$md-css-prefix}-dashboard:before {
-  content: "\f01f";
-}
-.#{$md-css-prefix}-delete:before {
-  content: "\f020";
-}
-.#{$md-css-prefix}-description:before {
-  content: "\f021";
-}
-.#{$md-css-prefix}-dns:before {
-  content: "\f022";
-}
-.#{$md-css-prefix}-done:before {
-  content: "\f023";
-}
-.#{$md-css-prefix}-done-all:before {
-  content: "\f024";
-}
-.#{$md-css-prefix}-event:before {
-  content: "\f025";
-}
-.#{$md-css-prefix}-exit-to-app:before {
-  content: "\f026";
-}
-.#{$md-css-prefix}-explore:before {
-  content: "\f027";
-}
-.#{$md-css-prefix}-extension:before {
-  content: "\f028";
-}
-.#{$md-css-prefix}-face-unlock:before {
-  content: "\f029";
-}
-.#{$md-css-prefix}-favorite:before {
-  content: "\f02a";
-}
-.#{$md-css-prefix}-favorite-outline:before {
-  content: "\f02b";
-}
-.#{$md-css-prefix}-find-in-page:before {
-  content: "\f02c";
-}
-.#{$md-css-prefix}-find-replace:before {
-  content: "\f02d";
-}
-.#{$md-css-prefix}-flip-to-back:before {
-  content: "\f02e";
-}
-.#{$md-css-prefix}-flip-to-front:before {
-  content: "\f02f";
-}
-.#{$md-css-prefix}-get-app:before {
-  content: "\f030";
-}
-.#{$md-css-prefix}-grade:before {
-  content: "\f031";
-}
-.#{$md-css-prefix}-group-work:before {
-  content: "\f032";
-}
-.#{$md-css-prefix}-help:before {
-  content: "\f033";
-}
-.#{$md-css-prefix}-highlight-remove:before {
-  content: "\f034";
-}
-.#{$md-css-prefix}-history:before {
-  content: "\f035";
-}
-.#{$md-css-prefix}-home:before {
-  content: "\f036";
-}
-.#{$md-css-prefix}-https:before {
-  content: "\f037";
-}
-.#{$md-css-prefix}-info:before {
-  content: "\f038";
-}
-.#{$md-css-prefix}-info-outline:before {
-  content: "\f039";
-}
-.#{$md-css-prefix}-input:before {
-  content: "\f03a";
-}
-.#{$md-css-prefix}-invert-colors:before {
-  content: "\f03b";
-}
-.#{$md-css-prefix}-label:before {
-  content: "\f03c";
-}
-.#{$md-css-prefix}-label-outline:before {
-  content: "\f03d";
-}
-.#{$md-css-prefix}-language:before {
-  content: "\f03e";
-}
-.#{$md-css-prefix}-launch:before {
-  content: "\f03f";
-}
-.#{$md-css-prefix}-list:before {
-  content: "\f040";
-}
-.#{$md-css-prefix}-lock:before {
-  content: "\f041";
-}
-.#{$md-css-prefix}-lock-open:before {
-  content: "\f042";
-}
-.#{$md-css-prefix}-lock-outline:before {
-  content: "\f043";
-}
-.#{$md-css-prefix}-loyalty:before {
-  content: "\f044";
-}
-.#{$md-css-prefix}-markunread-mailbox:before {
-  content: "\f045";
-}
-.#{$md-css-prefix}-note-add:before {
-  content: "\f046";
-}
-.#{$md-css-prefix}-open-in-browser:before {
-  content: "\f047";
-}
-.#{$md-css-prefix}-open-in-new:before {
-  content: "\f048";
-}
-.#{$md-css-prefix}-open-with:before {
-  content: "\f049";
-}
-.#{$md-css-prefix}-pageview:before {
-  content: "\f04a";
-}
-.#{$md-css-prefix}-payment:before {
-  content: "\f04b";
-}
-.#{$md-css-prefix}-perm-camera-mic:before {
-  content: "\f04c";
-}
-.#{$md-css-prefix}-perm-contact-cal:before {
-  content: "\f04d";
-}
-.#{$md-css-prefix}-perm-data-setting:before {
-  content: "\f04e";
-}
-.#{$md-css-prefix}-perm-device-info:before {
-  content: "\f04f";
-}
-.#{$md-css-prefix}-perm-identity:before {
-  content: "\f050";
-}
-.#{$md-css-prefix}-perm-media:before {
-  content: "\f051";
-}
-.#{$md-css-prefix}-perm-phone-msg:before {
-  content: "\f052";
-}
-.#{$md-css-prefix}-perm-scan-wifi:before {
-  content: "\f053";
-}
-.#{$md-css-prefix}-picture-in-picture:before {
-  content: "\f054";
-}
-.#{$md-css-prefix}-polymer:before {
-  content: "\f055";
-}
-.#{$md-css-prefix}-print:before {
-  content: "\f056";
-}
-.#{$md-css-prefix}-query-builder:before {
-  content: "\f057";
-}
-.#{$md-css-prefix}-question-answer:before {
-  content: "\f058";
-}
-.#{$md-css-prefix}-receipt:before {
-  content: "\f059";
-}
-.#{$md-css-prefix}-redeem:before {
-  content: "\f05a";
-}
-.#{$md-css-prefix}-report-problem:before {
-  content: "\f05b";
-}
-.#{$md-css-prefix}-restore:before {
-  content: "\f05c";
-}
-.#{$md-css-prefix}-room:before {
-  content: "\f05d";
-}
-.#{$md-css-prefix}-schedule:before {
-  content: "\f05e";
-}
-.#{$md-css-prefix}-search:before {
-  content: "\f05f";
-}
-.#{$md-css-prefix}-settings:before {
-  content: "\f060";
-}
-.#{$md-css-prefix}-settings-applications:before {
-  content: "\f061";
-}
-.#{$md-css-prefix}-settings-backup-restore:before {
-  content: "\f062";
-}
-.#{$md-css-prefix}-settings-bluetooth:before {
-  content: "\f063";
-}
-.#{$md-css-prefix}-settings-cell:before {
-  content: "\f064";
-}
-.#{$md-css-prefix}-settings-display:before {
-  content: "\f065";
-}
-.#{$md-css-prefix}-settings-ethernet:before {
-  content: "\f066";
-}
-.#{$md-css-prefix}-settings-input-antenna:before {
-  content: "\f067";
-}
-.#{$md-css-prefix}-settings-input-component:before {
-  content: "\f068";
-}
-.#{$md-css-prefix}-settings-input-composite:before {
-  content: "\f069";
-}
-.#{$md-css-prefix}-settings-input-hdmi:before {
-  content: "\f06a";
-}
-.#{$md-css-prefix}-settings-input-svideo:before {
-  content: "\f06b";
-}
-.#{$md-css-prefix}-settings-overscan:before {
-  content: "\f06c";
-}
-.#{$md-css-prefix}-settings-phone:before {
-  content: "\f06d";
-}
-.#{$md-css-prefix}-settings-power:before {
-  content: "\f06e";
-}
-.#{$md-css-prefix}-settings-remote:before {
-  content: "\f06f";
-}
-.#{$md-css-prefix}-settings-voice:before {
-  content: "\f070";
-}
-.#{$md-css-prefix}-shop:before {
-  content: "\f071";
-}
-.#{$md-css-prefix}-shopping-basket:before {
-  content: "\f072";
-}
-.#{$md-css-prefix}-shopping-cart:before {
-  content: "\f073";
-}
-.#{$md-css-prefix}-shop-two:before {
-  content: "\f074";
-}
-.#{$md-css-prefix}-speaker-notes:before {
-  content: "\f075";
-}
-.#{$md-css-prefix}-spellcheck:before {
-  content: "\f076";
-}
-.#{$md-css-prefix}-star-rate:before {
-  content: "\f077";
-}
-.#{$md-css-prefix}-stars:before {
-  content: "\f078";
-}
-.#{$md-css-prefix}-store:before {
-  content: "\f079";
-}
-.#{$md-css-prefix}-subject:before {
-  content: "\f07a";
-}
-.#{$md-css-prefix}-swap-horiz:before {
-  content: "\f07b";
-}
-.#{$md-css-prefix}-swap-vert:before {
-  content: "\f07c";
-}
-.#{$md-css-prefix}-swap-vert-circle:before {
-  content: "\f07d";
-}
-.#{$md-css-prefix}-system-update-tv:before {
-  content: "\f07e";
-}
-.#{$md-css-prefix}-tab:before {
-  content: "\f07f";
-}
-.#{$md-css-prefix}-tab-unselected:before {
-  content: "\f080";
-}
-.#{$md-css-prefix}-theaters:before {
-  content: "\f081";
-}
-.#{$md-css-prefix}-thumb-down:before {
-  content: "\f082";
-}
-.#{$md-css-prefix}-thumbs-up-down:before {
-  content: "\f083";
-}
-.#{$md-css-prefix}-thumb-up:before {
-  content: "\f084";
-}
-.#{$md-css-prefix}-toc:before {
-  content: "\f085";
-}
-.#{$md-css-prefix}-today:before {
-  content: "\f086";
-}
-.#{$md-css-prefix}-track-changes:before {
-  content: "\f087";
-}
-.#{$md-css-prefix}-translate:before {
-  content: "\f088";
-}
-.#{$md-css-prefix}-trending-down:before {
-  content: "\f089";
-}
-.#{$md-css-prefix}-trending-neutral:before {
-  content: "\f08a";
-}
-.#{$md-css-prefix}-trending-up:before {
-  content: "\f08b";
-}
-.#{$md-css-prefix}-turned-in:before {
-  content: "\f08c";
-}
-.#{$md-css-prefix}-turned-in-not:before {
-  content: "\f08d";
-}
-.#{$md-css-prefix}-verified-user:before {
-  content: "\f08e";
-}
-.#{$md-css-prefix}-view-agenda:before {
-  content: "\f08f";
-}
-.#{$md-css-prefix}-view-array:before {
-  content: "\f090";
-}
-.#{$md-css-prefix}-view-carousel:before {
-  content: "\f091";
-}
-.#{$md-css-prefix}-view-column:before {
-  content: "\f092";
-}
-.#{$md-css-prefix}-view-day:before {
-  content: "\f093";
-}
-.#{$md-css-prefix}-view-headline:before {
-  content: "\f094";
-}
-.#{$md-css-prefix}-view-list:before {
-  content: "\f095";
-}
-.#{$md-css-prefix}-view-module:before {
-  content: "\f096";
-}
-.#{$md-css-prefix}-view-quilt:before {
-  content: "\f097";
-}
-.#{$md-css-prefix}-view-stream:before {
-  content: "\f098";
-}
-.#{$md-css-prefix}-view-week:before {
-  content: "\f099";
-}
-.#{$md-css-prefix}-visibility:before {
-  content: "\f09a";
-}
-.#{$md-css-prefix}-visibility-off:before {
-  content: "\f09b";
-}
-.#{$md-css-prefix}-wallet-giftcard:before {
-  content: "\f09c";
-}
-.#{$md-css-prefix}-wallet-membership:before {
-  content: "\f09d";
-}
-.#{$md-css-prefix}-wallet-travel:before {
-  content: "\f09e";
-}
-.#{$md-css-prefix}-work:before {
-  content: "\f09f";
-}
+@include make-icon('3d-rotation', $md-var-3d-rotation);
+@include make-icon('accessibility', $md-var-accessibility);
+@include make-icon('account-balance', $md-var-account-balance);
+@include make-icon('account-balance-wallet', $md-var-account-balance-wallet);
+@include make-icon('account-box', $md-var-account-box);
+@include make-icon('account-child', $md-var-account-child);
+@include make-icon('account-circle', $md-var-account-circle);
+@include make-icon('add-shopping-cart', $md-var-add-shopping-cart);
+@include make-icon('alarm', $md-var-alarm);
+@include make-icon('alarm-add', $md-var-alarm-add);
+@include make-icon('alarm-off', $md-var-alarm-off);
+@include make-icon('alarm-on', $md-var-alarm-on);
+@include make-icon('android', $md-var-android);
+@include make-icon('announcement', $md-var-announcement);
+@include make-icon('aspect-ratio', $md-var-aspect-ratio);
+@include make-icon('assessment', $md-var-assessment);
+@include make-icon('assignment', $md-var-assignment);
+@include make-icon('assignment-ind', $md-var-assignment-ind);
+@include make-icon('assignment-late', $md-var-assignment-late);
+@include make-icon('assignment-return', $md-var-assignment-return);
+@include make-icon('assignment-returned', $md-var-assignment-returned);
+@include make-icon('assignment-turned-in', $md-var-assignment-turned-in);
+@include make-icon('autorenew', $md-var-autorenew);
+@include make-icon('backup', $md-var-backup);
+@include make-icon('book', $md-var-book);
+@include make-icon('bookmark', $md-var-bookmark);
+@include make-icon('bookmark-outline', $md-var-bookmark-outline);
+@include make-icon('bug-report', $md-var-bug-report);
+@include make-icon('cached', $md-var-cached);
+@include make-icon('class', $md-var-class);
+@include make-icon('credit-card', $md-var-credit-card);
+@include make-icon('dashboard', $md-var-dashboard);
+@include make-icon('delete', $md-var-delete);
+@include make-icon('description', $md-var-description);
+@include make-icon('dns', $md-var-dns);
+@include make-icon('done', $md-var-done);
+@include make-icon('done-all', $md-var-done-all);
+@include make-icon('event', $md-var-event);
+@include make-icon('exit-to-app', $md-var-exit-to-app);
+@include make-icon('explore', $md-var-explore);
+@include make-icon('extension', $md-var-extension);
+@include make-icon('face-unlock', $md-var-face-unlock);
+@include make-icon('favorite', $md-var-favorite);
+@include make-icon('favorite-outline', $md-var-favorite-outline);
+@include make-icon('find-in-page', $md-var-find-in-page);
+@include make-icon('find-replace', $md-var-find-replace);
+@include make-icon('flip-to-back', $md-var-flip-to-back);
+@include make-icon('flip-to-front', $md-var-flip-to-front);
+@include make-icon('get-app', $md-var-get-app);
+@include make-icon('grade', $md-var-grade);
+@include make-icon('group-work', $md-var-group-work);
+@include make-icon('help', $md-var-help);
+@include make-icon('highlight-remove', $md-var-highlight-remove);
+@include make-icon('history', $md-var-history);
+@include make-icon('home', $md-var-home);
+@include make-icon('https', $md-var-https);
+@include make-icon('info', $md-var-info);
+@include make-icon('info-outline', $md-var-info-outline);
+@include make-icon('input', $md-var-input);
+@include make-icon('invert-colors', $md-var-invert-colors);
+@include make-icon('label', $md-var-label);
+@include make-icon('label-outline', $md-var-label-outline);
+@include make-icon('language', $md-var-language);
+@include make-icon('launch', $md-var-launch);
+@include make-icon('list', $md-var-list);
+@include make-icon('lock', $md-var-lock);
+@include make-icon('lock-open', $md-var-lock-open);
+@include make-icon('lock-outline', $md-var-lock-outline);
+@include make-icon('loyalty', $md-var-loyalty);
+@include make-icon('markunread-mailbox', $md-var-markunread-mailbox);
+@include make-icon('note-add', $md-var-note-add);
+@include make-icon('open-in-browser', $md-var-open-in-browser);
+@include make-icon('open-in-new', $md-var-open-in-new);
+@include make-icon('open-with', $md-var-open-with);
+@include make-icon('pageview', $md-var-pageview);
+@include make-icon('payment', $md-var-payment);
+@include make-icon('perm-camera-mic', $md-var-perm-camera-mic);
+@include make-icon('perm-contact-cal', $md-var-perm-contact-cal);
+@include make-icon('perm-data-setting', $md-var-perm-data-setting);
+@include make-icon('perm-device-info', $md-var-perm-device-info);
+@include make-icon('perm-identity', $md-var-perm-identity);
+@include make-icon('perm-media', $md-var-perm-media);
+@include make-icon('perm-phone-msg', $md-var-perm-phone-msg);
+@include make-icon('perm-scan-wifi', $md-var-perm-scan-wifi);
+@include make-icon('picture-in-picture', $md-var-picture-in-picture);
+@include make-icon('polymer', $md-var-polymer);
+@include make-icon('print', $md-var-print);
+@include make-icon('query-builder', $md-var-query-builder);
+@include make-icon('question-answer', $md-var-question-answer);
+@include make-icon('receipt', $md-var-receipt);
+@include make-icon('redeem', $md-var-redeem);
+@include make-icon('report-problem', $md-var-report-problem);
+@include make-icon('restore', $md-var-restore);
+@include make-icon('room', $md-var-room);
+@include make-icon('schedule', $md-var-schedule);
+@include make-icon('search', $md-var-search);
+@include make-icon('settings', $md-var-settings);
+@include make-icon('settings-applications', $md-var-settings-applications);
+@include make-icon('settings-backup-restore', $md-var-settings-backup-restore);
+@include make-icon('settings-bluetooth', $md-var-settings-bluetooth);
+@include make-icon('settings-cell', $md-var-settings-cell);
+@include make-icon('settings-display', $md-var-settings-display);
+@include make-icon('settings-ethernet', $md-var-settings-ethernet);
+@include make-icon('settings-input-antenna', $md-var-settings-input-antenna);
+@include make-icon('settings-input-component', $md-var-settings-input-component);
+@include make-icon('settings-input-composite', $md-var-settings-input-composite);
+@include make-icon('settings-input-hdmi', $md-var-settings-input-hdmi);
+@include make-icon('settings-input-svideo', $md-var-settings-input-svideo);
+@include make-icon('settings-overscan', $md-var-settings-overscan);
+@include make-icon('settings-phone', $md-var-settings-phone);
+@include make-icon('settings-power', $md-var-settings-power);
+@include make-icon('settings-remote', $md-var-settings-remote);
+@include make-icon('settings-voice', $md-var-settings-voice);
+@include make-icon('shop', $md-var-shop);
+@include make-icon('shopping-basket', $md-var-shopping-basket);
+@include make-icon('shopping-cart', $md-var-shopping-cart);
+@include make-icon('shop-two', $md-var-shop-two);
+@include make-icon('speaker-notes', $md-var-speaker-notes);
+@include make-icon('spellcheck', $md-var-spellcheck);
+@include make-icon('star-rate', $md-var-star-rate);
+@include make-icon('stars', $md-var-stars);
+@include make-icon('store', $md-var-store);
+@include make-icon('subject', $md-var-subject);
+@include make-icon('swap-horiz', $md-var-swap-horiz);
+@include make-icon('swap-vert', $md-var-swap-vert);
+@include make-icon('swap-vert-circle', $md-var-swap-vert-circle);
+@include make-icon('system-update-tv', $md-var-system-update-tv);
+@include make-icon('tab', $md-var-tab);
+@include make-icon('tab-unselected', $md-var-tab-unselected);
+@include make-icon('theaters', $md-var-theaters);
+@include make-icon('thumb-down', $md-var-thumb-down);
+@include make-icon('thumbs-up-down', $md-var-thumbs-up-down);
+@include make-icon('thumb-up', $md-var-thumb-up);
+@include make-icon('toc', $md-var-toc);
+@include make-icon('today', $md-var-today);
+@include make-icon('track-changes', $md-var-track-changes);
+@include make-icon('translate', $md-var-translate);
+@include make-icon('trending-down', $md-var-trending-down);
+@include make-icon('trending-neutral', $md-var-trending-neutral);
+@include make-icon('trending-up', $md-var-trending-up);
+@include make-icon('turned-in', $md-var-turned-in);
+@include make-icon('turned-in-not', $md-var-turned-in-not);
+@include make-icon('verified-user', $md-var-verified-user);
+@include make-icon('view-agenda', $md-var-view-agenda);
+@include make-icon('view-array', $md-var-view-array);
+@include make-icon('view-carousel', $md-var-view-carousel);
+@include make-icon('view-column', $md-var-view-column);
+@include make-icon('view-day', $md-var-view-day);
+@include make-icon('view-headline', $md-var-view-headline);
+@include make-icon('view-list', $md-var-view-list);
+@include make-icon('view-module', $md-var-view-module);
+@include make-icon('view-quilt', $md-var-view-quilt);
+@include make-icon('view-stream', $md-var-view-stream);
+@include make-icon('view-week', $md-var-view-week);
+@include make-icon('visibility', $md-var-visibility);
+@include make-icon('visibility-off', $md-var-visibility-off);
+@include make-icon('wallet-giftcard', $md-var-wallet-giftcard);
+@include make-icon('wallet-membership', $md-var-wallet-membership);
+@include make-icon('wallet-travel', $md-var-wallet-travel);
+@include make-icon('work', $md-var-work);

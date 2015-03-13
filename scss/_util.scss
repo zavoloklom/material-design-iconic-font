@@ -1,0 +1,13 @@
+// Material Design Iconic Font Utility functions
+// -------------------------
+@mixin make-icon ($name, $code) {
+  .#{$md-css-prefix}-#{$name}:before {
+    content: unicode($code);
+  }
+}
+
+// Prevent unescaping of backslash + unicode character code
+// https://github.com/sass/sass/issues/1395#issuecomment-65548751
+@function unicode($str){
+    @return unquote("\"") + $str + unquote("\"");
+}

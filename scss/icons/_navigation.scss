@@ -1,63 +1,21 @@
-.#{$md-css-prefix}-apps:before {
-  content: "\f292";
-}
-.#{$md-css-prefix}-cancel:before {
-  content: "\f293";
-}
-.#{$md-css-prefix}-arrow-drop-down-circle:before {
-  content: "\f294";
-}
-.#{$md-css-prefix}-arrow-drop-down:before {
-  content: "\f295";
-}
-.#{$md-css-prefix}-arrow-drop-up:before {
-  content: "\f296";
-}
-.#{$md-css-prefix}-arrow-back:before {
-  content: "\f297";
-}
-.#{$md-css-prefix}-arrow-forward:before {
-  content: "\f298";
-}
-.#{$md-css-prefix}-check:before {
-  content: "\f299";
-}
-.#{$md-css-prefix}-close:before {
-  content: "\f29a";
-}
-.#{$md-css-prefix}-chevron-left:before {
-  content: "\f29b";
-}
-.#{$md-css-prefix}-chevron-right:before {
-  content: "\f29c";
-}
-.#{$md-css-prefix}-expand-less:before {
-  content: "\f29d";
-}
-.#{$md-css-prefix}-expand-more:before {
-  content: "\f29e";
-}
-.#{$md-css-prefix}-fullscreen:before {
-  content: "\f29f";
-}
-.#{$md-css-prefix}-fullscreen-exit:before {
-  content: "\f2a0";
-}
-.#{$md-css-prefix}-menu:before {
-  content: "\f2a1";
-}
-.#{$md-css-prefix}-more-horiz:before {
-  content: "\f2a2";
-}
-.#{$md-css-prefix}-more-vert:before {
-  content: "\f2a3";
-}
-.#{$md-css-prefix}-refresh:before {
-  content: "\f2a4";
-}
-.#{$md-css-prefix}-unfold-less:before {
-  content: "\f2a5";
-}
-.#{$md-css-prefix}-unfold-more:before {
-  content: "\f2a6";
-}
+@include make-icon('apps', $md-var-apps);
+@include make-icon('cancel', $md-var-cancel);
+@include make-icon('arrow-drop-down-circle', $md-var-arrow-drop-down-circle);
+@include make-icon('arrow-drop-down', $md-var-arrow-drop-down);
+@include make-icon('arrow-drop-up', $md-var-arrow-drop-up);
+@include make-icon('arrow-back', $md-var-arrow-back);
+@include make-icon('arrow-forward', $md-var-arrow-forward);
+@include make-icon('check', $md-var-check);
+@include make-icon('close', $md-var-close);
+@include make-icon('chevron-left', $md-var-chevron-left);
+@include make-icon('chevron-right', $md-var-chevron-right);
+@include make-icon('expand-less', $md-var-expand-less);
+@include make-icon('expand-more', $md-var-expand-more);
+@include make-icon('fullscreen', $md-var-fullscreen);
+@include make-icon('fullscreen-exit', $md-var-fullscreen-exit);
+@include make-icon('menu', $md-var-menu);
+@include make-icon('more-horiz', $md-var-more-horiz);
+@include make-icon('more-vert', $md-var-more-vert);
+@include make-icon('refresh', $md-var-refresh);
+@include make-icon('unfold-less', $md-var-unfold-less);
+@include make-icon('unfold-more', $md-var-unfold-more);

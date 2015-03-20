@@ -9,8 +9,8 @@
   font-weight: normal;
   font-style: normal;
 }
-[class^="md-"],
-[class*=" md-"] {
+i[class^="md-"],
+i[class*=" md-"] {
   display: inline-block;
   font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
   font-size: inherit;
@@ -50,13 +50,13 @@
   border: solid 0.08em #808080;
   border-radius: 50%;
 }
-[class^="md-"].pull-left,
-[class*=" md-"].pull-left {
+i[class^="md-"].pull-left,
+i[class*=" md-"].pull-left {
   float: left;
   margin-right: .3em;
 }
-[class^="md-"].pull-right,
-[class*=" md-"].pull-right {
+i[class^="md-"].pull-right,
+i[class*=" md-"].pull-right {
   float: right;
   margin-left: .3em;
 }

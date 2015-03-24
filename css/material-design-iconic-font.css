@@ -145,6 +145,29 @@
 :root .md-flip-vertical {
   filter: none;
 }
+.md-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.md-stack-1x,
+.md-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.md-stack-1x {
+  line-height: inherit;
+}
+.md-stack-2x {
+  font-size: 2em;
+}
+
+
 /* Material Design Iconic Font uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 /* If you do not want use all icons you can disable icon set here */

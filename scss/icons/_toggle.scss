@@ -1,21 +1,21 @@
 .#{$md-css-prefix}-check-box:before {
-  content: "\f2e1";
+  content: $md-var-check-box;
 }
 .#{$md-css-prefix}-check-box-outline-blank:before {
-  content: "\f2e2";
+  content: $md-var-check-box-outline-blank;
 }
 .#{$md-css-prefix}-radio-button-off:before {
-  content: "\f2e3";
+  content: $md-var-radio-button-off;
 }
 .#{$md-css-prefix}-radio-button-on:before {
-  content: "\f2e4";
+  content: $md-var-radio-button-on;
 }
 .#{$md-css-prefix}-star:before {
-  content: "\f2e5";
+  content: $md-var-star;
 }
 .#{$md-css-prefix}-star-half:before {
-  content: "\f2e6";
+  content: $md-var-star-half;
 }
 .#{$md-css-prefix}-star-outline:before {
-  content: "\f2e7";
+  content: $md-var-star-outline;
 }

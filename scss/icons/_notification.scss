@@ -1,102 +1,72 @@
-.#{$md-css-prefix}-adb:before {
-  content: "\f2a7";
+.#{$md-css-prefix}-cake:before {
+  content: $md-var-cake;
 }
-.#{$md-css-prefix}-bluetooth-audio:before {
-  content: "\f2a8";
+.#{$md-css-prefix}-domain:before {
+  content: $md-var-domain;
 }
-.#{$md-css-prefix}-disc-full:before {
-  content: "\f2a9";
+.#{$md-css-prefix}-location-city:before {
+  content: $md-var-location-city;
 }
-.#{$md-css-prefix}-dnd-forwardslash:before {
-  content: "\f2aa";
+.#{$md-css-prefix}-mood:before {
+  content: $md-var-mood;
 }
-.#{$md-css-prefix}-do-not-disturb:before {
-  content: "\f2ab";
+.#{$md-css-prefix}-notifications-none:before {
+  content: $md-var-notifications-none;
 }
-.#{$md-css-prefix}-drive-eta:before {
-  content: "\f2ac";
+.#{$md-css-prefix}-notifications:before {
+  content: $md-var-notifications;
 }
-.#{$md-css-prefix}-event-available:before {
-  content: "\f2ad";
+.#{$md-css-prefix}-notifications-off:before {
+  content: $md-var-notifications-off;
 }
-.#{$md-css-prefix}-event-busy:before {
-  content: "\f2ae";
+.#{$md-css-prefix}-notifications-on:before {
+  content: $md-var-notifications-on;
 }
-.#{$md-css-prefix}-event-note:before {
-  content: "\f2af";
+.#{$md-css-prefix}-notifications-paused:before {
+  content: $md-var-notifications-paused;
 }
-.#{$md-css-prefix}-folder-special:before {
-  content: "\f2b0";
+.#{$md-css-prefix}-pages:before {
+  content: $md-var-pages;
 }
-.#{$md-css-prefix}-mms:before {
-  content: "\f2b1";
+.#{$md-css-prefix}-party-mode:before {
+  content: $md-var-party-mode;
 }
-.#{$md-css-prefix}-more:before {
-  content: "\f2b2";
+.#{$md-css-prefix}-group:before {
+  content: $md-var-group;
 }
-.#{$md-css-prefix}-network-locked:before {
-  content: "\f2b3";
+.#{$md-css-prefix}-group-add:before {
+  content: $md-var-group-add;
 }
-.#{$md-css-prefix}-phone-bluetooth-speaker:before {
-  content: "\f2b4";
+.#{$md-css-prefix}-people:before {
+  content: $md-var-people;
 }
-.#{$md-css-prefix}-phone-forwarded:before {
-  content: "\f2b5";
+.#{$md-css-prefix}-people-outline:before {
+  content: $md-var-people-outline;
 }
-.#{$md-css-prefix}-phone-in-talk:before {
-  content: "\f2b6";
+.#{$md-css-prefix}-person:before {
+  content: $md-var-person;
 }
-.#{$md-css-prefix}-phone-locked:before {
-  content: "\f2b7";
+.#{$md-css-prefix}-person-add:before {
+  content: $md-var-person-add;
 }
-.#{$md-css-prefix}-phone-missed:before {
-  content: "\f2b8";
+.#{$md-css-prefix}-person-outline:before {
+  content: $md-var-person-outline;
 }
-.#{$md-css-prefix}-phone-paused:before {
-  content: "\f2b9";
+.#{$md-css-prefix}-plus-one:before {
+  content: $md-var-plus-one;
 }
-.#{$md-css-prefix}-play-download:before {
-  content: "\f2ba";
+.#{$md-css-prefix}-poll:before {
+  content: $md-var-poll;
 }
-.#{$md-css-prefix}-play-install:before {
-  content: "\f2bb";
+.#{$md-css-prefix}-public:before {
+  content: $md-var-public;
 }
-.#{$md-css-prefix}-sd-card:before {
-  content: "\f2bc";
+.#{$md-css-prefix}-school:before {
+  content: $md-var-school;
 }
-.#{$md-css-prefix}-sim-card-alert:before {
-  content: "\f2bd";
+.#{$md-css-prefix}-share:before {
+  content: $md-var-share;
 }
-.#{$md-css-prefix}-sms:before {
-  content: "\f2be";
-}
-.#{$md-css-prefix}-sms-failed:before {
-  content: "\f2bf";
-}
-.#{$md-css-prefix}-sync:before {
-  content: "\f2c0";
-}
-.#{$md-css-prefix}-sync-disabled:before {
-  content: "\f2c1";
-}
-.#{$md-css-prefix}-sync-problem:before {
-  content: "\f2c2";
-}
-.#{$md-css-prefix}-system-update:before {
-  content: "\f2c3";
-}
-.#{$md-css-prefix}-tap-and-play:before {
-  content: "\f2c4";
-}
-.#{$md-css-prefix}-time-to-leave:before {
-  content: "\f2c5";
-}
-.#{$md-css-prefix}-vibration:before {
-  content: "\f2c6";
-}
-.#{$md-css-prefix}-voice-chat:before {
-  content: "\f2c7";
-}
-.#{$md-css-prefix}-vpn-lock:before {
-  content: "\f2c8";
+.#{$md-css-prefix}-whatshot:before {
+  content: $md-var-whatshot;
 }

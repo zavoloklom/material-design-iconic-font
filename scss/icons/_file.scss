@@ -1,39 +1,39 @@
 .#{$md-css-prefix}-attachment:before {
-  content: "\f19c";
+  content: $md-var-attachment;
 }
 .#{$md-css-prefix}-cloud:before {
-  content: "\f19d";
+  content: $md-var-cloud;
 }
 .#{$md-css-prefix}-cloud-circle:before {
-  content: "\f19e";
+  content: $md-var-cloud-circle;
 }
 .#{$md-css-prefix}-cloud-done:before {
-  content: "\f19f";
+  content: $md-var-cloud-done;
 }
 .#{$md-css-prefix}-cloud-download:before {
-  content: "\f1a0";
+  content: $md-var-cloud-download;
 }
 .#{$md-css-prefix}-cloud-off:before {
-  content: "\f1a1";
+  content: $md-var-cloud-off;
 }
 .#{$md-css-prefix}-cloud-queue:before {
-  content: "\f1a2";
+  content: $md-var-cloud-queue;
 }
 .#{$md-css-prefix}-cloud-upload:before {
-  content: "\f1a3";
+  content: $md-var-cloud-upload;
 }
 .#{$md-css-prefix}-file-download:before {
-  content: "\f1a4";
+  content: $md-var-file-download;
 }
 .#{$md-css-prefix}-file-upload:before {
-  content: "\f1a5";
+  content: $md-var-file-upload;
 }
 .#{$md-css-prefix}-folder:before {
-  content: "\f1a6";
+  content: $md-var-folder;
 }
 .#{$md-css-prefix}-folder-open:before {
-  content: "\f1a7";
+  content: $md-var-folder-open;
 }
 .#{$md-css-prefix}-folder-shared:before {
-  content: "\f1a8";
+  content: $md-var-folder-shared;
 }

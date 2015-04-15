@@ -1,411 +1,411 @@
 .#{$md-css-prefix}-add-to-photos:before {
-  content: "\f1d2";
+  content: $md-var-add-to-photos;
 }
 .#{$md-css-prefix}-adjust:before {
-  content: "\f1d3";
+  content: $md-var-adjust;
 }
 .#{$md-css-prefix}-assistant-photo:before {
-  content: "\f1d4";
+  content: $md-var-assistant-photo;
 }
 .#{$md-css-prefix}-audiotrack:before {
-  content: "\f1d5";
+  content: $md-var-audiotrack;
 }
 .#{$md-css-prefix}-blur-circular:before {
-  content: "\f1d6";
+  content: $md-var-blur-circular;
 }
 .#{$md-css-prefix}-blur-linear:before {
-  content: "\f1d7";
+  content: $md-var-blur-linear;
 }
 .#{$md-css-prefix}-blur-off:before {
-  content: "\f1d8";
+  content: $md-var-blur-off;
 }
 .#{$md-css-prefix}-blur-on:before {
-  content: "\f1d9";
+  content: $md-var-blur-on;
 }
 .#{$md-css-prefix}-brightness-1:before {
-  content: "\f1da";
+  content: $md-var-brightness-1;
 }
 .#{$md-css-prefix}-brightness-2:before {
-  content: "\f1db";
+  content: $md-var-brightness-2;
 }
 .#{$md-css-prefix}-brightness-3:before {
-  content: "\f1dc";
+  content: $md-var-brightness-3;
 }
 .#{$md-css-prefix}-brightness-4:before {
-  content: "\f1dd";
+  content: $md-var-brightness-4;
 }
 .#{$md-css-prefix}-brightness-5:before {
-  content: "\f1de";
+  content: $md-var-brightness-5;
 }
 .#{$md-css-prefix}-brightness-6:before {
-  content: "\f1df";
+  content: $md-var-brightness-6;
 }
 .#{$md-css-prefix}-brightness-7:before {
-  content: "\f1e0";
+  content: $md-var-brightness-7;
 }
 .#{$md-css-prefix}-brush:before {
-  content: "\f1e1";
+  content: $md-var-brush;
 }
 .#{$md-css-prefix}-camera:before {
-  content: "\f1e2";
+  content: $md-var-camera;
 }
 .#{$md-css-prefix}-camera-alt:before {
-  content: "\f1e3";
+  content: $md-var-camera-alt;
 }
 .#{$md-css-prefix}-camera-front:before {
-  content: "\f1e4";
+  content: $md-var-camera-front;
 }
 .#{$md-css-prefix}-camera-rear:before {
-  content: "\f1e5";
+  content: $md-var-camera-rear;
 }
 .#{$md-css-prefix}-camera-roll:before {
-  content: "\f1e6";
+  content: $md-var-camera-roll;
 }
 .#{$md-css-prefix}-center-focus-strong:before {
-  content: "\f1e7";
+  content: $md-var-center-focus-strong;
 }
 .#{$md-css-prefix}-center-focus-weak:before {
-  content: "\f1e8";
+  content: $md-var-center-focus-weak;
 }
 .#{$md-css-prefix}-collections:before {
-  content: "\f1e9";
+  content: $md-var-collections;
 }
 .#{$md-css-prefix}-colorize:before {
-  content: "\f1ea";
+  content: $md-var-colorize;
 }
 .#{$md-css-prefix}-color-lens:before {
-  content: "\f1eb";
+  content: $md-var-color-lens;
 }
 .#{$md-css-prefix}-compare:before {
-  content: "\f1ec";
+  content: $md-var-compare;
 }
 .#{$md-css-prefix}-control-point:before {
-  content: "\f1ed";
+  content: $md-var-control-point;
 }
 .#{$md-css-prefix}-control-point-duplicate:before {
-  content: "\f1ee";
+  content: $md-var-control-point-duplicate;
 }
 .#{$md-css-prefix}-crop:before {
-  content: "\f1ef";
+  content: $md-var-crop;
 }
 .#{$md-css-prefix}-crop-3-2:before {
-  content: "\f1f0";
+  content: $md-var-crop-3-2;
 }
 .#{$md-css-prefix}-crop-5-4:before {
-  content: "\f1f1";
+  content: $md-var-crop-5-4;
 }
 .#{$md-css-prefix}-crop-7-5:before {
-  content: "\f1f2";
+  content: $md-var-crop-7-5;
 }
 .#{$md-css-prefix}-crop-16-9:before {
-  content: "\f1f3";
+  content: $md-var-crop-16-9;
 }
 .#{$md-css-prefix}-crop-din:before {
-  content: "\f1f4";
+  content: $md-var-crop-din;
 }
 .#{$md-css-prefix}-crop-free:before {
-  content: "\f1f5";
+  content: $md-var-crop-free;
 }
 .#{$md-css-prefix}-crop-landscape:before {
-  content: "\f1f6";
+  content: $md-var-crop-landscape;
 }
 .#{$md-css-prefix}-crop-original:before {
-  content: "\f1f7";
+  content: $md-var-crop-original;
 }
 .#{$md-css-prefix}-crop-portrait:before {
-  content: "\f1f8";
+  content: $md-var-crop-portrait;
 }
 .#{$md-css-prefix}-crop-square:before {
-  content: "\f1f9";
+  content: $md-var-crop-square;
 }
 .#{$md-css-prefix}-dehaze:before {
-  content: "\f1fa";
+  content: $md-var-dehaze;
 }
 .#{$md-css-prefix}-details:before {
-  content: "\f1fb";
+  content: $md-var-details;
 }
 .#{$md-css-prefix}-edit:before {
-  content: "\f1fc";
+  content: $md-var-edit;
 }
 .#{$md-css-prefix}-exposure:before {
-  content: "\f1fd";
+  content: $md-var-exposure;
 }
 .#{$md-css-prefix}-exposure-minus-1:before {
-  content: "\f1fe";
+  content: $md-var-exposure-minus-1;
 }
 .#{$md-css-prefix}-exposure-minus-2:before {
-  content: "\f1ff";
+  content: $md-var-exposure-minus-2;
 }
 .#{$md-css-prefix}-exposure-zero:before {
-  content: "\f200";
+  content: $md-var-exposure-zero;
 }
 .#{$md-css-prefix}-exposure-plus-1:before {
-  content: "\f201";
+  content: $md-var-exposure-plus-1;
 }
 .#{$md-css-prefix}-exposure-plus-2:before {
-  content: "\f202";
+  content: $md-var-exposure-plus-2;
 }
 .#{$md-css-prefix}-filter:before {
-  content: "\f203";
+  content: $md-var-filter;
 }
 .#{$md-css-prefix}-filter-1:before {
-  content: "\f204";
+  content: $md-var-filter-1;
 }
 .#{$md-css-prefix}-filter-2:before {
-  content: "\f205";
+  content: $md-var-filter-2;
 }
 .#{$md-css-prefix}-filter-3:before {
-  content: "\f206";
+  content: $md-var-filter-3;
 }
 .#{$md-css-prefix}-filter-4:before {
-  content: "\f207";
+  content: $md-var-filter-4;
 }
 .#{$md-css-prefix}-filter-5:before {
-  content: "\f208";
+  content: $md-var-filter-5;
 }
 .#{$md-css-prefix}-filter-6:before {
-  content: "\f209";
+  content: $md-var-filter-6;
 }
 .#{$md-css-prefix}-filter-7:before {
-  content: "\f20a";
+  content: $md-var-filter-7;
 }
 .#{$md-css-prefix}-filter-8:before {
-  content: "\f20b";
+  content: $md-var-filter-8;
 }
 .#{$md-css-prefix}-filter-9:before {
-  content: "\f20c";
+  content: $md-var-filter-9;
 }
 .#{$md-css-prefix}-filter-9-plus:before {
-  content: "\f20d";
+  content: $md-var-filter-9-plus;
 }
 .#{$md-css-prefix}-filter-b-and-w:before {
-  content: "\f20e";
+  content: $md-var-filter-b-and-w;
 }
 .#{$md-css-prefix}-filter-center-focus:before {
-  content: "\f20f";
+  content: $md-var-filter-center-focus;
 }
 .#{$md-css-prefix}-filter-drama:before {
-  content: "\f210";
+  content: $md-var-filter-drama;
 }
 .#{$md-css-prefix}-filter-frames:before {
-  content: "\f211";
+  content: $md-var-filter-frames;
 }
 .#{$md-css-prefix}-filter-hdr:before {
-  content: "\f212";
+  content: $md-var-filter-hdr;
 }
 .#{$md-css-prefix}-filter-none:before {
-  content: "\f213";
+  content: $md-var-filter-none;
 }
 .#{$md-css-prefix}-filter-tilt-shift:before {
-  content: "\f214";
+  content: $md-var-filter-tilt-shift;
 }
 .#{$md-css-prefix}-filter-vintage:before {
-  content: "\f215";
+  content: $md-var-filter-vintage;
 }
 .#{$md-css-prefix}-flare:before {
-  content: "\f216";
+  content: $md-var-flare;
 }
 .#{$md-css-prefix}-flash-auto:before {
-  content: "\f217";
+  content: $md-var-flash-auto;
 }
 .#{$md-css-prefix}-flash-off:before {
-  content: "\f218";
+  content: $md-var-flash-off;
 }
 .#{$md-css-prefix}-flash-on:before {
-  content: "\f219";
+  content: $md-var-flash-on;
 }
 .#{$md-css-prefix}-flip:before {
-  content: "\f21a";
+  content: $md-var-flip;
 }
 .#{$md-css-prefix}-gradient:before {
-  content: "\f21b";
+  content: $md-var-gradient;
 }
 .#{$md-css-prefix}-grain:before {
-  content: "\f21c";
+  content: $md-var-grain;
 }
 .#{$md-css-prefix}-grid-off:before {
-  content: "\f21d";
+  content: $md-var-grid-off;
 }
 .#{$md-css-prefix}-grid-on:before {
-  content: "\f21e";
+  content: $md-var-grid-on;
 }
 .#{$md-css-prefix}-hdr-off:before {
-  content: "\f21f";
+  content: $md-var-hdr-off;
 }
 .#{$md-css-prefix}-hdr-on:before {
-  content: "\f220";
+  content: $md-var-hdr-on;
 }
 .#{$md-css-prefix}-hdr-strong:before {
-  content: "\f221";
+  content: $md-var-hdr-strong;
 }
 .#{$md-css-prefix}-hdr-weak:before {
-  content: "\f222";
+  content: $md-var-hdr-weak;
 }
 .#{$md-css-prefix}-healing:before {
-  content: "\f223";
+  content: $md-var-healing;
 }
 .#{$md-css-prefix}-image:before {
-  content: "\f224";
+  content: $md-var-image;
 }
 .#{$md-css-prefix}-image-aspect-ratio:before {
-  content: "\f225";
+  content: $md-var-image-aspect-ratio;
 }
 .#{$md-css-prefix}-iso:before {
-  content: "\f226";
+  content: $md-var-iso;
 }
 .#{$md-css-prefix}-landscape:before {
-  content: "\f227";
+  content: $md-var-landscape;
 }
 .#{$md-css-prefix}-leak-add:before {
-  content: "\f228";
+  content: $md-var-leak-add;
 }
 .#{$md-css-prefix}-leak-remove:before {
-  content: "\f229";
+  content: $md-var-leak-remove;
 }
 .#{$md-css-prefix}-lens:before {
-  content: "\f22a";
+  content: $md-var-lens;
 }
 .#{$md-css-prefix}-looks:before {
-  content: "\f22b";
+  content: $md-var-looks;
 }
 .#{$md-css-prefix}-looks-1:before {
-  content: "\f22c";
+  content: $md-var-looks-1;
 }
 .#{$md-css-prefix}-looks-2:before {
-  content: "\f22d";
+  content: $md-var-looks-2;
 }
 .#{$md-css-prefix}-looks-3:before {
-  content: "\f22e";
+  content: $md-var-looks-3;
 }
 .#{$md-css-prefix}-looks-4:before {
-  content: "\f22f";
+  content: $md-var-looks-4;
 }
 .#{$md-css-prefix}-looks-5:before {
-  content: "\f230";
+  content: $md-var-looks-5;
 }
 .#{$md-css-prefix}-looks-6:before {
-  content: "\f231";
+  content: $md-var-looks-6;
 }
 .#{$md-css-prefix}-loupe:before {
-  content: "\f232";
+  content: $md-var-loupe;
 }
 .#{$md-css-prefix}-movie-creation:before {
-  content: "\f233";
+  content: $md-var-movie-creation;
 }
 .#{$md-css-prefix}-nature:before {
-  content: "\f234";
+  content: $md-var-nature;
 }
 .#{$md-css-prefix}-nature-people:before {
-  content: "\f235";
+  content: $md-var-nature-people;
 }
 .#{$md-css-prefix}-navigate-before:before {
-  content: "\f236";
+  content: $md-var-navigate-before;
 }
 .#{$md-css-prefix}-navigate-next:before {
-  content: "\f237";
+  content: $md-var-navigate-next;
 }
 .#{$md-css-prefix}-palette:before {
-  content: "\f238";
+  content: $md-var-palette;
 }
 .#{$md-css-prefix}-panorama:before {
-  content: "\f239";
+  content: $md-var-panorama;
 }
 .#{$md-css-prefix}-panorama-fisheye:before {
-  content: "\f23a";
+  content: $md-var-panorama-fisheye;
 }
 .#{$md-css-prefix}-panorama-horizontal:before {
-  content: "\f23b";
+  content: $md-var-panorama-horizontal;
 }
 .#{$md-css-prefix}-panorama-vertical:before {
-  content: "\f23c";
+  content: $md-var-panorama-vertical;
 }
 .#{$md-css-prefix}-panorama-wide-angle:before {
-  content: "\f23d";
+  content: $md-var-panorama-wide-angle;
 }
 .#{$md-css-prefix}-photo:before {
-  content: "\f23e";
+  content: $md-var-photo;
 }
 .#{$md-css-prefix}-photo-album:before {
-  content: "\f23f";
+  content: $md-var-photo-album;
 }
 .#{$md-css-prefix}-photo-camera:before {
-  content: "\f240";
+  content: $md-var-photo-camera;
 }
 .#{$md-css-prefix}-photo-library:before {
-  content: "\f241";
+  content: $md-var-photo-library;
 }
 .#{$md-css-prefix}-portrait:before {
-  content: "\f242";
+  content: $md-var-portrait;
 }
 .#{$md-css-prefix}-remove-red-eye:before {
-  content: "\f243";
+  content: $md-var-remove-red-eye;
 }
 .#{$md-css-prefix}-rotate-left:before {
-  content: "\f244";
+  content: $md-var-rotate-left;
 }
 .#{$md-css-prefix}-rotate-right:before {
-  content: "\f245";
+  content: $md-var-rotate-right;
 }
 .#{$md-css-prefix}-slideshow:before {
-  content: "\f246";
+  content: $md-var-slideshow;
 }
 .#{$md-css-prefix}-straighten:before {
-  content: "\f247";
+  content: $md-var-straighten;
 }
 .#{$md-css-prefix}-style:before {
-  content: "\f248";
+  content: $md-var-style;
 }
 .#{$md-css-prefix}-switch-camera:before {
-  content: "\f249";
+  content: $md-var-switch-camera;
 }
 .#{$md-css-prefix}-switch-video:before {
-  content: "\f24a";
+  content: $md-var-switch-video;
 }
 .#{$md-css-prefix}-tag-faces:before {
-  content: "\f24b";
+  content: $md-var-tag-faces;
 }
 .#{$md-css-prefix}-texture:before {
-  content: "\f24c";
+  content: $md-var-texture;
 }
 .#{$md-css-prefix}-timelapse:before {
-  content: "\f24d";
+  content: $md-var-timelapse;
 }
 .#{$md-css-prefix}-timer:before {
-  content: "\f24e";
+  content: $md-var-timer;
 }
 .#{$md-css-prefix}-timer-3:before {
-  content: "\f24f";
+  content: $md-var-timer-3;
 }
 .#{$md-css-prefix}-timer-10:before {
-  content: "\f250";
+  content: $md-var-timer-10;
 }
 .#{$md-css-prefix}-timer-auto:before {
-  content: "\f251";
+  content: $md-var-timer-auto;
 }
 .#{$md-css-prefix}-timer-off:before {
-  content: "\f252";
+  content: $md-var-timer-off;
 }
 .#{$md-css-prefix}-tonality:before {
-  content: "\f253";
+  content: $md-var-tonality;
 }
 .#{$md-css-prefix}-transform:before {
-  content: "\f254";
+  content: $md-var-transform;
 }
 .#{$md-css-prefix}-tune:before {
-  content: "\f255";
+  content: $md-var-tune;
 }
 .#{$md-css-prefix}-wb-auto:before {
-  content: "\f256";
+  content: $md-var-wb-auto;
 }
 .#{$md-css-prefix}-wb-cloudy:before {
-  content: "\f257";
+  content: $md-var-wb-cloudy;
 }
 .#{$md-css-prefix}-wb-incandescent:before {
-  content: "\f258";
+  content: $md-var-wb-incandescent;
 }
 .#{$md-css-prefix}-wb-irradescent:before {
-  content: "\f259";
+  content: $md-var-wb-irradescent;
 }
 .#{$md-css-prefix}-wb-sunny:before {
-  content: "\f25a";
+  content: $md-var-wb-sunny;
 }

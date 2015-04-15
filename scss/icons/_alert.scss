@@ -1,6 +1,6 @@
 .#{$md-css-prefix}-error:before {
-  content: "\f0a0";
+  content: $md-var-error;
 }
 .#{$md-css-prefix}-warning:before {
-  content: "\f0a1";
+  content: $md-var-warning;
 }

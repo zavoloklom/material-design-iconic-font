@@ -1,102 +1,63 @@
-.#{$md-css-prefix}-adb:before {
-  content: $md-var-adb;
+.#{$md-css-prefix}-apps:before {
+  content: $md-var-apps;
 }
-.#{$md-css-prefix}-bluetooth-audio:before {
-  content: $md-var-bluetooth-audio;
+.#{$md-css-prefix}-cancel:before {
+  content: $md-var-cancel;
 }
-.#{$md-css-prefix}-disc-full:before {
-  content: $md-var-disc-full;
+.#{$md-css-prefix}-arrow-drop-down-circle:before {
+  content: $md-var-arrow-drop-down-circle;
 }
-.#{$md-css-prefix}-dnd-forwardslash:before {
-  content: $md-var-dnd-forwardslash;
+.#{$md-css-prefix}-arrow-drop-down:before {
+  content: $md-var-arrow-drop-down;
 }
-.#{$md-css-prefix}-do-not-disturb:before {
-  content: $md-var-do-not-disturb;
+.#{$md-css-prefix}-arrow-drop-up:before {
+  content: $md-var-arrow-drop-up;
 }
-.#{$md-css-prefix}-drive-eta:before {
-  content: $md-var-drive-eta;
+.#{$md-css-prefix}-arrow-back:before {
+  content: $md-var-arrow-back;
 }
-.#{$md-css-prefix}-event-available:before {
-  content: $md-var-event-available;
+.#{$md-css-prefix}-arrow-forward:before {
+  content: $md-var-arrow-forward;
 }
-.#{$md-css-prefix}-event-busy:before {
-  content: $md-var-event-busy;
+.#{$md-css-prefix}-check:before {
+  content: $md-var-check;
 }
-.#{$md-css-prefix}-event-note:before {
-  content: $md-var-event-note;
+.#{$md-css-prefix}-close:before {
+  content: $md-var-close;
 }
-.#{$md-css-prefix}-folder-special:before {
-  content: $md-var-folder-special;
+.#{$md-css-prefix}-chevron-left:before {
+  content: $md-var-chevron-left;
 }
-.#{$md-css-prefix}-mms:before {
-  content: $md-var-mms;
+.#{$md-css-prefix}-chevron-right:before {
+  content: $md-var-chevron-right;
 }
-.#{$md-css-prefix}-more:before {
-  content: $md-var-more;
+.#{$md-css-prefix}-expand-less:before {
+  content: $md-var-expand-less;
 }
-.#{$md-css-prefix}-network-locked:before {
-  content: $md-var-network-locked;
+.#{$md-css-prefix}-expand-more:before {
+  content: $md-var-expand-more;
 }
-.#{$md-css-prefix}-phone-bluetooth-speaker:before {
-  content: $md-var-phone-bluetooth-speaker;
+.#{$md-css-prefix}-fullscreen:before {
+  content: $md-var-fullscreen;
 }
-.#{$md-css-prefix}-phone-forwarded:before {
-  content: $md-var-phone-forwarded;
+.#{$md-css-prefix}-fullscreen-exit:before {
+  content: $md-var-fullscreen-exit;
 }
-.#{$md-css-prefix}-phone-in-talk:before {
-  content: $md-var-phone-in-talk;
+.#{$md-css-prefix}-menu:before {
+  content: $md-var-menu;
 }
-.#{$md-css-prefix}-phone-locked:before {
-  content: $md-var-phone-in-talk;
+.#{$md-css-prefix}-more-horiz:before {
+  content: $md-var-more-horiz;
 }
-.#{$md-css-prefix}-phone-missed:before {
-  content: $md-var-phone-missed;
+.#{$md-css-prefix}-more-vert:before {
+  content: $md-var-more-vert;
 }
-.#{$md-css-prefix}-phone-paused:before {
-  content: $md-var-phone-paused;
+.#{$md-css-prefix}-refresh:before {
+  content: $md-var-refresh;
 }
-.#{$md-css-prefix}-play-download:before {
-  content: $md-var-play-download;
+.#{$md-css-prefix}-unfold-less:before {
+  content: $md-var-unfold-less;
 }
-.#{$md-css-prefix}-play-install:before {
-  content: $md-var-play-install;
-}
-.#{$md-css-prefix}-sd-card:before {
-  content: $md-var-sd-card;
-}
-.#{$md-css-prefix}-sim-card-alert:before {
-  content: $md-var-sim-card-alert;
-}
-.#{$md-css-prefix}-sms:before {
-  content: $md-var-sms;
-}
-.#{$md-css-prefix}-sms-failed:before {
-  content: $md-var-sms-failed;
-}
-.#{$md-css-prefix}-sync:before {
-  content: $md-var-sync;
-}
-.#{$md-css-prefix}-sync-disabled:before {
-  content: $md-var-sync-disabled;
-}
-.#{$md-css-prefix}-sync-problem:before {
-  content: $md-var-sync-problem;
-}
-.#{$md-css-prefix}-system-update:before {
-  content: $md-var-system-update;
-}
-.#{$md-css-prefix}-tap-and-play:before {
-  content: $md-var-tap-and-play;
-}
-.#{$md-css-prefix}-time-to-leave:before {
-  content: $md-var-time-to-leave;
-}
-.#{$md-css-prefix}-vibration:before {
-  content: $md-var-vibration;
-}
-.#{$md-css-prefix}-voice-chat:before {
-  content: $md-var-voice-chat;
-}
-.#{$md-css-prefix}-vpn-lock:before {
-  content: $md-var-vpn-lock;
+.#{$md-css-prefix}-unfold-more:before {
+  content: $md-var-unfold-more;
 }

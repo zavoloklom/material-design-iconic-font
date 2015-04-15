@@ -1,225 +1,156 @@
-.#{$md-css-prefix}-access-alarm:before {
-  content: $md-var-access-alarm;
+.#{$md-css-prefix}-attach-file:before {
+  content: $md-var-attach-file;
 }
-.#{$md-css-prefix}-access-alarms:before {
-  content: $md-var-access-alarms;
+.#{$md-css-prefix}-attach-money:before {
+  content: $md-var-attach-money;
 }
-.#{$md-css-prefix}-access-time:before {
-  content: $md-var-access-time;
+.#{$md-css-prefix}-border-all:before {
+  content: $md-var-border-all;
 }
-.#{$md-css-prefix}-add-alarm:before {
-  content: $md-var-add-alarm;
+.#{$md-css-prefix}-border-bottom:before {
+  content: $md-var-border-bottom;
 }
-.#{$md-css-prefix}-airplanemode-off:before {
-  content: $md-var-airplanemode-off;
+.#{$md-css-prefix}-border-clear:before {
+  content: $md-var-border-clear;
 }
-.#{$md-css-prefix}-airplanemode-on:before {
-  content: $md-var-airplanemode-on;
+.#{$md-css-prefix}-border-color:before {
+  content: $md-var-border-color;
 }
-.#{$md-css-prefix}-battery-20:before {
-  content: $md-var-battery-20;
+.#{$md-css-prefix}-border-horizontal:before {
+  content: $md-var-border-horizontal;
 }
-.#{$md-css-prefix}-battery-30:before {
-  content: $md-var-battery-30;
+.#{$md-css-prefix}-border-inner:before {
+  content: $md-var-border-inner;
 }
-.#{$md-css-prefix}-battery-50:before {
-  content: $md-var-battery-50;
+.#{$md-css-prefix}-border-left:before {
+  content: $md-var-border-left;
 }
-.#{$md-css-prefix}-battery-60:before {
-  content: $md-var-battery-60;
+.#{$md-css-prefix}-border-outer:before {
+  content: $md-var-border-outer;
 }
-.#{$md-css-prefix}-battery-80:before {
-  content: $md-var-battery-80;
+.#{$md-css-prefix}-border-right:before {
+  content: $md-var-border-right;
 }
-.#{$md-css-prefix}-battery-90:before {
-  content: $md-var-battery-90;
+.#{$md-css-prefix}-border-style:before {
+  content: $md-var-border-style;
 }
-.#{$md-css-prefix}-battery-alert:before {
-  content: $md-var-battery-alert;
+.#{$md-css-prefix}-border-top:before {
+  content: $md-var-border-top;
 }
-.#{$md-css-prefix}-battery-charging-20:before {
-  content: $md-var-battery-charging-20;
+.#{$md-css-prefix}-border-vertical:before {
+  content: $md-var-border-vertical;
 }
-.#{$md-css-prefix}-battery-charging-30:before {
-  content: $md-var-battery-charging-30;
+.#{$md-css-prefix}-format-align-center:before {
+  content: $md-var-format-align-center;
 }
-.#{$md-css-prefix}-battery-charging-50:before {
-  content: $md-var-battery-charging-50;
+.#{$md-css-prefix}-format-align-justify:before {
+  content: $md-var-format-align-justify;
 }
-.#{$md-css-prefix}-battery-charging-60:before {
-  content: $md-var-battery-charging-60;
+.#{$md-css-prefix}-format-align-left:before {
+  content: $md-var-format-align-left;
 }
-.#{$md-css-prefix}-battery-charging-80:before {
-  content: $md-var-battery-charging-80;
+.#{$md-css-prefix}-format-align-right:before {
+  content: $md-var-format-align-right;
 }
-.#{$md-css-prefix}-battery-charging-90:before {
-  content: $md-var-battery-charging-90;
+.#{$md-css-prefix}-format-bold:before {
+  content: $md-var-format-bold;
 }
-.#{$md-css-prefix}-battery-charging-full:before {
-  content: $md-var-battery-charging-full;
+.#{$md-css-prefix}-format-clear:before {
+  content: $md-var-format-clear;
 }
-.#{$md-css-prefix}-battery-full:before {
-  content: $md-var-battery-full;
+.#{$md-css-prefix}-format-color-fill:before {
+  content: $md-var-format-color-fill;
 }
-.#{$md-css-prefix}-battery-std:before {
-  content: $md-var-battery-std;
+.#{$md-css-prefix}-format-color-reset:before {
+  content: $md-var-format-color-reset;
 }
-.#{$md-css-prefix}-battery-unknown:before {
-  content: $md-var-battery-unknown;
+.#{$md-css-prefix}-format-color-text:before {
+  content: $md-var-format-color-text;
 }
-.#{$md-css-prefix}-bluetooth:before {
-  content: $md-var-bluetooth;
+.#{$md-css-prefix}-format-indent-decrease:before {
+  content: $md-var-format-indent-decrease;
 }
-.#{$md-css-prefix}-bluetooth-connected:before {
-  content: $md-var-bluetooth-connected;
+.#{$md-css-prefix}-format-indent-increase:before {
+  content: $md-var-format-indent-increase;
 }
-.#{$md-css-prefix}-bluetooth-disabled:before {
-  content: $md-var-bluetooth-disabled;
+.#{$md-css-prefix}-format-italic:before {
+  content: $md-var-format-italic;
 }
-.#{$md-css-prefix}-bluetooth-searching:before {
-  content: $md-var-bluetooth-searching;
+.#{$md-css-prefix}-format-line-spacing:before {
+  content: $md-var-format-line-spacing;
 }
-.#{$md-css-prefix}-brightness-auto:before {
-  content: $md-var-brightness-auto;
+.#{$md-css-prefix}-format-list-bulleted:before {
+  content: $md-var-format-list-bulleted;
 }
-.#{$md-css-prefix}-brightness-high:before {
-  content: $md-var-brightness-high;
+.#{$md-css-prefix}-format-list-numbered:before {
+  content: $md-var-format-list-numbered;
 }
-.#{$md-css-prefix}-brightness-low:before {
-  content: $md-var-brightness-low;
+.#{$md-css-prefix}-format-paint:before {
+  content: $md-var-format-paint;
 }
-.#{$md-css-prefix}-brightness-medium:before {
-  content: $md-var-brightness-medium;
+.#{$md-css-prefix}-format-quote:before {
+  content: $md-var-format-quote;
 }
-.#{$md-css-prefix}-data-usage:before {
-  content: $md-var-data-usage;
+.#{$md-css-prefix}-format-size:before {
+  content: $md-var-format-size;
 }
-.#{$md-css-prefix}-developer-mode:before {
-  content: $md-var-developer-mode;
+.#{$md-css-prefix}-format-strikethrough:before {
+  content: $md-var-format-strikethrough;
 }
-.#{$md-css-prefix}-devices:before {
-  content: $md-var-devices;
+.#{$md-css-prefix}-format-textdirection-l-to-r:before {
+  content: $md-var-format-textdirection-l-to-r;
 }
-.#{$md-css-prefix}-dvr:before {
-  content: $md-var-dvr;
+.#{$md-css-prefix}-format-textdirection-r-to-l:before {
+  content: $md-var-format-textdirection-r-to-l;
 }
-.#{$md-css-prefix}-gps-fixed:before {
-  content: $md-var-gps-fixed;
+.#{$md-css-prefix}-format-underline:before {
+  content: $md-var-format-underline;
 }
-.#{$md-css-prefix}-gps-not-fixed:before {
-  content: $md-var-gps-not-fixed;
+.#{$md-css-prefix}-functions:before {
+  content: $md-var-functions;
 }
-.#{$md-css-prefix}-gps-off:before {
-  content: $md-var-gps-off;
+.#{$md-css-prefix}-insert-chart:before {
+  content: $md-var-insert-chart;
 }
-.#{$md-css-prefix}-location-disabled:before {
-  content: $md-var-location-disabled;
+.#{$md-css-prefix}-insert-comment:before {
+  content: $md-var-insert-comment;
 }
-.#{$md-css-prefix}-location-searching:before {
-  content: $md-var-location-searching;
+.#{$md-css-prefix}-insert-drive-file:before {
+  content: $md-var-insert-drive-file;
 }
-.#{$md-css-prefix}-multitrack-audio:before {
-  content: $md-var-multitrack-audio;
+.#{$md-css-prefix}-insert-emoticon:before {
+  content: $md-var-insert-emoticon;
 }
-.#{$md-css-prefix}-network-cell:before {
-  content: $md-var-network-cell;
+.#{$md-css-prefix}-insert-invitation:before {
+  content: $md-var-insert-invitation;
 }
-.#{$md-css-prefix}-network-wifi:before {
-  content: $md-var-network-wifi;
+.#{$md-css-prefix}-insert-link:before {
+  content: $md-var-insert-link;
 }
-.#{$md-css-prefix}-nfc:before {
-  content: $md-var-nfc;
+.#{$md-css-prefix}-insert-photo:before {
+  content: $md-var-insert-photo;
 }
-.#{$md-css-prefix}-now-wallpaper:before {
-  content: $md-var-now-wallpaper;
+.#{$md-css-prefix}-merge-type:before {
+  content: $md-var-merge-type;
 }
-.#{$md-css-prefix}-now-widgets:before {
-  content: $md-var-now-widgets;
+.#{$md-css-prefix}-mode-comment:before {
+  content: $md-var-mode-comment;
 }
-.#{$md-css-prefix}-screen-lock-landscape:before {
-  content: $md-var-screen-lock-landscape;
+.#{$md-css-prefix}-mode-edit:before {
+  content: $md-var-mode-edit;
 }
-.#{$md-css-prefix}-screen-lock-portrait:before {
-  content: $md-var-screen-lock-portrait;
+.#{$md-css-prefix}-publish:before {
+  content: $md-var-publish;
 }
-.#{$md-css-prefix}-screen-lock-rotation:before {
-  content: $md-var-screen-lock-rotation;
+.#{$md-css-prefix}-vertical-align-bottom:before {
+  content: $md-var-vertical-align-bottom;
 }
-.#{$md-css-prefix}-screen-rotation:before {
-  content: $md-var-screen-rotation;
+.#{$md-css-prefix}-vertical-align-center:before {
+  content: $md-var-vertical-align-center;
 }
-.#{$md-css-prefix}-sd-storage:before {
-  content: $md-var-sd-storage;
+.#{$md-css-prefix}-vertical-align-top:before {
+  content: $md-var-vertical-align-top;
 }
-.#{$md-css-prefix}-settings-system-daydream:before {
-  content: $md-var-settings-system-daydream;
-}
-.#{$md-css-prefix}-signal-cellular-0-bar:before {
-  content: $md-var-signal-cellular-0-bar;
-}
-.#{$md-css-prefix}-signal-cellular-1-bar:before {
-  content: $md-var-signal-cellular-1-bar;
-}
-.#{$md-css-prefix}-signal-cellular-2-bar:before {
-  content: $md-var-signal-cellular-2-bar;
-}
-.#{$md-css-prefix}-signal-cellular-3-bar:before {
-  content: $md-var-signal-cellular-3-bar;
-}
-.#{$md-css-prefix}-signal-cellular-4-bar:before {
-  content: $md-var-signal-cellular-4-bar;
-}
-.#{$md-css-prefix}-signal-cellular-connected-no-internet-0-bar:before {
-  content: $md-var-signal-cellular-connected-no-internet-0-bar;
-}
-.#{$md-css-prefix}-signal-cellular-connected-no-internet-1-bar:before {
-  content: $md-var-signal-cellular-connected-no-internet-1-bar;
-}
-.#{$md-css-prefix}-signal-cellular-connected-no-internet-2-bar:before {
-  content: $md-var-signal-cellular-connected-no-internet-2-bar;
-}
-.#{$md-css-prefix}-signal-cellular-connected-no-internet-3-bar:before {
-  content: $md-var-signal-cellular-connected-no-internet-3-bar;
-}
-.#{$md-css-prefix}-signal-cellular-connected-no-internet-4-bar:before {
-  content: $md-var-signal-cellular-connected-no-internet-4-bar;
-}
-.#{$md-css-prefix}-signal-cellular-no-sim:before {
-  content: $md-var-signal-cellular-no-sim;
-}
-.#{$md-css-prefix}-signal-cellular-null:before {
-  content: $md-var-signal-cellular-null;
-}
-.#{$md-css-prefix}-signal-cellular-off:before {
-  content: $md-var-signal-cellular-off;
-}
-.#{$md-css-prefix}-signal-wifi-0-bar:before {
-  content: $md-var-signal-wifi-0-bar;
-}
-.#{$md-css-prefix}-signal-wifi-1-bar:before {
-  content: $md-var-signal-wifi-1-bar;
-}
-.#{$md-css-prefix}-signal-wifi-2-bar:before {
-  content: $md-var-signal-wifi-2-bar;
-}
-.#{$md-css-prefix}-signal-wifi-3-bar:before {
-  content: $md-var-signal-wifi-3-bar;
-}
-.#{$md-css-prefix}-signal-wifi-4-bar:before {
-  content: $md-var-signal-wifi-4-bar;
-}
-.#{$md-css-prefix}-signal-wifi-off:before {
-  content: $md-var-signal-wifi-off;
-}
-.#{$md-css-prefix}-storage:before {
-  content: $md-var-storage;
-}
-.#{$md-css-prefix}-usb:before {
-  content: $md-var-usb;
-}
-.#{$md-css-prefix}-wifi-lock:before {
-  content: $md-var-wifi-lock;
-}
-.#{$md-css-prefix}-wifi-tethering:before {
-  content: $md-var-wifi-tethering;
+.#{$md-css-prefix}-wrap-text:before {
+  content: $md-var-wrap-text;
 }

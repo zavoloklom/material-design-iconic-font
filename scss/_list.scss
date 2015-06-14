@@ -1,0 +1,19 @@
+// List Icons
+// -------------------------
+
+.#{$md-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: $md-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.#{$md-css-prefix}-li {
+  position: absolute;
+  left: -$md-li-width;
+  width: $md-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.#{$md-css-prefix}-lg {
+    left: (-$md-li-width + (4em / 14));
+  }
+}

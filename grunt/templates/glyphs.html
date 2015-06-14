@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="YES" />
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Material Design Iconic Font :: Icons</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://zavoloklom.github.io/material-design-iconic-font/stylesheets/bootstrap.docs.min.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.css">
+    <link rel="stylesheet" href="http://zavoloklom.github.io/material-design-iconic-font/stylesheets/styles.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+<div id="top"></div>
+
+<div id="navbar" class="navbar navbar-default navbar-static-top hidden-print">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="md md-menu md-lg"></i>
+            </button>
+            <a class="navbar-brand" href="http://zavoloklom.github.io/material-design-iconic-font/index.html"><strong>Material Design</strong> Iconic Font</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden-sm "><a href="http://zavoloklom.github.io/material-design-iconic-font/index.html">Get Started</a></li>
+                <li class="active"><a href="Material-Design-Iconic-Font.html">Icons</a></li>
+                <li ><a href="http://zavoloklom.github.io/material-design-iconic-font/examples.html">Examples</a></li>
+                <li><a href="http://zavoloklom.github.io/material-design-iconic-font/cheatsheet.html">Cheatsheet</a></li>
+                <li><a href="http://zavoloklom.github.io/material-design-iconic-font/license.html">License</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-img hidden-print" style="background-image: url(http://zavoloklom.github.io/material-design-iconic-font/images/header-bg.png)">
+    <div class="container">
+        <div class="col-xs-12">
+            <img src="http://zavoloklom.github.io/material-design-iconic-font/icons/favicon-96x96.png" style="float: left; padding-top: 15px; padding-right: 24px;">
+            <h1>Icons</h1>
+            <p>The complete icons set in Material Design Iconic Font.</p>
+            <div class="inflated-egos">
+                <a href="https://github.com/zavoloklom/material-design-iconic-font" target="_blank">GitHub Project</a>
+                &nbsp;&nbsp;
+                Created by <a href="http://twitter.com/zavoloklom">Sergey Kupletsky</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" role="main" id="icons">
+    <!-- Icon sets -->
+    <h2 class="page-header">Icons</h2>
+    <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
+        <div class="col-md-3 col-sm-4 col-xs-6" data-name="<%= glyph %>"><p><i class="<%= baseClass %> <%= classPrefix %><%= glyph %> zmd-fw"></i> <%= classPrefix %><%= glyph %></p></div>
+    <% } %>
+    </div>
+<footer class="container">
+    <hr />
+    <span class="text-center"><a href="https://github.com/zavoloklom" target="_blank"><img src="http://zavoloklom.github.io/material-design-iconic-font/images/doctocat.png"></a></span>
+    <p>
+        <a href="https://github.com">GitHub</a> is the best way to build and ship software.<br>
+        Powerful collaboration, code review, and code management for open source and private projects.
+    </p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

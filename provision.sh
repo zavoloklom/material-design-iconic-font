@@ -37,4 +37,4 @@ cd ..
 cd vagrant/
 
 sudo npm install
-grunt font
+grunt font-dev

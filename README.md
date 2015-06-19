@@ -1,4 +1,4 @@
-# [Material Design Iconic Font v2.0.0](http://zavoloklom.github.io/material-design-iconic-font)
+# [Material Design Iconic Font v2.0.1](http://zavoloklom.github.io/material-design-iconic-font)
 #### Material Design Iconic Font and CSS toolkit
 
 [![Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/images/Material-Design-Iconic-Font.png)](http://zavoloklom.github.io/material-design-iconic-font/)
@@ -9,7 +9,7 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 
 Get started at [http://zavoloklom.github.io/material-design-iconic-font](http://zavoloklom.github.io/material-design-iconic-font)
 
-Download: [v2.0.0 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/v2.0.0/material-design-iconic-font.zip)
+Download: [v2.0.1 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.0.1/material-design-iconic-font.zip)
 
 ##Install
 **Bower:**       `bower install material-design-iconic-font`
@@ -31,9 +31,9 @@ Use this method to customize Material Design Iconic Font using LESS or SCSS.
 
 > @md-font-path:   "../font";
 
-- You can change prefix `md` to something else by editing `@md-css-prefix` in `path/to/material-design-iconic-font/less/variables.less` or `path/to/material-design-iconic-font/scss/_variables.scss`
+- You can change prefix `zmdi` to something else by editing `@md-icon-prefix` in `path/to/material-design-iconic-font/less/variables.less` or `path/to/material-design-iconic-font/scss/_variables.scss`
 
-> @md-css-prefix:       md;
+> @md-icon-prefix:       zmdi;
 
 - Re-compile your LESS if using a static compiler.
 - Check out the [Examples pages](http://zavoloklom.github.io/material-design-iconic-font/examples.html) to start using Material Design Iconic Font!
@@ -42,6 +42,10 @@ Use this method to customize Material Design Iconic Font using LESS or SCSS.
 The full details of how Material Design Iconic Font is licensed and 'Thanks to' section: [License page](http://zavoloklom.github.io/material-design-iconic-font/license.html).
 
 ## Changelog 
+v2.0.1:   
+- remove IE8-9 hooks   
+- fix "!default" to used properly way in sass code   
+
 v2.0.0:   
 - add new Google icons;   
 - remove duplicated icons to reduce font size;   
@@ -71,3 +75,6 @@ For more information on SemVer, please visit http://semver.org.
 - GitHub: https://github.com/zavoloklom/
 - CodePen: http://codepen.io/zavoloklom/
 - Dribble: https://dribbble.com/zavoloklom (waiting for invite)
+
+## Donate
+- You can support me via [Gratipay](http://gratipay.com/zavoloklom/)

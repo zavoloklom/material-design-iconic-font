@@ -15,6 +15,12 @@
   width: 100%;
   text-align: center;
 }
-.#{$md-css-prefix}-stack-1x { line-height: inherit !default; }
-.#{$md-css-prefix}-stack-2x { font-size: 2em !default; }
-.#{$md-css-prefix}-inverse  { color: $md-inverse !default; }
+.#{$md-css-prefix}-stack-1x {
+  line-height: inherit;
+}
+.#{$md-css-prefix}-stack-2x {
+  font-size: 2em;
+}
+.#{$md-css-prefix}-inverse {
+  color: $md-inverse;
+}

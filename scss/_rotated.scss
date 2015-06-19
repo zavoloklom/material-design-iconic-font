@@ -1,11 +1,12 @@
 // Rotated & Flipped icons
 // -------------------------
-.#{$md-css-prefix}-rotate-90  { @include md-icon-rotate(90deg, 1);  }
-.#{$md-css-prefix}-rotate-180 { @include md-icon-rotate(180deg, 2); }
-.#{$md-css-prefix}-rotate-270 { @include md-icon-rotate(270deg, 3); }
 
-.#{$md-css-prefix}-flip-horizontal { @include md-icon-flip(-1, 1, 0); }
-.#{$md-css-prefix}-flip-vertical   { @include md-icon-flip(1, -1, 2); }
+.#{$md-css-prefix}-rotate-90  { transform: rotate(90deg) !default; }
+.#{$md-css-prefix}-rotate-180 { transform: rotate(180deg) !default; }
+.#{$md-css-prefix}-rotate-270 { transform: rotate(270deg) !default; }
+
+.#{$md-css-prefix}-flip-horizontal { transform: scale(-1, 1) !default; }
+.#{$md-css-prefix}-flip-vertical   { transform: scale(1, -1) !default; }
 
 // Hook for IE8-9
 // -------------------------

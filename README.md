@@ -1,4 +1,4 @@
-# [Material Design Iconic Font v1.1.1](http://zavoloklom.github.io/material-design-iconic-font)
+# [Material Design Iconic Font v2.0.0](http://zavoloklom.github.io/material-design-iconic-font)
 #### Material Design Iconic Font and CSS toolkit
 
 [![Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/images/Material-Design-Iconic-Font.png)](http://zavoloklom.github.io/material-design-iconic-font/)
@@ -9,7 +9,7 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 
 Get started at [http://zavoloklom.github.io/material-design-iconic-font](http://zavoloklom.github.io/material-design-iconic-font)
 
-Download: [v1.1.1 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/v1.1.1/material-design-iconic-font.zip)
+Download: [v2.0.0 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/v2.0.0/material-design-iconic-font.zip)
 
 ##Install
 **Bower:**       `bower install material-design-iconic-font`
@@ -41,11 +41,16 @@ Use this method to customize Material Design Iconic Font using LESS or SCSS.
 ## Licence
 The full details of how Material Design Iconic Font is licensed and 'Thanks to' section: [License page](http://zavoloklom.github.io/material-design-iconic-font/license.html).
 
-## Changelog
-- v1.1.1 - add bower support and [Cheatsheet page](http://zavoloklom.github.io/material-design-iconic-font/cheatsheet.html)
-- v1.1.0 - add SCSS support (thanks to @davidkpiano)
-- v1.0.1 - fix bug with battery, charging-battery and wi-fi icons (device section)
-- v1.0.0 - add all available icons from [Google](https://github.com/google/material-design-icons)
+## Changelog 
+v2.0.0:   
+- add new Google icons;   
+- remove duplicated icons to reduce font size;   
+- resort and rename icons for better search;   
+- change icon-prefix to 'zmdi-' for capability with Angular JS;
+- add 'fixed-width', 'list' and 'stack' classes;  
+- add "!default" to sass variables;   
+- add vars with glyph codes to less/sass;   
+- add nested pseudo classes for less/sass;   
 
 ## Versioning
 Material Design Iconic Font will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:

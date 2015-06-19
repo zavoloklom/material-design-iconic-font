@@ -1,7 +1,11 @@
 // Variables
 // --------------------------
-$md-font-path: "../fonts";
-$md-css-prefix: md;
-$md-version: "1.1.1";
 
-$md-border-color: gray;
+$md-font-path:        "../font" !default;
+$md-css-prefix:       zmd !default;
+$md-icon-prefix:      zmdi !default;
+$md-version:          "2.0.0" !default;
+
+$md-border-color:     #9E9E9E !default;
+$md-inverse:          #FFFFFF !default;
+$md-li-width:         (30em / 14) !default;

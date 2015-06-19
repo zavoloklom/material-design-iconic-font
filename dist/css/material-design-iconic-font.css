@@ -149,14 +149,6 @@
       -ms-transform: scale(1, -1);
           transform: scale(1, -1);
 }
-:root .zmd-rotate-90,
-:root .zmd-rotate-180,
-:root .zmd-rotate-270,
-:root .zmd-flip-horizontal,
-:root .zmd-flip-vertical {
-  -webkit-filter: none;
-          filter: none;
-}
 .zmd-stack {
   position: relative;
   display: inline-block;

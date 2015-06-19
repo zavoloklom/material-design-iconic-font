@@ -2,7 +2,7 @@
  * jQuery Highlight Plugin
  * Examples and documentation at: http://demo.webcodingstudio.com/highlight/
  * Copyright (c) 2010 E. Matsakov
- * Version: 1.02 (10-JUL-2014)
+ * Version: 1.04 (12-Feb-2015)
  * Dual licensed under the MIT and GPL licenses:
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
@@ -168,13 +168,16 @@
 				'stripos stripslashes stristr strlen strnatcasecmp strnatcmp strncasecmp strncmp strpbrk '+
 				'strpos strptime strrchr strrev strripos strrpos strspn strstr strtok strtolower strtotime '+
 				'strtoupper strtr strval substr substr_compare';
+// var is not allowed as a keyword, as its a cSS classname :-)
 	
 			var keywords =	'and or xor array as break case ' +
 				'cfunction const continue declare default die do else ' +
-				'elseif enddeclare endfor endforeach endif endswitch endwhile ' +
-				'extends for foreach function include include_once global if ' +
+				'elseif enddeclare endfor endforeach endif endswitch endwhile ' + 
+				'for foreach function include include_once global if ' +
 				'new old_function return static switch use require require_once ' +
-				'while abstract interface public implements extends private protected throw';
+				'while abstract interface public implements extends private protected throw __LINE__ __FILE__ __FUNCTION__ '+
+				'__METHOD__ __CLASS__ __DIR__ __NAMESPACE__ namespace instanceof parent self real bool double float string '+
+				'object null const clone new true false';
 	
 			funcs = new RegExp(get_keywords(funcs), 'gi');
 			keywords = new RegExp(get_keywords(keywords), 'gi');
@@ -183,6 +186,9 @@
 				//replace strings
 				.replace(/(".*?")/g,'<span class="str">$1</span>')
 				.replace(/('.*?')/g,'<span class="str">$1</span>')	
+				.replace(/\b([0-9.\-]+)\b/g,'<span class="str">$1</span>')	
+				// float notation numbers
+				.replace(/\b(-?[0-9.]+[eE]-?[0-9.])\b/g,'<span class="str">$1</span>')	
 				//replace multiline comments
 				.replace(/\/\*([\s\S]*?)\*\//g, function(m, t)
 					{ return '\0C'+push(comments, multiline_comments(m))+'\0'; })
@@ -190,12 +196,16 @@
 					{ return comments[i]; })
 				//replace one line comments
 				.replace(/\/\/(.*$)/gm,'<span class="com">//$1</span>')
+				.replace(/#(.+$)/gm,'<span class="com">#$1</span>')
 				//replace variables
 				.replace(/\$(\w+)/g,'<span class="var">$$$1</span>')
 				//replace functions
 				.replace(funcs,'<span class="fnc">$1</span>$2')
 				//replace keywords
-				.replace(keywords,'<span class="kwd">$1</span>$2');
+				.replace(keywords,'<span class="kwd">$1</span>$2')
+// var  is injected seperately here..
+				.replace(/\\bvar\\b([^"])/g,'<span class="kwd">var</span>$1')
+				.replace(/\\bclass\\b([^=])/g,'<span class="kwd">class</span>$1');
 			return code;
 		},
 		
@@ -334,7 +344,7 @@
 	//prepare regexp template for keywords
 	function get_keywords(str)
 	{
-		return '(' + str.replace(/ /g, '|') + ')([^a-z0-9\$_])';
+		return '(\\b' + str.replace(/ /g, '\\b|\\b') + '\\b)([^a-z0-9\$_])';
 	}
 	
 	//process multiline comments

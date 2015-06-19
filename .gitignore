@@ -63,6 +63,9 @@ $RECYCLE.BIN/
 *.zip
 *~
 
+### Bower modules
+bower_components/
+
 ### Node modules
 node_modules/
 

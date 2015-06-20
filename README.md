@@ -41,6 +41,17 @@ Use this method to customize Material Design Iconic Font using LESS or SCSS.
 ## Licence
 The full details of how Material Design Iconic Font is licensed and 'Thanks to' section: [License page](http://zavoloklom.github.io/material-design-iconic-font/license.html).
 
+## Browser Support
+- Chrome 21+   
+- Firefox 22+   
+- Opera 12.1+   
+- Safari 6.1+   
+- IE 10+   
+- Android Browser 4.3+   
+- Not supported in Opera Mini   
+
+In fact it can work in earlier versions of browsers accordingly to [caniuse.com](http://caniuse.com/) portal (you can check ttf, woff, transform and animation properties), but i can't test it.
+
 ## Changelog 
 v2.0.1:   
 - remove IE8-9 hooks   
@@ -49,7 +60,8 @@ v2.0.1:
 v2.0.0:   
 - add new Google icons;   
 - remove duplicated icons to reduce font size;   
-- resort and rename icons for better search;   
+- resort and rename icons for better search (no backward compatibility with old icon names);  
+- no support for IE7-8 (remove eot and svg font files);   
 - change icon-prefix to 'zmdi-' for capability with Angular JS;
 - add 'fixed-width', 'list' and 'stack' classes;  
 - add "!default" to sass variables;   

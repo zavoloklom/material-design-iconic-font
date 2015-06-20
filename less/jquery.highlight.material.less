@@ -1,0 +1,135 @@
+.highlight {
+  background:#FFFFFF;
+  border: 1px solid #E0E0E0;
+  overflow: hidden;
+  border-radius: 2px;
+  margin: 0 0 1.5em;
+}
+.highlight pre{
+  width: 100%;
+  overflow: auto;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  word-break: normal;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+/* tabs */
+.highlight ul.tabs {
+  overflow: hidden;
+  padding: 8px;
+  margin: 0;
+  list-style: none;
+  border-bottom: 1px solid #E0E0E0;
+  width: 100%;
+  position: relative;
+}
+.highlight ul.tabs li {
+  padding: 0;
+  margin: 0 5px;
+  float: left;
+  background: none;
+  border-bottom: 1px dashed #CCC;
+  line-height:1.0em;
+  color: #CCC;
+  cursor: pointer;
+}
+.highlight ul.tabs li.active {
+  border-bottom: none;
+  cursor: default;
+}
+
+/* pre */
+.highlight pre.code ol {
+  margin: 0;
+  padding: 0 0 0 45px;
+}
+.highlight pre.code ul {
+  margin: 0;
+  padding: 0;
+}
+.highlight pre.code ol li,
+.highlight pre.code ul li {
+  padding: 0 0 0 5px;
+  border-left: 2px solid @mdc-grey-200;
+  background: @mdc-grey-50;
+}
+.highlight pre.code ul li {
+  border-left:none;
+}
+.highlight pre.code ol li.even,
+.highlight pre.code ul li.even {
+  background-color:#FFFFFF;
+}
+.highlight pre.source {
+  display: none;
+  padding:0 0 0 5px;
+}
+
+/* highligting */
+pre.code .str {
+  color: @mdc-green-800;
+}
+pre.code .kwd,
+pre.code .kwd span {
+  color: @mdc-green-700;
+}
+pre.code .com,
+pre.code .com span {
+  color: @mdc-green-800;
+  font-style: italic;
+  font-weight: normal;
+}
+pre.code .typ {
+  color: @mdc-purple-900;
+}
+pre.code .lit {
+  color: #066;
+}
+pre.code .pun {
+  color: #660; }
+pre.code .pln {
+  color: #000;
+}
+pre.code .tag {
+  color: #008;
+  font-weight: 500;
+}
+pre.code .atn {
+  color: #606;
+}
+pre.code .atv {
+  color: #080;
+}
+pre.code .dec {
+  color: #606;
+}
+pre.code .fnc,
+pre.code .fnc span {
+  color: #00b;
+}
+
+/* css */
+.css pre.code .kwd,
+.css pre.code .kwd span {
+  color: #008;
+  font-weight: 500;
+}
+/* php */
+.php pre.code .str,
+.php pre.code .str span {
+  color: #d00;
+}
+.php pre.code .var,
+.php pre.code .var span {
+  color: #00b;
+}
+.php pre.code .com,
+.php pre.code .com span {
+  color:#ff8000;
+  font-style: italic;
+  font-weight: normal;
+}

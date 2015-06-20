@@ -35,12 +35,9 @@
 
     <title>Material Design Iconic Font :: Examples</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="stylesheets/bootstrap.docs.min.css">
-    <link rel="stylesheet" href="stylesheets/jquery.highlight.css" >
-    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/docs.md-iconic-font.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -64,7 +61,7 @@
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
-                <i class="md md-menu md-lg"></i>
+                <i class="zmdi zmdi-menu"></i>
             </button>
             <a class="navbar-brand" href="index.html"><strong>Material Design</strong> Iconic Font</a>
         </div>
@@ -72,67 +69,47 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden-sm"><a href="index.html">Get Started</a></li>
-                <li class="dropdown-split-left"><a href="icons.html">Icons</a></li>
-                <li class="dropdown dropdown-split-right hidden-xs">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="md md-arrow-drop-down"></i>
-                    </a>
-                    <ul class="dropdown-menu pull-right">
-                        <li><a href="icons.html"><i class="md md-flag"></i> Icons</a></li>
-                        <li class="divider"></li>
-                        <li><a href="icons.html#action"><i class="md md-home"></i> Action</a></li>
-                        <li><a href="icons.html#alert"><i class="md md-warning"></i> Alert</a></li>
-                        <li><a href="icons.html#audio-video"><i class="md md-play-circle-fill"></i> Audio / Video</a></li>
-                        <li><a href="icons.html#communication"><i class="md md-forum"></i> Communication</a></li>
-                        <li><a href="icons.html#content"><i class="md md-content-paste"></i> Content</a></li>
-                        <li><a href="icons.html#device"><i class="md md-battery-80"></i> Device</a></li>
-                        <li><a href="icons.html#editor"><i class="md md-format-textdirection-l-to-r"></i> Editor</a></li>
-                        <li><a href="icons.html#file"><i class="md md-folder-open"></i> File</a></li>
-                        <li><a href="icons.html#hardware"><i class="md md-desktop-windows"></i> Hardware</a></li>
-                        <li><a href="icons.html#image"><i class="md md-collections"></i> Image</a></li>
-                        <li><a href="icons.html#maps"><i class="md md-directions-bike"></i> Maps</a></li>
-                        <li><a href="icons.html#navigation"><i class="md md-apps"></i> Navigation</a></li>
-                        <li><a href="icons.html#notification"><i class="md md-phone-in-talk"></i> Notification</a></li>
-                        <li><a href="icons.html#social"><i class="md md-people"></i> Social</a></li>
-                        <li><a href="icons.html#toggle"><i class="md md-star-half"></i> Toggle</a></li>
-                    </ul>
-                </li>
+                <li><a href="icons.html">Icons</a></li>
                 <li class="dropdown-split-left active"><a href="examples.html">Examples</a></li>
                 <li class="dropdown dropdown-split-right hidden-xs active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="md md-arrow-drop-down"></i>
+                        <i class="zmdi zmdi-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu pull-right">
                         <li><a href="examples.html">Examples</a></li>
                         <li class="divider"></li>
                         <li><a href="examples.html#basic">Basic Icons</a></li>
                         <li><a href="examples.html#larger">Larger Icons</a></li>
+                        <li><a href="examples.html#fixed-width">Fixed Width</a></li>
+                        <li><a href="examples.html#list-icons">List Icons</a></li>
                         <li><a href="examples.html#bordered-pulled">Bordered &amp; Pulled Icons</a></li>
                         <li><a href="examples.html#spinning">Spinning Icons</a></li>
                         <li><a href="examples.html#rotated-flipped">Rotated &amp; Flipped Icons</a></li>
+                        <li><a href="examples.html#stacked-icons">Stacked Icons</a></li>
+                        <li><a href="examples.html#colored-icons">Colored Icons</a></li>
+                        <li><a href="examples.html#animated-icons">Animated Icons</a></li>
                     </ul>
                 </li>
-                <li><a href="cheatsheet.html">Cheatsheet</a></li>
                 <li><a href="license.html">License</a></li>
             </ul>
         </div>
     </div>
 </div>
 
-<div class="jumbotron jumbotron-img hidden-print"  style="background-image: url(images/header-bg.png)">
+<div class="jumbotron jumbotron-img hidden-print">
     <div class="container">
         <div class="col-xs-12">
-            <img src="icons/favicon-96x96.png" style="float: left; padding-top: 15px; padding-right: 24px;">
+            <img src="icons/favicon-96x96.png" class="logo">
             <h1>Examples</h1>
             <p>Usage examples of Material Design Iconic Font.</p>
             <div class="actions">
-                <a class="btn btn-default btn-lg download-btn" href="https://github.com/zavoloklom/material-design-iconic-font/releases/download/v1.1.1/material-design-iconic-font.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
-                    <i class="md md-file-download md-lg"></i>&nbsp;&nbsp;
-                    Download v1.1.1 (ZIP)
+                <a class="btn btn-default btn-lg download-btn" href="https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.0.2/material-design-iconic-font.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+                    <i class="zmdi zmdi-download zmd-lg"></i>&nbsp;&nbsp;
+                    Download 2.0.2 (ZIP)
                 </a>
             </div>
             <div class="inflated-egos">
-                Version 1.1.1
+                Version 2.0.2
                 &nbsp;&nbsp;
                 <a href="https://github.com/zavoloklom/material-design-iconic-font" target="_blank">GitHub Project</a>
                 &nbsp;&nbsp;
@@ -152,7 +129,7 @@
             </li>
             <li>
                 <iframe src="http://ghbtns.com/github-btn.html?user=zavoloklom&repo=material-design-iconic-font&type=watch&count=true"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe>
+                        allowtransparency="true" frameborder="0" scrolling="0" width="85" height="20"></iframe>
             </li>
             <li style="width: 90px;">
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://zavoloklom.github.io/material-design-iconic-font" data-text="Material Design Iconic Font" data-via="zavoloklom" data-hashtags="materialDesign">Tweet</a>
@@ -172,33 +149,25 @@
             <section id="basic">
                 <h2 class="page-header">
                     Basic Icons
-                    <div class="pull-right text-default margin-top padding-top-sm hidden-xs">
-                        <a target="_blank" href="https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/less/core.less" class="text-muted padding-right">View LESS</a>
-                    </div>
+                    <small class="pull-right hidden-xs">
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/scss/_core.scss" target="_blank">View SASS</a>
+                        <a class="text-muted" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/less/core.less" target="_blank">View LESS</a>
+                    </small>
                 </h2>
 
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
                         <p>
-                            <i class="md md-local-florist"></i> md-local-florist
+                            <i class="zmdi zmdi-local-florist"></i> zmdi-local-florist
                         </p>
                     </div>
                     <div class="col-md-9 col-sm-8">
                         <p>
-                            You can place Material Design Iconic Font icons just about anywhere using the CSS Prefix <code>md</code> and the icon's
+                            You can place Material Design Iconic Font icons just about anywhere using the CSS Prefix <code>zmdi</code> and the icon's
                             name.
                         </p>
                         <div>
-                            <pre class="code" lang="html">
-                                <i class="md md-local-florist"></i> md-local-florist</pre>
-                        </div>
-                        <div class="alert alert-danger">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <i class="md md-warning md-lg"></i>
-                                    If you need to use the icons separately from the text or if text and icon has different size, it is better not to use a class <code>md</code>
-                                </li>
-                            </ul>
+                            <pre class="code" lang="html"><i class="zmdi zmdi-local-florist"></i> zmdi-local-florist</pre>
                         </div>
                     </div>
                 </div>
@@ -207,38 +176,103 @@
             <section id="larger">
                 <h2 class="page-header">
                     Larger Icons
-                    <div class="pull-right text-default margin-top padding-top-sm hidden-xs">
-                        <a target="_blank" href="https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/less/sizes.less" class="text-muted padding-right">View LESS</a>
-                    </div>
+                    <small class="pull-right hidden-xs">
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/scss/_sizes.scss" target="_blank">View SASS</a>
+                        <a class="text-muted" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/less/sizes.less" target="_blank">View LESS</a>
+                    </small>
                 </h2>
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
-                        <p><i class="md-local-florist md-lg"></i> md-lg</p>
-                        <p><i class="md-local-florist md-2x"></i> md-2x</p>
-                        <p><i class="md-local-florist md-3x"></i> md-3x</p>
-                        <p><i class="md-local-florist md-4x"></i> md-4x</p>
-                        <p><i class="md-local-florist md-5x"></i> md-5x</p>
+                        <p><i class="zmdi zmdi-local-florist zmd-lg"></i> zmd-lg</p>
+                        <p><i class="zmdi zmdi-local-florist zmd-2x"></i> zmd-2x</p>
+                        <p><i class="zmdi zmdi-local-florist zmd-3x"></i> zmd-3x</p>
+                        <p><i class="zmdi zmdi-local-florist zmd-4x"></i> zmd-4x</p>
+                        <p><i class="zmdi zmdi-local-florist zmd-5x"></i> zmd-5x</p>
                     </div>
                     <div class="col-md-9 col-sm-8">
                         <p>
-                            To increase icon sizes relative to their container, use the <code>md-lg</code>, <code>md-2x</code>,
-                            <code>md-3x</code>, <code>md-4x</code>, or <code>md-5x</code> classes.
+                            To increase icon sizes relative to their container, use the <code>zmd-lg</code>, <code>zmd-2x</code>,
+                            <code>zmd-3x</code>, <code>zmd-4x</code>, or <code>zmd-5x</code> classes.
                         </p>
                         <div>
-                            <pre class="code" lang="html"><p><i class="md-local-florist md-lg"></i> md-lg</p>
-                        <p><i class="md-local-florist md-2x"></i> md-2x</p>
-                        <p><i class="md-local-florist md-3x"></i> md-3x</p>
-                        <p><i class="md-local-florist md-4x"></i> md-4x</p>
-                        <p><i class="md-local-florist md-5x"></i> md-5x</p></pre>
+                            <pre class="code" lang="html"><p><i class="zmdi zmdi-local-florist zmd-lg"></i> zmd-lg</p>
+                                <p><i class="zmdi zmdi-local-florist zmd-2x"></i> zmd-2x</p>
+                                <p><i class="zmdi zmdi-local-florist zmd-3x"></i> zmd-3x</p>
+                                <p><i class="zmdi zmdi-local-florist zmd-4x"></i> zmd-4x</p>
+                                <p><i class="zmdi zmdi-local-florist zmd-5x"></i> zmd-5x</p></pre>
                         </div>
                         <div class="alert alert-success">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <i class="md md-warning md-lg"></i>
-                                    If your icons are getting chopped off on top and bottom, make sure you have
-                                    sufficient line-height.
-                                </li>
-                            </ul>
+                            <i class="zmdi zmdi-alert-circle"></i>
+                            If your icons are getting chopped off on top and bottom, make sure you have
+                            sufficient line-height.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="fixed-width">
+                <h2 class="page-header">
+                    Fixed Width Icons
+                    <small class="pull-right hidden-xs">
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/scss/_fixed-width.scss" target="_blank">View SASS</a>
+                        <a class="text-muted" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/less/fixed-width.less" target="_blank">View LESS</a>
+                    </small>
+                </h2>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="list-group">
+                            <a class="list-group-item" href="#"><i class="zmdi zmdi-home zmd-fw"></i> Home</a>
+                            <a class="list-group-item" href="#"><i class="zmdi zmdi-inbox zmd-fw"></i> Inbox</a>
+                            <a class="list-group-item" href="#"><i class="zmdi zmdi-star zmd-fw"></i> Starred</a>
+                            <a class="list-group-item" href="#"><i class="zmdi zmdi-email-open zmd-fw"></i> Drafts</a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                        <p>
+                            Use <code>zmd-fw</code> to set icons at a fixed width. Great to use when different icon widths throw off alignment. Especially useful in things like nav lists & list groups.
+                        </p>
+                        <div>
+                            <pre class="code" lang="html"><div class="list-group">
+                                <a class="list-group-item" href="#"><i class="zmdi zmdi-home zmd-fw"></i> Home</a>
+                                <a class="list-group-item" href="#"><i class="zmdi zmdi-inbox zmd-fw"></i> Inbox</a>
+                                <a class="list-group-item" href="#"><i class="zmdi zmdi-star zmd-fw"></i> Starred</a>
+                                <a class="list-group-item" href="#"><i class="zmdi zmdi-email-open zmd-fw"></i> Drafts</a>
+                            </div></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="list-icons">
+                <h2 class="page-header">
+                    List Icons
+                    <small class="pull-right hidden-xs">
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/scss/_list.scss" target="_blank">View SASS</a>
+                        <a class="text-muted" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/less/list.less" target="_blank">View LESS</a>
+                    </small>
+                </h2>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <ul class="zmd-ul">
+                            <li><i class="zmd-li zmdi zmdi-check-square"></i>List icons</li>
+                            <li><i class="zmd-li zmdi zmdi-dot-circle-alt"></i>can be used</li>
+                            <li><i class="zmd-li zmdi zmdi-refresh zmd-spin"></i>as bullets</li>
+                            <li><i class="zmd-li zmdi zmdi-square-o"></i>in lists</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                        <p>
+                            Use <code>zmd-ul</code> and <code>zmd-li</code> to replace default bullets in unordered lists.
+                        </p>
+                        <div>
+                            <pre class="code" lang="html"><ul class="zmd-ul">
+                                <li><i class="zmd-li zmdi zmdi-check-square"></i>List icons</li>
+                                <li><i class="zmd-li zmdi zmdi-dot-circle-alt"></i>can be used</li>
+                                <li><i class="zmd-li zmdi zmdi-refresh zmd-spin"></i>as bullets</li>
+                                <li><i class="zmd-li zmdi zmdi-square-o"></i>in lists</li>
+                            </ul></pre>
                         </div>
                     </div>
                 </div>
@@ -247,26 +281,28 @@
             <section id="bordered-pulled">
                 <h2 class="page-header">
                     Bordered &amp; Pulled Icons
-                    <div class="pull-right text-default margin-top padding-top-sm hidden-xs">
-                        <a target="_blank" href="https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/less/border.less" class="text-muted padding-right">View LESS (bordered)</a>
-                        <a target="_blank" href="https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/less/pulled.less" class="text-muted">View LESS (pulled)</a>
-                    </div>
+                    <small class="pull-right hidden-xs">
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/scss/_border.scss" target="_blank">View SASS</a>
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/scss/_pulled.scss" target="_blank">View SASS</a>
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/less/border.less" target="_blank">View LESS</a>
+                        <a class="text-muted" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/less/pulled.less" target="_blank">View LESS</a>
+                    </small>
                 </h2>
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
                         <p>
-                            <i class="md-computer md-3x md-border pull-left"></i>
+                            <i class="zmdi zmdi-laptop zmd-3x zmd-border pull-left"></i>
                             In 1842, Babbage was invited to give a seminar at the University of Turin about his Analytical Engine.
                             Luigi Menabrea, a young Italian engineer, and future Prime Minister of Italy, wrote up Babbage's lecture in French, and this transcript was subsequently published in the Bibliothèque universelle de Genève in October 1842.
                         </p>
                     </div>
                     <div class="col-md-9 col-sm-8">
                         <p>
-                            Use <code>md-border</code> or <code>md-border-circle</code> and <code>pull-right</code> or <code>pull-left</code> for easy pull quotes or
+                            Use <code>zmd-border</code> or <code>zmd-border-circle</code> and <code>pull-right</code> or <code>pull-left</code> for easy pull quotes or
                             article icons.
                         </p>
                         <div>
-                            <pre class="code" lang="html"><i class="md-computer md-3x md-border pull-left"></i>
+                            <pre class="code" lang="html"><i class="zmdi zmdi-laptop zmd-3x zmd-border pull-left"></i>
                                 In 1842, Babbage was invited to give a seminar at the University of Turin about his Analytical Engine.
                                 Luigi Menabrea, a young Italian engineer, and future Prime Minister of Italy, wrote up Babbage's lecture in French, and this transcript was subsequently published in the Bibliothèque universelle de Genève in October 1842.</pre>
                         </div>
@@ -277,42 +313,40 @@
             <section id="spinning">
                 <h2 class="page-header">
                     Spinning Icons
-                    <div class="pull-right text-default margin-top padding-top-sm hidden-xs">
-                        <a target="_blank" href="https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/less/spinned.less" class="text-muted padding-right">View LESS</a>
-                    </div>
+                    <small class="pull-right hidden-xs">
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/scss/_spinned.scss" target="_blank">View SASS</a>
+                        <a class="text-muted" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/less/spinned.less" target="_blank">View LESS</a>
+                    </small>
                 </h2>
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
                         <p>Spinning</p>
                         <p>
-                            <button class="btn btn-default btn-lg"><i class="md md-rotate-right md-spin"></i></button>
-                            <button class="btn btn-default btn-lg"><i class="md md-settings md-spin"></i></button>
+                            <button class="btn btn-default btn-lg"><i class="zmdi zmdi-rotate-right zmd-spin"></i></button>
+                            <button class="btn btn-default btn-lg"><i class="zmdi zmdi-settings zmd-spin"></i></button>
                         </p>
                         <p>Reverse spinning</p>
                         <p>
-                            <button class="btn btn-default btn-lg"><i class="md md-rotate-left md-spin-reverse"></i></button>
-                            <button class="btn btn-default btn-lg"><i class="md md-replay md-spin-reverse"></i></button>
-                            <button class="btn btn-default btn-lg"><i class="md md-loop md-spin-reverse"></i></button>
+                            <button class="btn btn-default btn-lg"><i class="zmdi zmdi-rotate-left zmd-spin-reverse"></i></button>
+                            <button class="btn btn-default btn-lg"><i class="zmdi zmdi-replay zmd-spin-reverse"></i></button>
                         </p>
                     </div>
                     <div class="col-md-9 col-sm-8">
                         <p>
-                            Use the <code>md-spin</code> class to get any icon to rotate. Works well with <code>md-settings </code>,
-                            <code>md-replay</code>, and <code>md-loop</code>.
+                            Use the <code>zmd-spin</code> or <code>zmd-spin-reverse</code> class to get any icon to rotate. Works well with <code>zmdi-settings</code> or <code>zmdi-replay</code>.
                         </p>
                         <p>Spinning</p>
                         <div>
-                            <pre class="code" lang="html"><button class="btn btn-default btn-lg"><i class="md md-rotate-right md-spin"></i></button>
-                            <button class="btn btn-default btn-lg"><i class="md md-settings md-spin"></i></button></pre>
+                            <pre class="code" lang="html"><button class="btn btn-default btn-lg"><i class="zmdi zmdi-rotate-right zmd-spin"></i></button>
+                                <button class="btn btn-default btn-lg"><i class="zmdi zmdi-settings zmd-spin"></i></button></pre>
                         </div>
                         <p>Reverse spinning</p>
                         <div>
-                            <pre class="code" lang="html"><button class="btn btn-default btn-lg"><i class="md md-rotate-left md-spin-reverse"></i></button>
-                            <button class="btn btn-default btn-lg"><i class="md md-replay md-spin-reverse"></i></button>
-                            <button class="btn btn-default btn-lg"><i class="md md-loop md-spin-reverse"></i></button></pre>
+                            <pre class="code" lang="html"><button class="btn btn-default btn-lg"><i class="zmdi zmdi-rotate-left zmd-spin-reverse"></i></button>
+                                <button class="btn btn-default btn-lg"><i class="zmdi zmdi-replay zmd-spin-reverse"></i></button></pre>
                         </div>
                         <p class="alert alert-warning">
-                            <i class="md md-warning md-lg"></i> CSS3 animations aren't supported in IE8 - IE9.
+                            <i class="zmdi zmdi-alert-triangle"></i> For IE users: CSS3 animations are supported in IE10+.
                         </p>
                     </div>
                 </div>
@@ -321,32 +355,165 @@
             <section id="rotated-flipped">
                 <h2 class="page-header">
                     Rotated &amp; Flipped
-                    <div class="pull-right text-default margin-top padding-top-sm hidden-xs">
-                        <a target="_blank" href="https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/less/rotated.less" class="text-muted padding-right">View LESS</a>
-                    </div>
+                    <small class="pull-right hidden-xs">
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/scss/_rotated.scss" target="_blank">View SASS</a>
+                        <a class="text-muted" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/less/rotated.less" target="_blank">View LESS</a>
+                    </small>
                 </h2>
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
-                        <p style="font-size: 18px;">
-                            <i class="md md-invert-colors"></i>&nbsp; normal<br>
-                            <i class="md md-invert-colors md-rotate-90"></i>&nbsp; md-rotate-90<br>
-                            <i class="md md-invert-colors md-rotate-180"></i>&nbsp; md-rotate-180<br>
-                            <i class="md md-invert-colors md-rotate-270"></i>&nbsp; md-rotate-270<br>
-                            <i class="md md-invert-colors md-flip-horizontal"></i>&nbsp; md-flip-horizontal<br>
-                            <i class="md md-invert-colors md-flip-vertical"></i>&nbsp; md-flip-vertical
-                        </p>
+                        <button class="btn btn-default btn-block" style="text-align: left;"><i class="zmdi zmdi-invert-colors zmd-fw"></i> normal</button>
+                        <button class="btn btn-default btn-block" style="text-align: left;"><i class="zmdi zmdi-invert-colors zmd-fw zmd-rotate-90"></i> zmd-rotate-90</button>
+                        <button class="btn btn-default btn-block" style="text-align: left;"><i class="zmdi zmdi-invert-colors zmd-fw zmd-rotate-180"></i> zmd-rotate-18</button>
+                        <button class="btn btn-default btn-block" style="text-align: left;"><i class="zmdi zmdi-invert-colors zmd-fw zmd-rotate-270"></i> zmd-rotate-270</button>
+                        <button class="btn btn-default btn-block" style="text-align: left;"><i class="zmdi zmdi-invert-colors zmd-fw zmd-flip-horizontal"></i> zmd-flip-horizontal</button>
+                        <button class="btn btn-default btn-block" style="text-align: left;"><i class="zmdi zmdi-invert-colors zmd-fw zmd-flip-vertical"></i> zmd-flip-vertical</button>
                     </div>
                     <div class="col-md-9 col-sm-8">
                         <p>
-                            To arbitrarily rotate and flip icons, use the <code>md-rotate-*</code> and <code>md-flip-*</code> classes.
+                            To arbitrarily rotate and flip icons, use the <code>zmd-rotate-*</code> and <code>zmd-flip-*</code> classes.
                         </p>
                         <div>
-                            <pre class="code" lang="html"><i class="md md-invert-colors"></i>&nbsp; normal<br>
-                            <i class="md md-invert-colors md-rotate-90"></i>&nbsp; md-rotate-90<br>
-                            <i class="md md-invert-colors md-rotate-180"></i>&nbsp; md-rotate-180<br>
-                            <i class="md md-invert-colors md-rotate-270"></i>&nbsp; md-rotate-270<br>
-                            <i class="md md-invert-colors md-flip-horizontal"></i>&nbsp; md-flip-horizontal<br>
-                            <i class="md md-invert-colors md-flip-vertical"></i>&nbsp; md-flip-vertical</pre>
+                            <pre class="code" lang="html"><button class="btn btn-default btn-block"><i class="zmdi zmdi-invert-colors zmd-fw"></i> normal</button>
+                                <button class="btn btn-default btn-block"><i class="zmdi zmdi-invert-colors zmd-fw zmd-rotate-90"></i> zmd-rotate-90</button>
+                                <button class="btn btn-default btn-block"><i class="zmdi zmdi-invert-colors zmd-fw zmd-rotate-180"></i> zmd-rotate-18</button>
+                                <button class="btn btn-default btn-block"><i class="zmdi zmdi-invert-colors zmd-fw zmd-rotate-270"></i> zmd-rotate-270</button>
+                                <button class="btn btn-default btn-block"><i class="zmdi zmdi-invert-colors zmd-fw zmd-flip-horizontal"></i> zmd-flip-horizontal</button>
+                                <button class="btn btn-default btn-block"><i class="zmdi zmdi-invert-colors zmd-fw zmd-flip-vertical"></i> zmd-flip-vertical</button></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="stacked-icons">
+                <h2 class="page-header">
+                    Stacked Icons
+                    <small class="pull-right hidden-xs">
+                        <a class="text-muted" style="padding-right: 16px" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/scss/_stacked.scss" target="_blank">View SASS</a>
+                        <a class="text-muted" href="https://github.com/zavoloklom/material-design-iconic-font/blob/master/less/stacked.less" target="_blank">View LESS</a>
+                    </small>
+                </h2>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <span class="zmd-stack zmd-lg">
+                            <i class="zmdi zmdi-square-o zmd-stack-2x"></i>
+                            <i class="zmdi zmdi-share zmd-stack-1x"></i>
+                        </span>
+                        zmdi-share on zmdi-square-o<br>
+                        <span class="zmd-stack zmd-lg">
+                            <i class="zmdi zmdi-circle zmd-stack-2x"></i>
+                            <i class="zmdi zmdi-polymer zmd-stack-1x zmd-inverse"></i>
+                        </span>
+                        inversed zmdi-polymer on zmdi-circle<br>
+                        <span class="zmd-stack zmd-lg">
+                            <i class="zmdi zmdi-phone zmd-stack-1x"></i>
+                            <i class="zmdi zmdi-block zmd-stack-2x mdc-text-red"></i>
+                        </span>
+                        red zmdi-block on zmdi-phone
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                        <p>
+                            To stack multiple icons, use the <code>zmd-stack</code> class on the parent, the <code>zmd-stack-1x</code> for the regularly sized icon, and <code>zmd-stack-2x</code> for the larger icon. <code>zmd-inverse</code> or <a href="#colored-icons">other color classes</a>  can be used as an alternative icon color. You can even throw larger icon classes on the parent to get further control of sizing.
+                        </p>
+                        <div>
+                            <pre class="code" lang="html"><span class="zmd-stack zmd-lg">
+                            <i class="zmdi zmdi-square-o zmd-stack-2x"></i>
+                            <i class="zmdi zmdi-share zmd-stack-1x"></i>
+                        </span>
+                        zmdi-share on zmdi-square-o<br>
+                        <span class="zmd-stack zmd-lg">
+                            <i class="zmdi zmdi-circle zmd-stack-2x"></i>
+                            <i class="zmdi zmdi-polymer zmd-stack-1x zmd-inverse"></i>
+                        </span>
+                        inversed zmdi-polymer on zmdi-circle<br>
+                        <span class="zmd-stack zmd-lg">
+                            <i class="zmdi zmdi-phone zmd-stack-1x"></i>
+                            <i class="zmdi zmdi-block zmd-stack-2x mdc-text-red"></i>
+                        </span>
+                        red zmdi-block on zmdi-phone</pre>
+                        </div>
+                        <div class="alert alert-success">
+                            <p>
+                                <i class="zmdi zmdi-alert-circle"></i>
+                                In last example for red color I using <a href="https://github.com/zavoloklom/material-design-color-palette" target="_blank">Material Design Color Palette</a> library
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="colored-icons">
+                <h2 class="page-header">
+                    Colored Icons
+                </h2>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div style="font-size: 20px">
+                            <p><i class="zmdi zmdi-local-florist mdc-text-amber"></i> Amber</p>
+                            <p><i class="zmdi zmdi-local-florist mdc-text-red"></i> Red</p>
+                            <p><i class="zmdi zmdi-local-florist mdc-text-green"></i> Green</p>
+                            <p><i class="zmdi zmdi-local-florist mdc-text-light-blue"></i> Light Bblue</p>
+                            <p><i class="zmdi zmdi-local-florist mdc-text-grey"></i> Grey</p>
+                            <p><i class="zmdi zmdi-local-florist mdc-text-red-700"></i> Red 700</p>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                        <p>
+                            You can change icon color by changing <code>color</code> css property.
+                        </p>
+                        <p>
+                            Or you can use Material Design Color Palette css toolkit for all material design colors.
+                        </p>
+                        <p><a href="https://github.com/zavoloklom/material-design-color-palette" target="_blank">Link to project on Github</a></p>
+                        <div>
+                            <pre class="code" lang="html"><div style="font-size: 20px">
+                                <p><i class="zmdi zmdi-local-florist mdc-text-amber"></i> Amber</p>
+                                <p><i class="zmdi zmdi-local-florist mdc-text-red"></i> Red</p>
+                                <p><i class="zmdi zmdi-local-florist mdc-text-green"></i> Green</p>
+                                <p><i class="zmdi zmdi-local-florist mdc-text-light-blue"></i> Light Bblue</p>
+                                <p><i class="zmdi zmdi-local-florist mdc-text-grey"></i> Grey</p>
+                                <p><i class="zmdi zmdi-local-florist mdc-text-red-700"></i> Red 700</p>
+                            </div></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="animated-icons">
+                <h2 class="page-header">
+                    Animated Icons
+                </h2>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div style="font-size: 20px">
+                            <p><i class="zmdi zmdi-pin animated infinite wobble zmd-fw"></i> wobble</p>
+                            <p><i class="zmdi zmdi-directions-bike animated infinite fadeInLeft zmd-fw"></i> fadeInLeft</p>
+                            <p><i class="zmdi zmdi-notifications-active animated infinite pulse zmd-fw mdc-text-blue"></i> pulse</p>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                        <p>
+                            You can place animating icons by using CSS3 Animation.
+                        </p>
+                        <p>
+                            Or you can use one of the css-animation library, for example: Animate.css.
+                        </p>
+                        <p><a href="https://github.com/daneden/animate.css" target="_blank">Link to project on Github</a></p>
+                        <div>
+                            <pre class="code" lang="html"><div style="font-size: 20px">
+                                <p><i class="zmdi zmdi-pin animated infinite wobble zmd-fw"></i> wobble</p>
+                                <p><i class="zmdi zmdi-directions-bike animated infinite fadeInLeft zmd-fw"></i> fadeInLeft</p>
+                                <p><i class="zmdi zmdi-notifications-active animated infinite pulse zmd-fw mdc-text-blue"></i> pulse</p>
+                            </div></pre>
+                        </div>
+                        <div class="alert alert-success">
+                            <p>
+                                <i class="zmdi zmdi-alert-circle"></i>
+                                In last example for blue color I using <a href="https://github.com/zavoloklom/material-design-color-palette" target="_blank">Material Design Color Palette</a> library
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -358,9 +525,14 @@
                 <ul class="nav bs-docs-sidenav">
                     <li><a href="#basic">Basic Icons</a></li>
                     <li><a href="#larger">Larger Icons</a></li>
+                    <li><a href="#fixed-width">Fixed Width Icons</a></li>
+                    <li><a href="#list-icons">List Icons</a></li>
                     <li><a href="#bordered-pulled">Bordered & Pulled Icons</a></li>
                     <li><a href="#spinning">Spinning Icons</a></li>
                     <li><a href="#rotated-flipped">Rotated & Flipped</a></li>
+                    <li><a href="#stacked-icons">Stacked Icons</a></li>
+                    <li><a href="#colored-icons">Colored Icons</a></li>
+                    <li><a href="#animated-icons">Animated Icons</a></li>
                 </ul>
                 <a class="back-to-top" href="#top">Back to top</a>
             </div>
@@ -372,7 +544,7 @@
 <footer class="container">
     <div class="col-md-9 col-xs-12">
         <hr />
-        <span class="text-center"><a href="https://github.com/zavoloklom" target="_blank"><img src="images/doctocat.png"></a></span>
+        <span class="text-center"><a href="https://github.com/zavoloklom" target="_blank"><img src="img/doctocat.png"></a></span>
         <p>
             <a href="https://github.com">GitHub</a> is the best way to build and ship software.<br>
             Powerful collaboration, code review, and code management for open source and private projects.
@@ -382,14 +554,14 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="javascripts/jquery.highlight.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src='js/main.js'></script>
+<script src="js/jquery.highlight.js"></script>
 <script>
     $(document).ready(function(){
         $('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
     });
 </script>
-<script src='javascripts/main.js'></script>
 
 <!-- Google Analytics -->
 <script src='https://apis.google.com/js/platform.js'></script>

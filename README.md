@@ -9,19 +9,19 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 
 Get started at [http://zavoloklom.github.io/material-design-iconic-font](http://zavoloklom.github.io/material-design-iconic-font)
 
-##Install
+## Install
 **Download:**    [2.0.2 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.0.2/material-design-iconic-font.zip)   
 **Bower:**       `bower install material-design-iconic-font`   
 **NPM:**         `npm install material-design-iconic-font`
 
-##Getting started
-####BASIC: CSS on [CDNjs](https://github.com/cdnjs/cdnjs)
+## Getting started
+#### BASIC: CSS on [CDNjs](https://github.com/cdnjs/cdnjs)
 Thanks to the cdnjs.cloudflare.com, you can use CDNjs to add MD Iconic Font into your website without downloading or installing anything!   
 - Paste the following code into the <head> section of your site's HTML.  
 `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.0.2/css/material-design-iconic-font.min.css">`   
 - Check out the [Examples pages](http://zavoloklom.github.io/material-design-iconic-font/examples.html) to start using Material Design Iconic Font!   
 
-####BASIC: Default CSS
+#### BASIC: Default CSS
 Use this method to get the default Material Design Iconic Font CSS.   
 - Download latest version of Material Design Iconic Font.   
 - Unpack the entire `material-design-iconic-font` archive into your project.   
@@ -29,7 +29,7 @@ Use this method to get the default Material Design Iconic Font CSS.
 `<link rel="stylesheet" href="path/to/material-design-iconic-font/css/material-design-iconic-font.min.css">`   
 - Check out the [Examples pages](http://zavoloklom.github.io/material-design-iconic-font/examples.html) to start using Material Design Iconic Font!   
 
-####PRO: Custom LESS/SCSS
+#### PRO: Custom LESS/SCSS
 Use this method to customize Material Design Iconic Font using LESS or SCSS.   
 - Download latest version of Material Design Iconic Font.   
 - Unpack the entire `material-design-iconic-font` archive into your project.   

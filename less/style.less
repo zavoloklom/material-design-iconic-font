@@ -1,0 +1,323 @@
+.margin-top {
+  margin-top: 10px !important;
+}
+.padding-top-sm {
+  padding-top: 5px !important;
+}
+
+/* jumbotron */
+.jumbotron {
+  color: @mdc-white-dark;
+  background-color: @mdc-light-blue-500;
+  text-shadow: 0 2px 0 @mdc-black-lighter;
+
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 0;
+  padding: 20px 0 40px;
+}
+.jumbotron a,
+.jumbotron a:hover,
+.jumbotron a:visited {
+  color: @mdc-grey-200;
+}
+.jumbotron .btn-lg {
+  margin: 10px 0;
+  font-size: 24px;
+  padding: 17px 30px;
+  color: @mdc-white-dark;
+  border-color: @mdc-grey-200;
+  background-color: transparent;
+}
+.jumbotron .btn-lg:hover {
+  background-color: @mdc-grey-200;
+  border-color: @mdc-grey-100;
+  color: @mdc-light-blue-700;
+  text-shadow: none;
+}
+.jumbotron h1, .jumbotron .h1 {
+  color: @mdc-white-darker;
+}
+.jumbotron p {
+  margin: 8px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: @mdc-white-dark;
+}
+.jumbotron .logo {
+  float: left;
+  padding-top: 15px;
+  padding-right: 24px;
+  margin: 20px 0;
+}
+.jumbotron-img {
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron h1, .jumbotron .h1 {
+    font-size: 48px;
+  }
+}
+
+.actions {
+  padding-top: 16px;
+}
+
+#social-buttons {
+  padding: 24px 0 0;
+  text-align: center;
+  background-color: @mdc-grey-200;
+  border-top: 1px solid @mdc-white-dark;
+  border-bottom: 1px solid @mdc-grey-300;
+}
+#social-buttons li {
+  vertical-align: top;
+}
+#social-buttons .git-tip img {
+  margin-top: -4px;
+}
+#download-buttons {
+  padding: 22px 0 17px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+/* navbar */
+.navbar {
+  position: relative;
+  min-height: 80px;
+  padding: 15px 0;
+  margin: 0;
+  border: 0;
+}
+.navbar-default .navbar-brand {
+  color: @mdc-light-blue-700;
+}
+.navbar-default .navbar-brand:hover {
+  color: @mdc-light-blue-900;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: @mdc-light-blue-700;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: @mdc-light-blue-900;
+}
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    border-radius: 2px;
+  }
+}
+
+/* dropdown */
+.dropdown {
+  display: inline-block;
+}
+.dropdown-menu {
+  top: 0;
+  right: 0;
+  left: auto;
+  min-width: 160px;
+  margin: 0;
+  padding: 4px 0;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+}
+.dropdown-menu .divider {
+  position: relative;
+  display: block;
+  height: 1px;
+  margin: 4px 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: @mdc-black-lighter;
+}
+.dropdown-menu > li > a {
+  padding: 8px 16px;
+  line-height: inherit;
+  color: @mdc-black-dark;
+  background-color: transparent;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a.hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: @mdc-black-darker;
+  background-color: @mdc-black-lighter;
+}
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover,
+.dropdown-menu .active > a:focus {
+  color: @mdc-black-darker;
+  background-color: transparent;
+}
+.dropdown-menu .disabled > a,
+.dropdown-menu .disabled > a:hover,
+.dropdown-menu .disabled > a:focus {
+  color: @mdc-black-light;
+}
+.dropdown-header {
+  padding: 8px 16px;
+  .mdt-caption();
+  color: @mdc-black-darker;
+}
+.dropup .dropdown-menu {
+  bottom: 0;
+  margin: 0;
+}
+
+/* sidebar */
+.bs-docs-sidebar.affix {
+  position: static
+}
+@media (min-width: 992px) {
+  .bs-docs-sidebar.affix, .bs-docs-sidebar.affix-bottom {
+    width: 213px;
+  }
+  .bs-docs-sidebar.affix {
+    position: fixed;
+    top: 20px;
+  }
+  .bs-docs-sidebar.affix-bottom {
+    position: absolute;
+  }
+}
+@media (min-width: 1200px) {
+  .bs-docs-sidebar.affix-bottom, .bs-docs-sidebar.affix {
+    width: 263px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bs-docs-sidebar {
+    padding-left: 20px
+  }
+}
+.bs-docs-sidenav {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+.bs-docs-sidebar .nav>li>a {
+  display: block;
+  padding: 4px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: @mdc-black-dark;
+}
+.bs-docs-sidebar .nav>li>a:focus,
+.bs-docs-sidebar .nav>li>a:hover {
+  padding-left: 19px;
+  text-decoration: none;
+  background-color: transparent;
+  color: @mdc-light-blue-700;
+  border-left: 1px solid @mdc-light-blue-700;
+}
+.bs-docs-sidebar .nav>.active:focus>a,
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active>a {
+  padding-left: 18px;
+  background-color: transparent;
+  font-weight: 500;
+  color: @mdc-light-blue-500;
+  border-left: 2px solid @mdc-light-blue-500;
+}
+.bs-docs-sidebar .nav .nav {
+  display: none;
+  padding-bottom: 10px
+}
+.bs-docs-sidebar .nav .nav>li>a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  font-size: 12px;
+  font-weight: 400
+}
+.bs-docs-sidebar .nav .nav>li>a:focus,
+.bs-docs-sidebar .nav .nav>li>a:hover {
+  padding-left: 29px
+}
+.bs-docs-sidebar .nav .nav>.active:focus>a,
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active>a {
+  padding-left: 28px;
+  font-weight: 500
+}
+@media (min-width: 992px) {
+  .bs-docs-sidebar .nav>.active>ul {
+    display: block;
+  }
+}
+.back-to-top {
+  display: none;
+  padding: 4px 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: @mdc-black-dark;
+}
+@media (min-width: 768px) {
+  .back-to-top {
+    display: block;
+  }
+}
+
+
+/* footer */
+footer {
+  color: @mdc-black-dark;
+  text-align: center;
+
+  p {
+    .mdt-subhead-1();
+  }
+}
+
+// TODO: ADD TO TYPOGRAPHY
+.page-header {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+b, strong {
+  font-weight: 500;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid @mdc-black-lighter;
+}
+
+code, kbd, pre, samp {
+  font-family: @font-family-monospace;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: @mdc-red-A700;
+  background-color: @mdc-grey-200;
+  border-radius: 2px;
+}
+pre {
+  display: block;
+  padding: 8px;
+  margin: 0 0 8px;
+  font-size: 12px;
+  line-height: 20px;
+  color: @mdc-black-darker;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: @mdc-grey-100;
+  border: 1px solid @mdc-grey-200;
+  border-radius: 2px;
+}
+
+
+// TODO: add border color classes to MDCP

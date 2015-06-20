@@ -1,7 +1,7 @@
 # [Material Design Iconic Font 2.0.2](http://zavoloklom.github.io/material-design-iconic-font)
 #### Material Design Iconic Font and CSS toolkit
 
-[![Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/images/Material-Design-Iconic-Font.png)](http://zavoloklom.github.io/material-design-iconic-font/)
+[![Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/img/Material-Design-Iconic-Font.png)](http://zavoloklom.github.io/material-design-iconic-font/)
 
 Material Design Iconic Font is a full suite of material design icons (created and maintained by [Google](https://github.com/google/material-design-icons)) for easy scalable vector graphics on websites.
 

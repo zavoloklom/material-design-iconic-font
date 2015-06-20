@@ -2,13 +2,13 @@
 // -------------------------
 
 .#{$md-css-prefix}-border {
-  padding: .2em .25em .15em;
-  border: solid .08em $md-border-color;
-  border-radius: .1em;
+  padding: .1em .25em;
+  border: solid .1em $md-border-color;
+  border-radius: 2px;
 }
 
 .#{$md-css-prefix}-border-circle {
-  padding: .2em .25em .15em;
-  border: solid .08em $md-border-color;
+  padding: .1em .25em;
+  border: solid .1em $md-border-color;
   border-radius: 50%;
 }

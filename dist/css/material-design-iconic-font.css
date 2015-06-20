@@ -15,9 +15,6 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
 }
 .zmd-lg {
   font-size: 1.33333333em;
@@ -59,22 +56,22 @@
   left: -1.85714286em;
 }
 .zmd-border {
-  padding: .2em .25em .15em;
-  border: solid 0.08em #9e9e9e;
-  border-radius: .1em;
+  padding: .1em .25em;
+  border: solid 0.1em #9e9e9e;
+  border-radius: 2px;
 }
 .zmd-border-circle {
-  padding: .2em .25em .15em;
-  border: solid 0.08em #9e9e9e;
+  padding: .1em .25em;
+  border: solid 0.1em #9e9e9e;
   border-radius: 50%;
 }
-.zmd.pull-left {
+.zmdi.pull-left {
   float: left;
-  margin-right: .3em;
+  margin-right: .15em;
 }
-.zmd.pull-right {
+.zmdi.pull-right {
   float: right;
-  margin-left: .3em;
+  margin-left: .15em;
 }
 .zmd-spin {
   -webkit-animation: md-spin 1.5s infinite linear;

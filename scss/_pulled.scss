@@ -1,13 +1,13 @@
 // Pulled icons
 // -------------------------
 
-.#{$md-css-prefix} {
+.#{$md-icon-prefix} {
   &.pull-left {
     float: left;
-    margin-right: .3em;
+    margin-right: .15em;
   }
   &.pull-right {
     float: right;
-    margin-left: .3em;
+    margin-left: .15em;
   }
 }

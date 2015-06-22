@@ -5,14 +5,14 @@
  *  License - http://zavoloklom.github.io/material-design-iconic-font/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 @font-face {
-  font-family: 'Material Design Iconic Font';
+  font-family: 'Material-Design-Iconic-Font';
   src: url('../font/Material-Design-Iconic-Font.woff?v=2.0.0') format('woff'), url('../font/Material-Design-Iconic-Font.ttf?v=2.0.0') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 .zmdi {
   display: inline-block;
-  font: normal normal normal 14px/1 'Material Design Iconic Font';
+  font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -7060,7 +7060,6 @@ pre.code .fnc span {
   padding-bottom: 1px;
   padding-left: 30px;
   font-size: 12px;
-  font-weight: 400;
 }
 .bs-docs-sidebar .nav .nav > li > a:focus,
 .bs-docs-sidebar .nav .nav > li > a:hover {

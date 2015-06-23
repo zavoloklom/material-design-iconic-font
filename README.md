@@ -15,7 +15,7 @@ Get started at [http://zavoloklom.github.io/material-design-iconic-font](http://
 **NPM:**         `npm install material-design-iconic-font`
 
 ## Getting started
-#### BASIC: CSS on [CDNjs](https://github.com/cdnjs/cdnjs)
+#### EASY: CSS on [CDNjs](https://github.com/cdnjs/cdnjs)
 Thanks to the cdnjs.cloudflare.com, you can use CDNjs to add MD Iconic Font into your website without downloading or installing anything!   
 - Paste the following code into the <head> section of your site's HTML.  
 `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.0.2/css/material-design-iconic-font.min.css">`   
@@ -65,17 +65,19 @@ v2.0.2:
 v2.0.1:   
 - remove IE8-9 hooks   
 - fix "!default" to used properly way in sass code   
+[2.0.1 GitHub milestones](https://github.com/zavoloklom/material-design-iconic-font/issues?milestone=2&page=1&state=closed)
 
 v2.0.0:   
-- add new Google icons;   
-- remove duplicated icons to reduce font size;   
-- resort and rename icons for better search (no backward compatibility with old icon names);  
-- no support for IE7-8 (remove eot and svg font files);   
-- change icon-prefix to 'zmdi-' for capability with Angular JS;
-- add 'fixed-width', 'list' and 'stack' classes;  
-- add "!default" to sass variables;   
-- add vars with glyph codes to less/sass;   
-- add nested pseudo classes for less/sass;   
+- add new Google icons   
+- remove duplicated icons to reduce font size   
+- resort and rename icons for better search (no backward compatibility with old icon names)  
+- no support for IE7-8 (remove eot and svg font files)   
+- change icon-prefix to 'zmdi-' for capability with Angular JS   
+- add 'fixed-width', 'list' and 'stack' classes  
+- add "!default" to sass variables   
+- add vars with glyph codes to less/sass   
+- add nested pseudo classes for less/sass   
+[2.0.0 GitHub milestones](https://github.com/zavoloklom/material-design-iconic-font/issues?milestone=3&page=1&state=closed)
 
 ## Versioning
 Material Design Iconic Font will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
@@ -98,4 +100,4 @@ For more information on SemVer, please visit http://semver.org.
 - Dribble: https://dribbble.com/zavoloklom (waiting for invite)
 
 ## Donate
-- You can support me via [Gratipay](http://gratipay.com/zavoloklom/)
+- You can support me via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=s%2ekupletsky%40gmail%2ecom&lc=US&item_name=Material%20Design%20Iconic%20Font&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted), [WebMoney](https://funding.webmoney.ru/material-design-iconic-font/donate) or [Gratipay](http://gratipay.com/zavoloklom/)

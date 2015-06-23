@@ -117,9 +117,9 @@
 <div id="social-buttons" class="hidden-xs">
     <div class="container">
         <ul class="list-inline">
-            <li class="git-tip">
-                <a href="https://gratipay.com/zavoloklom/" target="_blank" class="btn btn-default btn-xs gittip-btn">
-                    Support me on Gratipay
+            <li>
+                <a class="paypal btn btn-default btn-xs" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=s%2ekupletsky%40gmail%2ecom&lc=US&item_name=Material%20Design%20Iconic%20Font&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">
+                    Support me via PayPal
                 </a>
             </li>
             <li>
@@ -2315,15 +2315,11 @@
                     <li><a href="#icons"><i class="zmdi zmd-flag"></i> Icons</a></li>
                 </ul>
                 <a class="back-to-top" href="#top">Back to top</a>
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Affix sidebar -->
                 <ins class="adsbygoogle"
                      style="display:block; max-width: 200px; width:100%; height:200px; padding-top: 24px"
                      data-ad-client="ca-pub-1677266632116401"
                      data-ad-slot="5771234977"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
             </div>
         </div>
 
@@ -2337,20 +2333,27 @@
 <footer class="container">
     <div class="col-md-9 col-xs-12">
         <hr />
-        <span class="text-center"><a href="https://github.com/zavoloklom" target="_blank"><img src="img/doctocat.png"></a></span>
-        <p>
+        <span class="pull-left"><a href="https://github.com/zavoloklom" target="_blank"><img src="img/doctocat.png"></a></span>
+        <p class="mdt-subhead-2"><strong>Donate:</strong> You can support me via <a class="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=s%2ekupletsky%40gmail%2ecom&lc=US&item_name=Material%20Design%20Iconic%20Font&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">PayPal</a>, <a class="webmoney" href="https://funding.webmoney.ru/material-design-iconic-font/donate">WebMoney</a> or <a class="gratipay" href="http://gratipay.com/zavoloklom/" target="_blank">Gratipay</a></p>
+        <p class="mdt-body-1">
             <a href="https://github.com">GitHub</a> is the best way to build and ship software.<br>
             Powerful collaboration, code review, and code management for open source and private projects.
         </p>
     </div>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src='js/main.js'></script>
 
+<!-- Google Adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <!-- Google Analytics -->
-<script src='https://apis.google.com/js/platform.js'></script>
+<script src='//apis.google.com/js/platform.js'></script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -2359,9 +2362,16 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-56068812-1', 'auto');
     ga('send', 'pageview');
+
     // Custom events
-    jQuery('.gittip-btn').on('click', function() {
-        ga('send', 'event', 'button', 'click', 'GitTip');
+    jQuery('.paypal').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'Paypal');
+    });
+    jQuery('.webmoney').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'Webmoney');
+    });
+    jQuery('.gratipay').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'Gratipay');
     });
     jQuery('.download-btn').on('click', function() {
         ga('send', 'event', 'button', 'click', 'Download');

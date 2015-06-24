@@ -99,7 +99,7 @@ For more information on SemVer, please visit http://semver.org.
 - Twitter: https://twitter.com/zavoloklom
 - GitHub: https://github.com/zavoloklom/
 - CodePen: http://codepen.io/zavoloklom/
-- Dribble: https://dribbble.com/zavoloklom (waiting for invite)
+- Dribble: https://dribbble.com/zavoloklom
 
 ## Donate
 - You can support me via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=s%2ekupletsky%40gmail%2ecom&lc=US&item_name=Material%20Design%20Iconic%20Font&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted), [WebMoney](https://funding.webmoney.ru/material-design-iconic-font/donate) or [Gratipay](http://gratipay.com/zavoloklom/)

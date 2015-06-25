@@ -2,6 +2,16 @@
 // --------------------------
 
 $zmdi-font-path:        "../fonts" !default;
+$zmdi-css-prefix:       zmdi-css !default;
+$zmdi-icon-prefix:      zmdi !default;
+$zmdi-version:          "2.1.0" !default;
+
+$zmdi-border-color:     #9E9E9E !default;
+$zmdi-inverse:          #FFFFFF !default;
+$zmdi-li-width:         (30em / 14) !default;
+
+// Legacy code for backward capability with 2.0.x version
+
 $md-font-path:        "../fonts" !default;
 $md-css-prefix:       zmd !default;
 $md-icon-prefix:      zmdi !default;

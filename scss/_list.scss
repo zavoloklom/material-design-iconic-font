@@ -1,21 +1,21 @@
 // List Icons
 // -------------------------
 
-.#{$md-css-prefix}-ul {
+.#{$zmdi-css-prefix}-ul {
   padding-left: 0;
-  margin-left: $md-li-width;
+  margin-left: $zmdi-li-width;
   list-style-type: none;
   > li {
     position: relative;
   }
 }
-.#{$md-css-prefix}-li {
+.#{$zmdi-css-prefix}-li {
   position: absolute;
-  left: -$md-li-width;
-  width: $md-li-width;
+  left: -$zmdi-li-width;
+  width: $zmdi-li-width;
   top: (2em / 14);
   text-align: center;
-  &.#{$md-css-prefix}-lg {
-    left: (-$md-li-width + (4em / 14));
+  &.#{$zmdi-css-prefix}-lg {
+    left: (-$zmdi-li-width + (4em / 14));
   }
 }

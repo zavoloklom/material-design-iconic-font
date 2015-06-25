@@ -11,11 +11,9 @@
 
     <title>Material Design Iconic Font :: Icons</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://zavoloklom.github.io/material-design-iconic-font/stylesheets/bootstrap.docs.min.css">
+    <link rel="stylesheet" href="http://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css">
     <link rel="stylesheet" href="css/material-design-iconic-font.css">
-    <link rel="stylesheet" href="http://zavoloklom.github.io/material-design-iconic-font/stylesheets/styles.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -68,7 +66,7 @@
     <!-- Icon sets -->
     <h2 class="page-header">Icons</h2>
     <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
-        <div class="col-md-3 col-sm-4 col-xs-6" data-name="<%= glyph %>"><p><i class="<%= baseClass %> <%= classPrefix %><%= glyph %> zmd-fw"></i> <%= classPrefix %><%= glyph %></p></div>
+        <div class="col-md-3 col-sm-4 col-xs-6" data-name="<%= glyph %>" data-code="<%= glyphIdx.toString(16) %>"><p><i class="<%= baseClass %> <%= classPrefix %><%= glyph %> zmd-fw"></i> <%= classPrefix %><%= glyph %></p></div>
     <% } %>
     </div>
 <footer class="container">

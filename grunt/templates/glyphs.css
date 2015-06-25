@@ -4,28 +4,58 @@
 
 <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
 <% if (stylesheet === 'less') { %>
-@md-iconset-<%= glyphs[glyphIdx] %>: '\<%= codepoints[glyphIdx] %>';
+@zmdi-var-<%= glyphs[glyphIdx] %>: '\<%= codepoints[glyphIdx] %>';
 <% } %>
 <% if (stylesheet === 'scss') { %>
-$md-iconset-<%= glyphs[glyphIdx] %>: '\<%= codepoints[glyphIdx] %>';
+$zmdi-var-<%= glyphs[glyphIdx] %>: '\<%= codepoints[glyphIdx] %>';
 <%} %>
 <% } %>
 
 <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
 <% if (stylesheet === 'less') { %>
-.@{md-icon-prefix}-<%= glyphs[glyphIdx] %> {
+.@{zmdi-icon-prefix}-<%= glyphs[glyphIdx] %> {
   &:before {
-    content: @md-iconset-<%= glyphs[glyphIdx] %>;
+    content: @zmdi-var-<%= glyphs[glyphIdx] %>;
   }
 }
 <% } %>
 
 <% if (stylesheet === 'scss') { %>
-.#{md-icon-prefix}-<%= glyphs[glyphIdx] %> {
+.#{zmdi-icon-prefix}-<%= glyphs[glyphIdx] %> {
   &:before {
-    content: $md-iconset-<%= glyphs[glyphIdx] %>;
+    content: $zmdi-var-<%= glyphs[glyphIdx] %>;
   }
 }
 <% } %>
 <% } %>
+
+// Legacy code for backward capability with 2.0.x version
+
+<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
+<% if (stylesheet === 'less') { %>
+@md-iconset-<%= glyphs[glyphIdx] %>: '\<%= codepoints[glyphIdx] %>';
+    <% } %>
+<% if (stylesheet === 'scss') { %>
+$md-iconset-<%= glyphs[glyphIdx] %>: '\<%= codepoints[glyphIdx] %>';
+    <%} %>
+<% } %>
+
+<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
+<% if (stylesheet === 'less') { %>
+.@{md-icon-prefix}-<%= glyphs[glyphIdx] %> {
+&:before {
+     content: @md-iconset-<%= glyphs[glyphIdx] %>;
+ }
+}
+<% } %>
+
+<% if (stylesheet === 'scss') { %>
+.#{md-icon-prefix}-<%= glyphs[glyphIdx] %> {
+&:before {
+     content: $md-iconset-<%= glyphs[glyphIdx] %>;
+ }
+}
+<% } %>
+<% } %>
+
 <% } %>

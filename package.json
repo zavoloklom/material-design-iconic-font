@@ -1,7 +1,7 @@
 {
   "name": "material-design-iconic-font",
   "description": "Material Design Iconic Font and CSS toolkit",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "keywords": [
     "material",
     "design",
@@ -17,17 +17,6 @@
   "homepage": "https://zavoloklom.github.io/material-design-iconic-font/",
   "bugs": {
     "url": "https://github.com/zavoloklom/material-design-iconic-font/issues"
-  },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/zavoloklom/material-design-iconic-font.git",
-    "basePath": "",
-    "files": [
-      "dist/css/material-design-iconic-font.css",
-      "dist/css/material-design-iconic-font.min.css",
-      "dist/font/Material-Design-Iconic-Font.ttf",
-      "dist/font/Material-Design-Iconic-Font.woff"
-    ]
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 module.exports = {
     'prod': {
         src: 'svg/prod/*/*.svg',
-        dest: 'dist/font',
+        dest: 'dist/fonts',
         destCss: 'less/temp',
         options: {
             font: 'Material-Design-Iconic-Font',
@@ -20,8 +20,8 @@ module.exports = {
         }
     },
     'dev': {
-        src: 'svg/prod/*/*.svg',
-        dest: 'test/font',
+        src: 'svg/2.1/*/*.svg',
+        dest: 'test/fonts',
         destCss: 'less/temp',
         options: {
             font: 'Material-Design-Iconic-Font',

@@ -43,9 +43,9 @@ $md-iconset-<%= glyphs[glyphIdx] %>: '\<%= codepoints[glyphIdx] %>';
 <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
 <% if (stylesheet === 'less') { %>
 .@{md-icon-prefix}-<%= glyphs[glyphIdx] %> {
-&:before {
-     content: @md-iconset-<%= glyphs[glyphIdx] %>;
- }
+  &:before {
+    content: @md-iconset-<%= glyphs[glyphIdx] %>;
+  }
 }
 <% } %>
 

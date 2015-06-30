@@ -13,7 +13,27 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="triangle-down.svg">
+   sodipodi:docname="caret-up-circle.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="666"
+     inkscape:window-height="480"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="0.49166667"
+     inkscape:cx="337.62712"
+     inkscape:cy="240"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -28,28 +48,9 @@
   </metadata>
   <defs
      id="defs8" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1600"
-     inkscape:window-height="837"
-     id="namedview6"
-     showgrid="false"
-     inkscape:zoom="0.86915209"
-     inkscape:cx="-96.216914"
-     inkscape:cy="107.88437"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
   <path
-     d="M 240,346.6 112.2,142 367.8,142 240,346.6 m 0,75.4 200,-320 -400,0 200,320 z"
+     d="M 240,40 C 129.6,40 40,129.6 40,240 40,350.4 129.6,440 240,440 350.4,440 440,350.4 440,240 440,129.6 350.4,40 240,40 Z m 0,136 100,100 -200,0 z"
      id="path4"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ssssscccc" />
 </svg>

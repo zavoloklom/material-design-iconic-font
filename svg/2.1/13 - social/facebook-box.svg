@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="480"
-   height="480"
-   viewBox="0 0 480 480"
-   id="svg2"
    version="1.1"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="triangle-down.svg">
+   sodipodi:docname="facebook-box.svg">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -22,7 +22,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,15 +40,18 @@
      inkscape:window-height="837"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="0.86915209"
-     inkscape:cx="-96.216914"
-     inkscape:cy="107.88437"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="22.627417"
+     inkscape:cx="12.611632"
+     inkscape:cy="12.146851"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <path
-     d="M 240,346.6 112.2,142 367.8,142 240,346.6 m 0,75.4 200,-320 -400,0 200,320 z"
+     d="m 19,6 0,3 -2,0 c -0.55,0 -1,0.45 -1,1 l 0,2 3,0 0,3 -3,0 0,7 -3,0 0,-7 -2,0 0,-3 2,0 0,-2.5 C 13,7.56 14.57,6 16.5,6 M 2,2 c 0,7.292302 0,13.443862 0,20 6.8748689,0 14.072149,0 20,0 C 22,15.125131 22,7.9278512 22,2 15.125131,2 7.9278512,2 2,2 Z"
      id="path4"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccssccccccccccscccccc" />
 </svg>

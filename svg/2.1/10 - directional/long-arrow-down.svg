@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    version="1.1"
    id="svg2"
-   viewBox="0 0 480 480"
-   height="480"
-   width="480">
+   viewBox="0 0 24 24"
+   height="24"
+   width="24">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -26,5 +26,5 @@
      id="defs8" />
   <path
      id="path4"
-     d="M 340,290 240,190 140,290 Z" />
+     d="M 13,3 13,17.17 16.59,13.59 18,15 12,21 6,15 7.41,13.59 11,17.17 11,3 Z" />
 </svg>

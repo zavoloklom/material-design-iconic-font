@@ -60,10 +60,20 @@ The full details of how Material Design Iconic Font is licensed and 'Thanks to' 
 
 In fact it can work in earlier versions of browsers accordingly to [caniuse.com](http://caniuse.com/) portal (you can check ttf, woff, transform and animation properties), but i can't test it.
 
-## Changelog 
-v2.1.0:
-- 
-[2.0.1 GitHub milestones](https://github.com/zavoloklom/material-design-iconic-font/issues?milestone=4&page=1&state=closed)
+## Changelog   
+v2.1.0:   
+- change base font folder to "fonts"   
+- resort and rename icons for better search   
+- change variables prefix in LESS/SASS from ```md-``` to ```zmdi-```   
+- change helper classes prefix in LESS/SASS from ```zmd-``` to ```zmdi-hc-```   
+- change icons variables prefix in LESS/SASS from ```md-iconset-``` to ```zmdi-var-```   
+- some changes with icons to make them look pixel perfect at 14px lie   
+- add some community icons   
+- add some new icons in directional and social sections   
+[2.1.0 GitHub milestones](https://github.com/zavoloklom/material-design-iconic-font/issues?milestone=4&page=1&state=closed)    
+
+All changes in LESS/SASS/CSS has backward compatibility with 2.0.    
+**If you use font as standalone font - you should update it carefully, because 2.1 ttf file cheat sheet hasn't backward compatibility with 2.0. Sorry for that, but in 2.0 was a bug that I couldn't remove without breaking backward compatibility.**    
 
 v2.0.2:   
 - some minor changes in less/scss/css files for better icons display    

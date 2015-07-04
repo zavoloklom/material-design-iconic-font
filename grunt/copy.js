@@ -5,8 +5,8 @@ module.exports = {
             dot: true,
             filter: 'isFile',
             flatten: true,
-            cwd: 'bower_components/material-design-iconic-font/dist/font/',
-            dest: 'font/',
+            cwd: 'node_modules/material-design-iconic-font/dist/fonts/',
+            dest: 'fonts/',
             src: ['{,*/}*']
         }]
     },

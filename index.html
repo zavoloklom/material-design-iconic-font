@@ -103,13 +103,13 @@
             <h1>Material Design Iconic Font</h1>
             <p>Material Design Iconic Font is a full suite of material design icons (created and maintained by <a href="https://github.com/google/material-design-icons" target="_blank">Google</a>) for easy scalable vector graphics on websites.</p>
             <div class="actions">
-                <a class="btn btn-default btn-lg download-btn" href="https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.0.2/material-design-iconic-font.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
-                    <i class="zmdi zmdi-download zmd-lg"></i>&nbsp;&nbsp;
-                    Download 2.0.2 (ZIP)
+                <a class="btn btn-default btn-lg download-btn" href="https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.1.1/material-design-iconic-font.zip" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+                    <i class="zmdi zmdi-download zmdi-hc-lg"></i>&nbsp;&nbsp;
+                    Download 2.1.1 (ZIP)
                 </a>
             </div>
             <div class="inflated-egos">
-                Version 2.0.2
+                Version 2.1.1
                 &nbsp;&nbsp;
                 <a href="https://github.com/zavoloklom/material-design-iconic-font" target="_blank">GitHub Project</a>
                 &nbsp;&nbsp;
@@ -165,7 +165,7 @@
                         Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
                         <br /><br />
                         <div>
-                            <pre class="code" lang="html"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.0.2/css/material-design-iconic-font.min.css"></pre>
+                            <pre class="code" lang="html"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.1/css/material-design-iconic-font.min.css"></pre>
                         </div>
                         <p class="alert alert-success"><i class="zmdi zmdi-alert-circle"></i> Immediately after release, it takes a bit of time for CDNjs to catch up and get the newest version live on their CDN.</p>
                     </li>
@@ -222,6 +222,23 @@
 
             <section id="changelog">
                 <h2 class="page-header">Changelog</h2>
+                <h3>2.1.1:</h3>
+                <ul class="task-list">
+                    <li>fix bugs in aliases LASS/SASS files</li>
+                </ul>
+                <h3>2.1.0:</h3>
+                <ul class="task-list">
+                    <li>change base font folder to "fonts"</li>
+                    <li>resort and rename icons for better search</li>
+                    <li>change variables prefix in LESS/SASS from <code>md-</code> to <code>zmdi-</code></li>
+                    <li>change helper classes prefix in LESS/SASS from <code>zmd-</code> to <code>zmdi-hc-</code></li>
+                    <li>change icons variables prefix in LESS/SASS from <code>md-iconset-</code> to <code>zmdi-var-</code></li>
+                    <li>some changes with icons to make them look pixel perfect at 14px size</li>
+                    <li>add some community icons</li>
+                    <li>add some new icons in directional and social sections</li>
+                </ul>
+                <p>All changes in LESS/SASS/CSS has backward compatibility with 2.0.</p>
+                <p><strong>If you use font as standalone font - you should update it carefully, because 2.1 ttf file cheat sheet hasn't backward compatibility with 2.0. Sorry for that, but in 2.0 was a bug that I couldn't remove without breaking backward compatibility.</strong></p>
                 <h3>2.0.2:</h3>
                 <ul class="task-list">
                     <li>fix some minor changes in less/scss/css files for better icons display</li>
@@ -251,6 +268,11 @@
                 </ul>
             </section>
 
+            <section id="upgrade">
+                <h2 class="page-header">Upgrade from 1.x</h2>
+                <p>If you want to upgrade from 1.x to 2.x - <a href="/v1" target="_blank">follow this guide</a>!</p>
+            </section>
+
             <section id="license">
                 <h2 class="page-header">License</h2>
                 <p>The full details of how Material Design Iconic Font is licensed and 'Thanks to' section: <a href="license.html">License page</a>.</p>
@@ -261,8 +283,7 @@
                 <ul class="task-list">
                     <li>Email: <a href="mailto:s.kupletsky@gmail.com">s.kupletsky@gmail.com</a>
                     </li>
-                    <li>Website: design4net.ru</li>
-                    <li>Twitter: <a href="https://twitter.com/zavoloklom">https://twitter.com/zavoloklom</a>
+                    <li>Twitter: <a href="https://twitter.com/zavoloklom">https://twitter.com/zavoloklom/</a>
                     </li>
                     <li>GitHub: <a href="https://github.com/zavoloklom/">https://github.com/zavoloklom/</a>
                     </li>
@@ -286,6 +307,7 @@
                     </li>
                     <li><a href="#browser">Browsers support</a></li>
                     <li><a href="#changelog">Changelog</a></li>
+                    <li><a href="#upgrade">Upgrade from 1.x</a></li>
                     <li><a href="#license">License</a></li>
                     <li><a href="#author">Author</a></li>
                 </ul>

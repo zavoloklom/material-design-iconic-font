@@ -11,11 +11,9 @@
 
     <title>Material Design Iconic Font :: Icons</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://zavoloklom.github.io/material-design-iconic-font/stylesheets/bootstrap.docs.min.css">
+    <!-- <link rel="stylesheet" href="http://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css"> -->
     <link rel="stylesheet" href="css/material-design-iconic-font.css">
-    <link rel="stylesheet" href="http://zavoloklom.github.io/material-design-iconic-font/stylesheets/styles.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -64,24 +62,77 @@
     </div>
 </div>
 
-<div class="container" role="main" id="icons">
-    <!-- Icon sets -->
-    <h2 class="page-header">Icons</h2>
-    <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
-        <div class="col-md-3 col-sm-4 col-xs-6" data-name="<%= glyph %>"><p><i class="<%= baseClass %> <%= classPrefix %><%= glyph %> zmd-fw"></i> <%= classPrefix %><%= glyph %></p></div>
-    <% } %>
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-9 col-xs-12" role="main" id="icons">
+            <!-- Icon sets -->
+            <h2 class="page-header">Icons</h2>
+            <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
+            <div class="icon col-sm-4 col-xs-6" data-name="<%= glyph %>" data-code="<%= (61697 + glyphIdx).toString(16) %>"><p><i class="<%= baseClass %> <%= classPrefix %><%= glyph %> zmd-fw"></i> <span><%= glyph %></span></p></div>
+            <% } %>
+        </div>
+
+        <div class="col-md-3 hidden-sm hidden-xs hidden-print">
+            <div data-spy="affix" data-offset-top="450" data-offset-bottom="70" class="bs-docs-sidebar affix-top" role="complementary">
+                <ul class="nav bs-docs-sidenav">
+                    <li><a href="#" id="toggler">Switch to <span>Cheatsheet</span></a></li>
+                    <li><a href="#icons"><i class="zmdi zmd-flag"></i> Icons</a></li>
+                </ul>
+                <a class="back-to-top" href="#top">Back to top</a>
+            </div>
+        </div>
+
     </div>
+</div>
+
 <footer class="container">
-    <hr />
-    <span class="text-center"><a href="https://github.com/zavoloklom" target="_blank"><img src="http://zavoloklom.github.io/material-design-iconic-font/images/doctocat.png"></a></span>
-    <p>
-        <a href="https://github.com">GitHub</a> is the best way to build and ship software.<br>
-        Powerful collaboration, code review, and code management for open source and private projects.
-    </p>
+    <div class="col-md-9 col-xs-12">
+        <hr>
+        <span class="pull-left"><a href="https://github.com/zavoloklom" target="_blank"><img src="http://zavoloklom.github.io/material-design-iconic-font/img/doctocat.png"></a></span>
+        <p class="mdt-subhead-2"><strong>Donate:</strong> You can support me via <a class="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=s%2ekupletsky%40gmail%2ecom&amp;lc=US&amp;item_name=Material%20Design%20Iconic%20Font&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">PayPal</a>, <a class="webmoney" href="https://funding.webmoney.ru/material-design-iconic-font/donate">WebMoney</a> or <a class="gratipay" href="http://gratipay.com/zavoloklom/" target="_blank">Gratipay</a></p>
+        <p class="mdt-body-1">
+            <a href="https://github.com">GitHub</a> is the best way to build and ship software.<br>
+            Powerful collaboration, code review, and code management for open source and private projects.
+        </p>
+    </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="http://zavoloklom.github.io/material-design-iconic-font/js/main.js"></script>
+<script>
+    var cheatSheet = false;
+    var containers = jQuery('.icon');
+    jQuery('#toggler').on('click', function(e){
+        e.preventDefault();
+        if (cheatSheet) {
+            jQuery('#toggler').find('span').html('Cheatsheet');
+            containers.each(function(){
+                var code = jQuery(this).data('code');
+                var name = jQuery(this).data('name');
+                var icon = jQuery(this).find('i');
+                var span = jQuery(this).find('span');
+                icon.addClass('zmdi-'+name);
+                icon.html('');
+                span.html(name);
+            });
+            cheatSheet = false;
+        } else {
+            jQuery('#toggler').find('span').html('Icons');
+            containers.each(function(){
+                var code = jQuery(this).data('code');
+                var name = jQuery(this).data('name');
+                var icon = jQuery(this).find('i');
+                var span = jQuery(this).find('span');
+                icon.removeClass('zmdi-'+name);
+                icon.html('&#x'+code);
+                span.html(name + ' ' + '[&amp#x'+code+';]');
+            });
+            cheatSheet = true;
+        }
+    });
+</script>
 
 </body>
 </html>

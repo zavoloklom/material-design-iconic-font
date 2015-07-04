@@ -32,9 +32,7 @@ sudo npm install -g grunt
 sudo npm install -g grunt-cli
 
 cd
-cd ..
-cd ..
-cd vagrant/
+cd ../../vagrant/
 
 sudo npm install
 grunt font-dev

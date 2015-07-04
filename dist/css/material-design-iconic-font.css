@@ -16,51 +16,51 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.zmdi-css-lg {
+.zmdi-hc-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
-.zmdi-css-2x {
+.zmdi-hc-2x {
   font-size: 2em;
 }
-.zmdi-css-3x {
+.zmdi-hc-3x {
   font-size: 3em;
 }
-.zmdi-css-4x {
+.zmdi-hc-4x {
   font-size: 4em;
 }
-.zmdi-css-5x {
+.zmdi-hc-5x {
   font-size: 5em;
 }
-.zmdi-css-fw {
+.zmdi-hc-fw {
   width: 1.28571429em;
   text-align: center;
 }
-.zmdi-css-ul {
+.zmdi-hc-ul {
   padding-left: 0;
   margin-left: 2.14285714em;
   list-style-type: none;
 }
-.zmdi-css-ul > li {
+.zmdi-hc-ul > li {
   position: relative;
 }
-.zmdi-css-li {
+.zmdi-hc-li {
   position: absolute;
   left: -2.14285714em;
   width: 2.14285714em;
   top: 0.14285714em;
   text-align: center;
 }
-.zmdi-css-li.zmdi-css-lg {
+.zmdi-hc-li.zmdi-hc-lg {
   left: -1.85714286em;
 }
-.zmdi-css-border {
+.zmdi-hc-border {
   padding: .1em .25em;
   border: solid 0.1em #9e9e9e;
   border-radius: 2px;
 }
-.zmdi-css-border-circle {
+.zmdi-hc-border-circle {
   padding: .1em .25em;
   border: solid 0.1em #9e9e9e;
   border-radius: 50%;
@@ -73,11 +73,11 @@
   float: right;
   margin-left: .15em;
 }
-.zmdi-css-spin {
+.zmdi-hc-spin {
   -webkit-animation: zmdi-spin 1.5s infinite linear;
           animation: zmdi-spin 1.5s infinite linear;
 }
-.zmdi-css-spin-reverse {
+.zmdi-hc-spin-reverse {
   -webkit-animation: zmdi-spin-reverse 1.5s infinite linear;
           animation: zmdi-spin-reverse 1.5s infinite linear;
 }
@@ -121,32 +121,32 @@
             transform: rotate(-359deg);
   }
 }
-.zmdi-css-rotate-90 {
+.zmdi-hc-rotate-90 {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
-.zmdi-css-rotate-180 {
+.zmdi-hc-rotate-180 {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-.zmdi-css-rotate-270 {
+.zmdi-hc-rotate-270 {
   -webkit-transform: rotate(270deg);
       -ms-transform: rotate(270deg);
           transform: rotate(270deg);
 }
-.zmdi-css-flip-horizontal {
+.zmdi-hc-flip-horizontal {
   -webkit-transform: scale(-1, 1);
       -ms-transform: scale(-1, 1);
           transform: scale(-1, 1);
 }
-.zmdi-css-flip-vertical {
+.zmdi-hc-flip-vertical {
   -webkit-transform: scale(1, -1);
       -ms-transform: scale(1, -1);
           transform: scale(1, -1);
 }
-.zmdi-css-stack {
+.zmdi-hc-stack {
   position: relative;
   display: inline-block;
   width: 2em;
@@ -154,20 +154,20 @@
   line-height: 2em;
   vertical-align: middle;
 }
-.zmdi-css-stack-1x,
-.zmdi-css-stack-2x {
+.zmdi-hc-stack-1x,
+.zmdi-hc-stack-2x {
   position: absolute;
   left: 0;
   width: 100%;
   text-align: center;
 }
-.zmdi-css-stack-1x {
+.zmdi-hc-stack-1x {
   line-height: inherit;
 }
-.zmdi-css-stack-2x {
+.zmdi-hc-stack-2x {
   font-size: 2em;
 }
-.zmdi-css-inverse {
+.zmdi-hc-inverse {
   color: #ffffff;
 }
 /* Material Design Iconic Font uses the Unicode Private Use Area (PUA) to ensure screen

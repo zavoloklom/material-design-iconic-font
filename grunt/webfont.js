@@ -1,6 +1,6 @@
 module.exports = {
     'prod': {
-        src: 'svg/prod/*/*.svg',
+        src: 'svg/2.1/*/*.svg',
         dest: 'dist/fonts',
         destCss: 'less/temp',
         options: {

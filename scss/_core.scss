@@ -3,7 +3,7 @@
 
 .#{$zmdi-icon-prefix} {
   display: inline-block;
-  font: normal normal normal 14px/1 'Material Design Iconic Font';
+  font: normal normal normal 14px/1 '#{$zmdi-font-name}';
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;

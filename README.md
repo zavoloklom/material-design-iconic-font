@@ -1,4 +1,4 @@
-# [Material Design Iconic Font 2.1.0](http://zavoloklom.github.io/material-design-iconic-font)
+# [Material Design Iconic Font 2.1.1](http://zavoloklom.github.io/material-design-iconic-font)
 #### Material Design Iconic Font and CSS toolkit
 
 [![Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/img/Material-Design-Iconic-Font.png)](http://zavoloklom.github.io/material-design-iconic-font/)
@@ -12,7 +12,7 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 **Upgrading** from 1.x to 2.x at old docs [http://zavoloklom.github.io/material-design-iconic-font/v1/](http://zavoloklom.github.io/material-design-iconic-font/v1/)
 
 ## Install
-**Download:**    [2.1.0 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.1.0/material-design-iconic-font.zip)   
+**Download:**    [2.1.1 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.1.1/material-design-iconic-font.zip)   
 **Bower:**       `bower install material-design-iconic-font`   
 **NPM:**         `npm install material-design-iconic-font`
 
@@ -20,7 +20,7 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 #### EASY: CSS on [CDNjs](https://github.com/cdnjs/cdnjs)
 Thanks to the cdnjs.cloudflare.com, you can use CDNjs to add MD Iconic Font into your website without downloading or installing anything!   
 - Paste the following code into the <head> section of your site's HTML.  
-`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.0/css/material-design-iconic-font.min.css">`   
+`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.1/css/material-design-iconic-font.min.css">`   
 - Check out the [Examples pages](http://zavoloklom.github.io/material-design-iconic-font/examples.html) to start using Material Design Iconic Font!   
 
 #### BASIC: Default CSS
@@ -61,6 +61,9 @@ The full details of how Material Design Iconic Font is licensed and 'Thanks to' 
 In fact it can work in earlier versions of browsers accordingly to [caniuse.com](http://caniuse.com/) portal (you can check ttf, woff, transform and animation properties), but i can't test it.
 
 ## Changelog   
+v2.1.1:   
+- fix bugs in aliases LASS/SASS files   
+
 v2.1.0:   
 - change base font folder to "fonts"   
 - resort and rename icons for better search   

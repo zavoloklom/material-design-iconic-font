@@ -170,97 +170,97 @@
     content: $zmdi-var-smartphone;
   }
 }
-#{$zmdi-icon-prefix}-live-tv {
+.#{$zmdi-icon-prefix}-live-tv {
   &:before {
     content: $zmdi-var-tv-alt-play;
   }
 }
-#{$zmdi-icon-prefix}-format-textdirection-l-to-r {
+.#{$zmdi-icon-prefix}-format-textdirection-l-to-r {
   &:before {
     content: $zmdi-var-format-ltr;
   }
 }
-#{$zmdi-icon-prefix}-format-textdirection-r-to-l {
+.#{$zmdi-icon-prefix}-format-textdirection-r-to-l {
   &:before {
     content: $zmdi-var-format-rtl;
   }
 }
-#{$zmdi-icon-prefix}-arrow-back {
+.#{$zmdi-icon-prefix}-arrow-back {
   &:before {
     content: $zmdi-var-arrow-left;
   }
 }
-#{$zmdi-icon-prefix}-arrow-forward {
+.#{$zmdi-icon-prefix}-arrow-forward {
   &:before {
     content: $zmdi-var-arrow-right;
   }
 }
-#{$zmdi-icon-prefix}-arrow-in {
+.#{$zmdi-icon-prefix}-arrow-in {
   &:before {
     content: $zmdi-var-arrow-left-bottom;
   }
 }
-#{$zmdi-icon-prefix}-arrow-out {
+.#{$zmdi-icon-prefix}-arrow-out {
   &:before {
     content: $zmdi-var-arrow-right-top;
   }
 }
-#{$zmdi-icon-prefix}-rotate-90-degrees-ccw {
+.#{$zmdi-icon-prefix}-rotate-90-degrees-ccw {
   &:before {
     content: $zmdi-var-rotate-ccw;
   }
 }
-#{$zmdi-icon-prefix}-adb {
+.#{$zmdi-icon-prefix}-adb {
   &:before {
     content: $zmdi-var-android-alt;
   }
 }
-#{$zmdi-icon-prefix}-network-wifi {
+.#{$zmdi-icon-prefix}-network-wifi {
   &:before {
     content: $zmdi-var-wifi;
   }
 }
-#{$zmdi-icon-prefix}-network-wifi-alt {
+.#{$zmdi-icon-prefix}-network-wifi-alt {
   &:before {
     content: $zmdi-var-wifi-alt;
   }
 }
-#{$zmdi-icon-prefix}-network-wifi-lock {
+.#{$zmdi-icon-prefix}-network-wifi-lock {
   &:before {
     content: $zmdi-var-wifi-lock;
   }
 }
-#{$zmdi-icon-prefix}-network-wifi-off {
+.#{$zmdi-icon-prefix}-network-wifi-off {
   &:before {
     content: $zmdi-var-wifi-off;
   }
 }
-#{$zmdi-icon-prefix}-network-wifi-outline {
+.#{$zmdi-icon-prefix}-network-wifi-outline {
   &:before {
     content: $zmdi-var-wifi-outline;
   }
 }
-#{$zmdi-icon-prefix}-network-wifi-info {
+.#{$zmdi-icon-prefix}-network-wifi-info {
   &:before {
     content: $zmdi-var-wifi-info;
   }
 }
-#{$zmdi-icon-prefix}-layers-clear {
+.#{$zmdi-icon-prefix}-layers-clear {
   &:before {
     content: $zmdi-var-layers-off;
   }
 }
-#{$zmdi-icon-prefix}-colorize {
+.#{$zmdi-icon-prefix}-colorize {
   &:before {
     content: $zmdi-var-eyedropper;
   }
 }
-#{$zmdi-icon-prefix}-format-paint {
+.#{$zmdi-icon-prefix}-format-paint {
   &:before {
     content: $zmdi-var-roller;
   }
 }
-#{$zmdi-icon-prefix}-format-quote {
+.#{$zmdi-icon-prefix}-format-quote {
   &:before {
     content: $zmdi-var-quote;
   }
@@ -305,6 +305,11 @@
     content: $zmdi-var-sort-amount-desc;
   }
 }
+.#{$zmdi-icon-prefix}-pages {
+  &:before {
+    content: $zmdi-var-google-pages;
+  }
+}
 
 // Alias for better searchable on page
 // -----------------------------------
@@ -318,12 +323,12 @@
     content: $zmdi-var-assignment-o;
   }
 }
-#{$zmdi-icon-prefix}-cut {
+.#{$zmdi-icon-prefix}-cut {
   &:before {
     content: $zmdi-var-scissors;
   }
 }
-#{$zmdi-icon-prefix}-save {
+.#{$zmdi-icon-prefix}-save {
   &:before {
     content: $zmdi-var-floppy;
   }

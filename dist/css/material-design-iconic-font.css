@@ -4738,61 +4738,61 @@
 .zmdi-smartphone-portrait:before {
   content: '\f2d4';
 }
-zmdi-live-tv:before {
+.zmdi-live-tv:before {
   content: '\f2d9';
 }
-zmdi-format-textdirection-l-to-r:before {
+.zmdi-format-textdirection-l-to-r:before {
   content: '\f249';
 }
-zmdi-format-textdirection-r-to-l:before {
+.zmdi-format-textdirection-r-to-l:before {
   content: '\f24a';
 }
-zmdi-arrow-back:before {
+.zmdi-arrow-back:before {
   content: '\f2ea';
 }
-zmdi-arrow-forward:before {
+.zmdi-arrow-forward:before {
   content: '\f2ee';
 }
-zmdi-arrow-in:before {
+.zmdi-arrow-in:before {
   content: '\f2e9';
 }
-zmdi-arrow-out:before {
+.zmdi-arrow-out:before {
   content: '\f2ed';
 }
-zmdi-rotate-90-degrees-ccw:before {
+.zmdi-rotate-90-degrees-ccw:before {
   content: '\f304';
 }
-zmdi-adb:before {
+.zmdi-adb:before {
   content: '\f33a';
 }
-zmdi-network-wifi:before {
+.zmdi-network-wifi:before {
   content: '\f2e8';
 }
-zmdi-network-wifi-alt:before {
+.zmdi-network-wifi-alt:before {
   content: '\f2e3';
 }
-zmdi-network-wifi-lock:before {
+.zmdi-network-wifi-lock:before {
   content: '\f2e5';
 }
-zmdi-network-wifi-off:before {
+.zmdi-network-wifi-off:before {
   content: '\f2e6';
 }
-zmdi-network-wifi-outline:before {
+.zmdi-network-wifi-outline:before {
   content: '\f2e7';
 }
-zmdi-network-wifi-info:before {
+.zmdi-network-wifi-info:before {
   content: '\f2e4';
 }
-zmdi-layers-clear:before {
+.zmdi-layers-clear:before {
   content: '\f18b';
 }
-zmdi-colorize:before {
+.zmdi-colorize:before {
   content: '\f15d';
 }
-zmdi-format-paint:before {
+.zmdi-format-paint:before {
   content: '\f1ba';
 }
-zmdi-format-quote:before {
+.zmdi-format-quote:before {
   content: '\f1b2';
 }
 .zmdi-camera-monochrome-photos:before {
@@ -4819,16 +4819,19 @@ zmdi-format-quote:before {
 .zmdi-sort:before {
   content: '\f1ce';
 }
+.zmdi-pages:before {
+  content: '\f34a';
+}
 .zmdi-calendar-account:before {
   content: '\f204';
 }
 .zmdi-paste:before {
   content: '\f109';
 }
-zmdi-cut:before {
+.zmdi-cut:before {
   content: '\f1bc';
 }
-zmdi-save:before {
+.zmdi-save:before {
   content: '\f297';
 }
 .zmdi-smartphone-code:before {

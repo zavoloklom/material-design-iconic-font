@@ -266,6 +266,134 @@
   }
 }
 
+/* modal */
+//
+// Modals
+// --------------------------------------------------
+
+.shadow-z-5 {
+  -webkit-box-shadow: 0 19px 38px rgba(0,0,0,.30),
+  0 15px 12px rgba(0,0,0,.22);
+  -moz-box-shadow:    0 19px 38px rgba(0,0,0,.30),
+  0 15px 12px rgba(0,0,0,.22);
+  box-shadow:         0 19px 38px rgba(0,0,0,.30),
+  0 15px 12px rgba(0,0,0,.22);
+}
+
+// .modal-open      - body class for killing the scroll
+// .modal           - container to scroll within
+// .modal-dialog    - positioning shell for the actual modal
+// .modal-content   - actual modal w/ bg and corners and shit
+
+// To fix right padding on pages with scroll and fixed application bar
+.modal-open {
+  padding-right: 0;
+
+  .modal {
+    overflow: hidden;
+  }
+}
+
+// Shell div to position the modal with bottom padding
+.modal-dialog {
+  position: relative;
+  width: auto;
+  height: 100%;
+  margin: 48px;
+}
+
+// Actual modal
+.modal-content {
+  max-height: ~"calc(100% - 96px)";
+  overflow-y: auto;
+  padding: 8px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  .shadow-z-5();
+}
+
+// Modal background
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  // Fade for backdrop
+  &.in { opacity: .5; }
+}
+
+// Modal header
+// Top section of the modal w/ title and dismiss
+.modal-header {
+  padding: 16px;
+  padding-bottom: 0;
+  border: 0;
+  min-height: inherit;
+}
+// Close icon
+.modal-header .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+  padding: 0;
+
+  height: 56px;
+  width: 56px;
+  min-width: 56px;
+  font-size: 24px;
+  line-height: 56px;
+}
+
+// Title text within header
+.modal-title {
+  .mdt-title();
+  margin: 0;
+}
+
+// Modal body
+// Where all modal content resides (sibling of .modal-header and .modal-footer)
+.modal-body {
+  //.font-variant(subhead-1);
+  color: @mdc-black-darker;
+  padding: 16px;
+}
+
+// Footer (for actions)
+.modal-footer {
+  height: 48px;
+  padding: 8px 16px;
+  text-align: right; // right align buttons
+  border: 0;
+}
+
+// Fixed positions
+// TODO: fixed bottom
+
+
+// Scale up the modal
+@media (min-width: 768px) {
+  // Automatically set modal's width for larger viewports
+  .modal-dialog {
+    width: 600px;
+    margin: 48px auto;
+  }
+  .modal-content {
+    .shadow-z-5();
+  }
+
+  // Modal sizes
+  .modal-sm { width: 300px; }
+}
+
+@media (min-width: 992px) {
+  .modal-lg { width: 900px; }
+}
+
+
 
 /* footer */
 footer {
@@ -274,6 +402,26 @@ footer {
 
   p {
     .mdt-subhead-1();
+  }
+}
+
+/* icons page */
+.icon a {
+  display: block;
+  color: @mdc-black-darker;
+  padding: 8px;
+  line-height: 32px;
+  transition: all .3s ease;
+  border-radius: 2px;
+
+  &:hover,&:focus {
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: @mdc-light-blue-500;
+    color: @mdc-white-darker;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
   }
 }
 

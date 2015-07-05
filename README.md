@@ -17,7 +17,7 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 **NPM:**         `npm install material-design-iconic-font`
 
 ## Getting started
-#### EASY: CSS on [CDNjs](https://github.com/cdnjs/cdnjs)
+#### EASY: CSS on [CDNjs](https://cdnjs.com/libraries/material-design-iconic-font)
 Thanks to the cdnjs.cloudflare.com, you can use CDNjs to add MD Iconic Font into your website without downloading or installing anything!   
 - Paste the following code into the <head> section of your site's HTML.  
 `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.1/css/material-design-iconic-font.min.css">`   

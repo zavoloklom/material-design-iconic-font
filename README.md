@@ -11,6 +11,8 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 
 **Upgrading** from 1.x to 2.x at old docs [http://zavoloklom.github.io/material-design-iconic-font/v1/](http://zavoloklom.github.io/material-design-iconic-font/v1/)
 
+**Issue with cheatsheet**: If you think icons do not match the cheatsheet page, please read [issue 47](https://github.com/zavoloklom/material-design-iconic-font/issues/47).
+
 ## Install
 **Download:**    [2.1.1 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.1.1/material-design-iconic-font.zip)   
 **Bower:**       `bower install material-design-iconic-font`   

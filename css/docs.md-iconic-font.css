@@ -9533,6 +9533,12 @@ pre.code .fnc span {
   border-color: #eeeeee;
   background-color: transparent;
 }
+@media (max-width: 768px) {
+  .jumbotron .btn-lg {
+    display: block;
+    width: 100%;
+  }
+}
 .jumbotron .btn-lg:hover {
   background-color: #eeeeee;
   border-color: #f5f5f5;
@@ -9615,6 +9621,14 @@ pre.code .fnc span {
   .navbar-nav > li > a {
     border-radius: 2px;
   }
+}
+.navbar-toggle {
+  padding: 8px;
+  margin: 6px 16px;
+  margin-left: 0;
+  border: 0;
+  border-radius: 2px;
+  font-size: 22px;
 }
 /* dropdown */
 .dropdown {

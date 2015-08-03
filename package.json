@@ -1,7 +1,7 @@
 {
   "name": "material-design-iconic-font-docs",
   "description": "Material Design Iconic Font Docs",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "keywords": [
     "material",
     "design",
@@ -40,5 +40,7 @@
     "load-grunt-config": "^0.17.1",
     "time-grunt": "^1.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "material-design-iconic-font": "^2.1.1"
+  }
 }

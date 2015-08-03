@@ -6,7 +6,7 @@
  */
 @font-face {
   font-family: 'Material-Design-Iconic-Font';
-  src: url('../fonts/Material-Design-Iconic-Font.woff?v=2.1.0') format('woff'), url('../fonts/Material-Design-Iconic-Font.ttf?v=2.1.0') format('truetype');
+  src: url('../fonts/Material-Design-Iconic-Font.woff2?v=2.1.0') format('woff2'), url('../fonts/Material-Design-Iconic-Font.woff?v=2.1.0') format('woff'), url('../fonts/Material-Design-Iconic-Font.ttf?v=2.1.0') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -9918,44 +9918,4 @@ footer p-inverse {
   background-color: #03a9f4;
   color: #ffffff;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
-}
-.page-header {
-  padding-top: 30px;
-  margin-bottom: 30px;
-}
-b,
-strong {
-  font-weight: 500;
-}
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
-}
-code,
-kbd,
-pre,
-samp {
-  font-family: 'Roboto Mono', Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #d50000;
-  background-color: #eeeeee;
-  border-radius: 2px;
-}
-pre {
-  display: block;
-  padding: 8px;
-  margin: 0 0 8px;
-  font-size: 12px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.87);
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f5f5f5;
-  border: 1px solid #eeeeee;
-  border-radius: 2px;
 }

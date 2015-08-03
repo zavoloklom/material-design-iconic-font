@@ -1,4 +1,4 @@
-# [Material Design Iconic Font 2.1.1](http://zavoloklom.github.io/material-design-iconic-font)
+# [Material Design Iconic Font 2.1.2](http://zavoloklom.github.io/material-design-iconic-font)
 #### Material Design Iconic Font and CSS toolkit
 
 [![Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/img/Material-Design-Iconic-Font.png)](http://zavoloklom.github.io/material-design-iconic-font/)
@@ -14,7 +14,7 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 **Issue with cheatsheet**: If you think icons do not match the cheatsheet page, please read [issue 47](https://github.com/zavoloklom/material-design-iconic-font/issues/47).
 
 ## Install
-**Download:**    [2.1.1 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.1.1/material-design-iconic-font.zip)   
+**Download:**    [2.1.2 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.1.2/material-design-iconic-font.zip)   
 **Bower:**       `bower install material-design-iconic-font`   
 **NPM:**         `npm install material-design-iconic-font`
 
@@ -22,7 +22,7 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 #### EASY: CSS on [CDNjs](https://cdnjs.com/libraries/material-design-iconic-font)
 Thanks to the cdnjs.cloudflare.com, you can use CDNjs to add MD Iconic Font into your website without downloading or installing anything!   
 - Paste the following code into the <head> section of your site's HTML.  
-`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.1/css/material-design-iconic-font.min.css">`   
+`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">`   
 - Check out the [Examples pages](http://zavoloklom.github.io/material-design-iconic-font/examples.html) to start using Material Design Iconic Font!   
 
 #### BASIC: Default CSS
@@ -63,6 +63,12 @@ The full details of how Material Design Iconic Font is licensed and 'Thanks to' 
 In fact it can work in earlier versions of browsers accordingly to [caniuse.com](http://caniuse.com/) portal (you can check ttf, woff, transform and animation properties), but i can't test it.
 
 ## Changelog   
+v2.1.2:   
+- add WOFF2 support    
+- remove 2.0 SVG icons files
+- add EOT and SVG font files (not included in css)   
+[2.1.2 GitHub milestones](https://github.com/zavoloklom/material-design-iconic-font/issues?milestone=6&page=1&state=closed)    
+
 v2.1.1:   
 - fix bugs in aliases LASS/SASS files   
 

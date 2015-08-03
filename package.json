@@ -41,6 +41,6 @@
     "time-grunt": "^1.2.1"
   },
   "dependencies": {
-    "material-design-iconic-font": "^2.1.1"
+    "material-design-iconic-font": "^2.1.2"
   }
 }

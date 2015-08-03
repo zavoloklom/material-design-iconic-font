@@ -73,5 +73,6 @@ node_modules/
 .vagrant/
 
 ### Test files
+less/temp/
 test/
 dist/Material-Design-Iconic-Font.html

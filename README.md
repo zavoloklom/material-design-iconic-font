@@ -1,7 +1,17 @@
 # [Material Design Iconic Font 2.1.2](http://zavoloklom.github.io/material-design-iconic-font)
-#### Material Design Iconic Font and CSS toolkit
+
+[![Latest Version](https://img.shields.io/github/release/zavoloklom/material-design-iconic-font.svg?style=flat-square&label=latest version)](https://github.com/zavoloklom/material-design-iconic-font/tags)
+[![Software License](https://img.shields.io/badge/license-MIT License/SIL OFL 1.1-blue.svg?style=flat-square)](LICENSE)
+[![Total Downloads](https://img.shields.io/github/downloads/zavoloklom/material-design-iconic-font/latest/total.svg)](https://github.com/zavoloklom/material-design-iconic-font/tags)
+
+[![NPM](https://img.shields.io/npm/v/material-design-iconic-font.svg?style=flat-square)](https://www.npmjs.com/package/material-design-iconic-font)
+[![Dependency](https://img.shields.io/david/zavoloklom/material-design-iconic-font.svg?style=flat-square)](https://david-dm.org/zavoloklom/material-design-iconic-font)
+[![DevDependency](https://img.shields.io/david/dev/zavoloklom/material-design-iconic-font.svg?style=flat-square)](https://david-dm.org/zavoloklom/material-design-iconic-font#info=devDependencies)
+[![Last Month Downloads](https://img.shields.io/npm/dm/material-design-iconic-font.svg?style=flat-square)](https://www.npmjs.com/package/material-design-iconic-font)
 
 [![Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/img/Material-Design-Iconic-Font.png)](http://zavoloklom.github.io/material-design-iconic-font/)
+
+#### Material Design Iconic Font and CSS toolkit
 
 Material Design Iconic Font is a full suite of material design icons (created and maintained by [Google](https://github.com/google/material-design-icons)) for easy scalable vector graphics on websites.
 

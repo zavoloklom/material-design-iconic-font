@@ -13,7 +13,7 @@
 
 #### Material Design Iconic Font and CSS toolkit
 
-Material Design Iconic Font is a full suite of official material design icons (created and maintained by [Google](https://github.com/google/material-design-icons)) and community icons for easy scalable vector graphics on websites or desktop.
+Material Design Iconic Font includes a subset of the official material design icons (created and maintained by [Google](https://github.com/google/material-design-icons)), with additional [community-designed icons](https://github.com/zavoloklom/material-design-iconic-font/tree/master/svg/community), for easy scalable vector graphics on websites or desktop.
 
 Material Design Icons are the official open-source [icons](http://www.google.com/design/spec/resources/sticker-sheets.html#sticker-sheets-components) featured in the Google [Material Design](http://www.google.com/design/spec) specification.
 

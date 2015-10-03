@@ -1,18 +1,11 @@
 // Core Class Definition
 // -------------------------
-[class^="#{$md-css-prefix}-"], [class*=" #{$md-css-prefix}-"] {
-  display: inline-block;
-  font: normal normal normal 14px/1 'Material Design Iconic Font';
-  font-size: inherit;
-  speak: none;
-  text-rendering: auto;
 
-  // Better Font Rendering
+.#{$zmdi-icon-prefix} {
+  display: inline-block;
+  font: normal normal normal 14px/1 '#{$zmdi-font-name}';
+  font-size: inherit;
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.#{$md-css-prefix} {
-  line-height: inherit;
-  vertical-align: bottom;
 }

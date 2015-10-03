@@ -50,3 +50,29 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+### Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~
+
+### Bower modules
+bower_components/
+
+### Node modules
+node_modules/
+
+### Vagrant files
+.vagrant/
+
+### Test files
+less/temp/
+test/
+dist/Material-Design-Iconic-Font.html

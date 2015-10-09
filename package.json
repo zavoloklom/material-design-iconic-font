@@ -40,6 +40,9 @@
     "material-design-icons": "^2.0.0",
     "time-grunt": "^1.2.1"
   },
+  "files": [
+    "svg", "scss", "dist"
+  ],
   "dependencies": {},
   "jspm": {
     "files": [

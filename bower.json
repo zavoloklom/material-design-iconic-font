@@ -28,8 +28,8 @@
   "homepage": "http://zavoloklom.github.io/material-design-iconic-font/",
   "dependencies": {},
   "devDependencies": {
-    "material-design-color-palette": "~1.0.1",
-    "material-design-typography": "~0.1.0",
+    "material-design-color-palette": "~1.1.0",
+    "material-design-typography": "~0.3.1",
     "animate.css": "~3.3.0",
     "jquery.highlight": "*"
   }

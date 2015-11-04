@@ -9,5 +9,7 @@ prod:
     - 'less'
     - 'copy:font'
     - 'copy:animatecss'
+    - 'copy:jssocial-css'
+    - 'copy:jssocial-js'
     - 'copy:highlight'
     - 'pleeease'

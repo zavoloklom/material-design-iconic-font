@@ -1,5 +1,5 @@
 module.exports = {
-    font: {
+    "font": {
         files: [{
             expand: true,
             dot: true,
@@ -10,7 +10,7 @@ module.exports = {
             src: ['{,*/}*']
         }]
     },
-    animatecss: {
+    "animatecss": {
         files: [{
             expand: true,
             dot: true,
@@ -20,7 +20,27 @@ module.exports = {
             dest: 'css/'
         }]
     },
-    highlight: {
+    "jssocial-css": {
+        files: [{
+            expand: true,
+            dot: true,
+            filter: 'isFile',
+            flatten: true,
+            src: 'bower_components/jssocials/dist/jssocials.css',
+            dest: 'css/'
+        }]
+    },
+    "jssocial-js": {
+        files: [{
+            expand: true,
+            dot: true,
+            filter: 'isFile',
+            flatten: true,
+            src: 'bower_components/jssocials/dist/jssocials.min.js',
+            dest: 'js/'
+        }]
+    },
+    "highlight": {
         files: [{
             expand: true,
             dot: true,

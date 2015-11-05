@@ -9684,8 +9684,9 @@ pre.code .fnc span {
 }
 .jssocials-share {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   margin: 4px;
+  border-radius: 2px;
 }
 .jssocials-share:first-child {
   margin-left: 0;
@@ -9695,12 +9696,12 @@ pre.code .fnc span {
 }
 .jssocials-share-link {
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
   text-decoration: none;
 }
 .jssocials-share-label {
   padding-left: 8px;
-  vertical-align: middle;
 }
 .jssocials-share-count-box {
   display: inline-block;
@@ -9710,9 +9711,6 @@ pre.code .fnc span {
 }
 .jssocials-share-count-box.jssocials-share-no-count {
   display: none;
-}
-.jssocials-share-count {
-  vertical-align: middle;
 }
 .jssocials-share {
   -webkit-transition: box-shadow 0.2s ease-in-out;

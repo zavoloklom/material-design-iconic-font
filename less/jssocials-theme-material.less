@@ -1,3 +1,4 @@
+// Colors
 .jssocials-share-twitter .jssocials-share-link {
   background: #00aced;
   &:hover {
@@ -49,6 +50,7 @@
   }
 }
 
+// Main styles
 .jssocials-shares {
   margin: 4px 0;
   * {
@@ -66,38 +68,62 @@
     margin-right: 0;
   }
 }
-
 .jssocials-share-link {
-  padding: 8px;
-  border-radius: 2px 0 0 2px;
-  color: #fff;
-  transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
-  &:hover, &:focus, &:active {
-    color: #fff;
-  }
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
-.jssocials-share-logo {
-  width: inherit;
-  vertical-align: inherit;
-  font-size: inherit;
+.jssocials-share-label {
+  padding-left: 8px;
+  vertical-align: middle;
 }
 
 .jssocials-share-count-box {
-  position: relative;
-  height: auto;
-  padding: 8px;
-  border-radius: 0 2px 2px 0;
-  margin: 0;
-  color: #444;
-  background: #f5f5f5;
-  transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
-  &:hover {
-    background: #ebebeb;
+  display: inline-block;
+  padding: 0 8px;
+  vertical-align: middle;
+  cursor: default;
+  &.jssocials-share-no-count {
+    display: none;
   }
+}
+
+.jssocials-share-count {
+  vertical-align: middle;
 }
 .jssocials-share-link,
 .jssocials-share-count-box,
 .jssocials-share-count {
   line-height: 1;
+}
+
+// Material style
+.jssocials-share {
+  transition: box-shadow .2s ease-in-out;
+  &:hover, &:focus, &:active {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12),0 1px 2px 0 rgba(0,0,0,.24);
+  }
+}
+.jssocials-share-link {
+  padding: 8px;
+  border-radius: 2px 0 0 2px;
+  color: #fff;
+  transition: background .2s ease-in-out;
+  &:hover, &:focus, &:active {
+    color: #fff;
+  }
+}
+
+.jssocials-share-count-box {
+  position: relative;
+  padding: 8px;
+  border-radius: 0 2px 2px 0;
+  margin: 0;
+  color: #444;
+  background: #f5f5f5;
+  transition: background .2s ease-in-out;
+  &:hover {
+    background: #ebebeb;
+  }
 }
 

@@ -52,7 +52,9 @@
                 {
                     share: "twitter",
                     label: "Tweet",
-                    logo: "zmdi zmdi-hc-fw zmdi-twitter"
+                    logo: "zmdi zmdi-hc-fw zmdi-twitter",
+                    via: "zavoloklom",
+                    hashtags: "materialDesign"
                 },
                 {
                     share: "facebook",
@@ -62,7 +64,7 @@
                 {
                     share: "googleplus",
                     label: "Share",
-                    logo: "zmdi zmdi-hc-fw zmdi-googleplus"
+                    logo: "zmdi zmdi-hc-fw zmdi-google-plus"
                 },
                 {
                     share: "pinterest",
@@ -72,6 +74,7 @@
             ],
             url: "http://zavoloklom.github.io/material-design-iconic-font/",
             text: "Material Design Iconic Font",
+            user: "zavoloklom",
             showLabel: true,
             showCount: true
         });

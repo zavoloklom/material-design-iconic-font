@@ -9684,7 +9684,7 @@ pre.code .fnc span {
 }
 .jssocials-share {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   margin: 4px;
 }
 .jssocials-share:first-child {
@@ -9713,11 +9713,6 @@ pre.code .fnc span {
 }
 .jssocials-share-count {
   vertical-align: middle;
-}
-.jssocials-share-link,
-.jssocials-share-count-box,
-.jssocials-share-count {
-  line-height: 1;
 }
 .jssocials-share {
   -webkit-transition: box-shadow 0.2s ease-in-out;

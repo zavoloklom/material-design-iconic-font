@@ -69,7 +69,7 @@
                 {
                     share: "pinterest",
                     label: "Pin it",
-                    logo: "zmdi zmdi-hc-fw zmdi-pinterest-box"
+                    logo: "zmdi zmdi-hc-fw zmdi-pinterest"
                 }
             ],
             url: "http://zavoloklom.github.io/material-design-iconic-font/",

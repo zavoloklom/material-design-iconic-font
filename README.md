@@ -1,4 +1,4 @@
-# [Material Design Iconic Font 2.1.2](http://zavoloklom.github.io/material-design-iconic-font)
+# [Material Design Iconic Font 2.2.0](http://zavoloklom.github.io/material-design-iconic-font)
 
 [![Latest Version](https://img.shields.io/github/release/zavoloklom/material-design-iconic-font.svg?style=flat-square&label=latest version)](https://github.com/zavoloklom/material-design-iconic-font/tags)
 [![Software License](https://img.shields.io/badge/license-MIT License/SIL OFL 1.1-blue.svg?style=flat-square)](LICENSE)
@@ -13,7 +13,7 @@
 
 #### Material Design Iconic Font and CSS toolkit
 
-Material Design Iconic Font is a full suite of official material design icons (created and maintained by [Google](https://github.com/google/material-design-icons)) and community icons for easy scalable vector graphics on websites or desktop.
+Material Design Iconic Font is a full suite of official material design icons (created and maintained by [Google](https://github.com/google/material-design-icons)), with additional community-designed and [brands icons](https://github.com/zavoloklom/material-design-iconic-font/tree/master/svg/brands) for easy scalable vector graphics on websites or desktop.
 
 Material Design Icons are the official open-source [icons](http://www.google.com/design/spec/resources/sticker-sheets.html#sticker-sheets-components) featured in the Google [Material Design](http://www.google.com/design/spec) specification.
 
@@ -24,7 +24,7 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 **Issue with cheatsheet**: If you think icons do not match the cheatsheet page, please read [issue 47](https://github.com/zavoloklom/material-design-iconic-font/issues/47).
 
 ## Install
-**Download:**    [2.1.2 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.1.2/material-design-iconic-font.zip)   
+**Download:**    [2.2.0 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.2.0/material-design-iconic-font.zip)   
 **Bower:**       `bower install material-design-iconic-font`   
 **NPM:**         `npm install material-design-iconic-font`
 
@@ -32,7 +32,7 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 #### EASY: CSS on [CDNjs](https://cdnjs.com/libraries/material-design-iconic-font)
 Thanks to the cdnjs.cloudflare.com, you can use CDNjs to add MD Iconic Font into your website without downloading or installing anything!   
 - Paste the following code into the <head> section of your site's HTML.  
-`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">`   
+`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">`   
 - Check out the [Examples pages](http://zavoloklom.github.io/material-design-iconic-font/examples.html) to start using Material Design Iconic Font!   
 
 #### BASIC: Default CSS
@@ -73,6 +73,14 @@ The full details of how Material Design Iconic Font is licensed and 'Thanks to' 
 In fact it can work in earlier versions of browsers accordingly to [caniuse.com](http://caniuse.com/) portal (you can check ttf, woff, transform and animation properties), but i can't test it.
 
 ## Changelog   
+v2.2.0:   
+- add 33 new icons   
+- change `main` section in bower.json   
+- repair `seat` and `gradient` icons   
+- change class `zmdi-stack-overflow` to `zmdi-stackoverflow`   
+- change `google`, `google-plus`, `google-plus-box` and `paypal` icons   
+[2.2.0 GitHub milestones](https://github.com/zavoloklom/material-design-iconic-font/issues?milestone=5&page=1&state=closed)  
+
 v2.1.2:   
 - add WOFF2 support    
 - remove 2.0 SVG icons files
@@ -131,10 +139,10 @@ For more information on SemVer, please visit http://semver.org.
 
 ## Author
 - Email: s.kupletsky@gmail.com
-- Twitter: https://twitter.com/zavoloklom
+- Twitter: https://twitter.com/zavoloklom/
 - GitHub: https://github.com/zavoloklom/
 - CodePen: http://codepen.io/zavoloklom/
-- Dribble: https://dribbble.com/zavoloklom
+- Dribble: https://dribbble.com/zavoloklom/
 
 ## Donate
 - You can support me via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=s%2ekupletsky%40gmail%2ecom&lc=US&item_name=Material%20Design%20Iconic%20Font&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted), [WebMoney](https://funding.webmoney.ru/material-design-iconic-font/donate) or [Gratipay](http://gratipay.com/zavoloklom/)

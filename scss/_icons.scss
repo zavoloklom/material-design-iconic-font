@@ -603,7 +603,7 @@ $zmdi-var-pinterest-box: '\f358' !default;
 $zmdi-var-pocket: '\f359' !default;
 $zmdi-var-polymer: '\f35a' !default;
 $zmdi-var-share: '\f35b' !default;
-$zmdi-var-stack-overflow: '\f35c' !default;
+$zmdi-var-stackoverflow: '\f35c' !default;
 $zmdi-var-steam-square: '\f35d' !default;
 $zmdi-var-steam: '\f35e' !default;
 $zmdi-var-twitter-box: '\f35f' !default;
@@ -744,6 +744,39 @@ $zmdi-var-satellite: '\f3e5' !default;
 $zmdi-var-tap-and-play: '\f3e6' !default;
 $zmdi-var-vibration: '\f3e7' !default;
 $zmdi-var-voicemail: '\f3e8' !default;
+$zmdi-var-group: '\f3e9' !default;
+$zmdi-var-rss: '\f3ea' !default;
+$zmdi-var-shape: '\f3eb' !default;
+$zmdi-var-spinner: '\f3ec' !default;
+$zmdi-var-ungroup: '\f3ed' !default;
+$zmdi-var-500px: '\f3ee' !default;
+$zmdi-var-8tracks: '\f3ef' !default;
+$zmdi-var-amazon: '\f3f0' !default;
+$zmdi-var-blogger: '\f3f1' !default;
+$zmdi-var-delicious: '\f3f2' !default;
+$zmdi-var-disqus: '\f3f3' !default;
+$zmdi-var-flattr: '\f3f4' !default;
+$zmdi-var-flickr: '\f3f5' !default;
+$zmdi-var-github-alt: '\f3f6' !default;
+$zmdi-var-google-old: '\f3f7' !default;
+$zmdi-var-linkedin: '\f3f8' !default;
+$zmdi-var-odnoklassniki: '\f3f9' !default;
+$zmdi-var-outlook: '\f3fa' !default;
+$zmdi-var-paypal-alt: '\f3fb' !default;
+$zmdi-var-pinterest: '\f3fc' !default;
+$zmdi-var-playstation: '\f3fd' !default;
+$zmdi-var-reddit: '\f3fe' !default;
+$zmdi-var-skype: '\f3ff' !default;
+$zmdi-var-slideshare: '\f400' !default;
+$zmdi-var-soundcloud: '\f401' !default;
+$zmdi-var-tumblr: '\f402' !default;
+$zmdi-var-twitch: '\f403' !default;
+$zmdi-var-vimeo: '\f404' !default;
+$zmdi-var-whatsapp: '\f405' !default;
+$zmdi-var-xbox: '\f406' !default;
+$zmdi-var-yahoo: '\f407' !default;
+$zmdi-var-youtube-play: '\f408' !default;
+$zmdi-var-youtube: '\f409' !default;
 .#{$zmdi-icon-prefix}-3d-rotation {
   &:before {
     content: $zmdi-var-3d-rotation;
@@ -3759,9 +3792,9 @@ $zmdi-var-voicemail: '\f3e8' !default;
     content: $zmdi-var-share;
   }
 }
-.#{$zmdi-icon-prefix}-stack-overflow {
+.#{$zmdi-icon-prefix}-stackoverflow {
   &:before {
-    content: $zmdi-var-stack-overflow;
+    content: $zmdi-var-stackoverflow;
   }
 }
 .#{$zmdi-icon-prefix}-steam-square {
@@ -4464,6 +4497,171 @@ $zmdi-var-voicemail: '\f3e8' !default;
     content: $zmdi-var-voicemail;
   }
 }
+.#{$zmdi-icon-prefix}-group {
+  &:before {
+    content: $zmdi-var-group;
+  }
+}
+.#{$zmdi-icon-prefix}-rss {
+  &:before {
+    content: $zmdi-var-rss;
+  }
+}
+.#{$zmdi-icon-prefix}-shape {
+  &:before {
+    content: $zmdi-var-shape;
+  }
+}
+.#{$zmdi-icon-prefix}-spinner {
+  &:before {
+    content: $zmdi-var-spinner;
+  }
+}
+.#{$zmdi-icon-prefix}-ungroup {
+  &:before {
+    content: $zmdi-var-ungroup;
+  }
+}
+.#{$zmdi-icon-prefix}-500px {
+  &:before {
+    content: $zmdi-var-500px;
+  }
+}
+.#{$zmdi-icon-prefix}-8tracks {
+  &:before {
+    content: $zmdi-var-8tracks;
+  }
+}
+.#{$zmdi-icon-prefix}-amazon {
+  &:before {
+    content: $zmdi-var-amazon;
+  }
+}
+.#{$zmdi-icon-prefix}-blogger {
+  &:before {
+    content: $zmdi-var-blogger;
+  }
+}
+.#{$zmdi-icon-prefix}-delicious {
+  &:before {
+    content: $zmdi-var-delicious;
+  }
+}
+.#{$zmdi-icon-prefix}-disqus {
+  &:before {
+    content: $zmdi-var-disqus;
+  }
+}
+.#{$zmdi-icon-prefix}-flattr {
+  &:before {
+    content: $zmdi-var-flattr;
+  }
+}
+.#{$zmdi-icon-prefix}-flickr {
+  &:before {
+    content: $zmdi-var-flickr;
+  }
+}
+.#{$zmdi-icon-prefix}-github-alt {
+  &:before {
+    content: $zmdi-var-github-alt;
+  }
+}
+.#{$zmdi-icon-prefix}-google-old {
+  &:before {
+    content: $zmdi-var-google-old;
+  }
+}
+.#{$zmdi-icon-prefix}-linkedin {
+  &:before {
+    content: $zmdi-var-linkedin;
+  }
+}
+.#{$zmdi-icon-prefix}-odnoklassniki {
+  &:before {
+    content: $zmdi-var-odnoklassniki;
+  }
+}
+.#{$zmdi-icon-prefix}-outlook {
+  &:before {
+    content: $zmdi-var-outlook;
+  }
+}
+.#{$zmdi-icon-prefix}-paypal-alt {
+  &:before {
+    content: $zmdi-var-paypal-alt;
+  }
+}
+.#{$zmdi-icon-prefix}-pinterest {
+  &:before {
+    content: $zmdi-var-pinterest;
+  }
+}
+.#{$zmdi-icon-prefix}-playstation {
+  &:before {
+    content: $zmdi-var-playstation;
+  }
+}
+.#{$zmdi-icon-prefix}-reddit {
+  &:before {
+    content: $zmdi-var-reddit;
+  }
+}
+.#{$zmdi-icon-prefix}-skype {
+  &:before {
+    content: $zmdi-var-skype;
+  }
+}
+.#{$zmdi-icon-prefix}-slideshare {
+  &:before {
+    content: $zmdi-var-slideshare;
+  }
+}
+.#{$zmdi-icon-prefix}-soundcloud {
+  &:before {
+    content: $zmdi-var-soundcloud;
+  }
+}
+.#{$zmdi-icon-prefix}-tumblr {
+  &:before {
+    content: $zmdi-var-tumblr;
+  }
+}
+.#{$zmdi-icon-prefix}-twitch {
+  &:before {
+    content: $zmdi-var-twitch;
+  }
+}
+.#{$zmdi-icon-prefix}-vimeo {
+  &:before {
+    content: $zmdi-var-vimeo;
+  }
+}
+.#{$zmdi-icon-prefix}-whatsapp {
+  &:before {
+    content: $zmdi-var-whatsapp;
+  }
+}
+.#{$zmdi-icon-prefix}-xbox {
+  &:before {
+    content: $zmdi-var-xbox;
+  }
+}
+.#{$zmdi-icon-prefix}-yahoo {
+  &:before {
+    content: $zmdi-var-yahoo;
+  }
+}
+.#{$zmdi-icon-prefix}-youtube-play {
+  &:before {
+    content: $zmdi-var-youtube-play;
+  }
+}
+.#{$zmdi-icon-prefix}-youtube {
+  &:before {
+    content: $zmdi-var-youtube;
+  }
+}
 // Legacy code for backward capability with 2.0.x version
 $md-iconset-3d-rotation: '\f101' !default;
 $md-iconset-airplane-off: '\f102' !default;
@@ -5068,7 +5266,7 @@ $md-iconset-pinterest-box: '\f358' !default;
 $md-iconset-pocket: '\f359' !default;
 $md-iconset-polymer: '\f35a' !default;
 $md-iconset-share: '\f35b' !default;
-$md-iconset-stack-overflow: '\f35c' !default;
+$md-iconset-stackoverflow: '\f35c' !default;
 $md-iconset-steam-square: '\f35d' !default;
 $md-iconset-steam: '\f35e' !default;
 $md-iconset-twitter-box: '\f35f' !default;
@@ -5209,6 +5407,39 @@ $md-iconset-satellite: '\f3e5' !default;
 $md-iconset-tap-and-play: '\f3e6' !default;
 $md-iconset-vibration: '\f3e7' !default;
 $md-iconset-voicemail: '\f3e8' !default;
+$md-iconset-group: '\f3e9' !default;
+$md-iconset-rss: '\f3ea' !default;
+$md-iconset-shape: '\f3eb' !default;
+$md-iconset-spinner: '\f3ec' !default;
+$md-iconset-ungroup: '\f3ed' !default;
+$md-iconset-500px: '\f3ee' !default;
+$md-iconset-8tracks: '\f3ef' !default;
+$md-iconset-amazon: '\f3f0' !default;
+$md-iconset-blogger: '\f3f1' !default;
+$md-iconset-delicious: '\f3f2' !default;
+$md-iconset-disqus: '\f3f3' !default;
+$md-iconset-flattr: '\f3f4' !default;
+$md-iconset-flickr: '\f3f5' !default;
+$md-iconset-github-alt: '\f3f6' !default;
+$md-iconset-google-old: '\f3f7' !default;
+$md-iconset-linkedin: '\f3f8' !default;
+$md-iconset-odnoklassniki: '\f3f9' !default;
+$md-iconset-outlook: '\f3fa' !default;
+$md-iconset-paypal-alt: '\f3fb' !default;
+$md-iconset-pinterest: '\f3fc' !default;
+$md-iconset-playstation: '\f3fd' !default;
+$md-iconset-reddit: '\f3fe' !default;
+$md-iconset-skype: '\f3ff' !default;
+$md-iconset-slideshare: '\f400' !default;
+$md-iconset-soundcloud: '\f401' !default;
+$md-iconset-tumblr: '\f402' !default;
+$md-iconset-twitch: '\f403' !default;
+$md-iconset-vimeo: '\f404' !default;
+$md-iconset-whatsapp: '\f405' !default;
+$md-iconset-xbox: '\f406' !default;
+$md-iconset-yahoo: '\f407' !default;
+$md-iconset-youtube-play: '\f408' !default;
+$md-iconset-youtube: '\f409' !default;
 .#{$md-icon-prefix}-3d-rotation {
   &:before {
     content: $md-iconset-3d-rotation;
@@ -8224,9 +8455,9 @@ $md-iconset-voicemail: '\f3e8' !default;
     content: $md-iconset-share;
   }
 }
-.#{$md-icon-prefix}-stack-overflow {
+.#{$md-icon-prefix}-stackoverflow {
   &:before {
-    content: $md-iconset-stack-overflow;
+    content: $md-iconset-stackoverflow;
   }
 }
 .#{$md-icon-prefix}-steam-square {
@@ -8927,5 +9158,170 @@ $md-iconset-voicemail: '\f3e8' !default;
 .#{$md-icon-prefix}-voicemail {
   &:before {
     content: $md-iconset-voicemail;
+  }
+}
+.#{$md-icon-prefix}-group {
+  &:before {
+    content: $md-iconset-group;
+  }
+}
+.#{$md-icon-prefix}-rss {
+  &:before {
+    content: $md-iconset-rss;
+  }
+}
+.#{$md-icon-prefix}-shape {
+  &:before {
+    content: $md-iconset-shape;
+  }
+}
+.#{$md-icon-prefix}-spinner {
+  &:before {
+    content: $md-iconset-spinner;
+  }
+}
+.#{$md-icon-prefix}-ungroup {
+  &:before {
+    content: $md-iconset-ungroup;
+  }
+}
+.#{$md-icon-prefix}-500px {
+  &:before {
+    content: $md-iconset-500px;
+  }
+}
+.#{$md-icon-prefix}-8tracks {
+  &:before {
+    content: $md-iconset-8tracks;
+  }
+}
+.#{$md-icon-prefix}-amazon {
+  &:before {
+    content: $md-iconset-amazon;
+  }
+}
+.#{$md-icon-prefix}-blogger {
+  &:before {
+    content: $md-iconset-blogger;
+  }
+}
+.#{$md-icon-prefix}-delicious {
+  &:before {
+    content: $md-iconset-delicious;
+  }
+}
+.#{$md-icon-prefix}-disqus {
+  &:before {
+    content: $md-iconset-disqus;
+  }
+}
+.#{$md-icon-prefix}-flattr {
+  &:before {
+    content: $md-iconset-flattr;
+  }
+}
+.#{$md-icon-prefix}-flickr {
+  &:before {
+    content: $md-iconset-flickr;
+  }
+}
+.#{$md-icon-prefix}-github-alt {
+  &:before {
+    content: $md-iconset-github-alt;
+  }
+}
+.#{$md-icon-prefix}-google-old {
+  &:before {
+    content: $md-iconset-google-old;
+  }
+}
+.#{$md-icon-prefix}-linkedin {
+  &:before {
+    content: $md-iconset-linkedin;
+  }
+}
+.#{$md-icon-prefix}-odnoklassniki {
+  &:before {
+    content: $md-iconset-odnoklassniki;
+  }
+}
+.#{$md-icon-prefix}-outlook {
+  &:before {
+    content: $md-iconset-outlook;
+  }
+}
+.#{$md-icon-prefix}-paypal-alt {
+  &:before {
+    content: $md-iconset-paypal-alt;
+  }
+}
+.#{$md-icon-prefix}-pinterest {
+  &:before {
+    content: $md-iconset-pinterest;
+  }
+}
+.#{$md-icon-prefix}-playstation {
+  &:before {
+    content: $md-iconset-playstation;
+  }
+}
+.#{$md-icon-prefix}-reddit {
+  &:before {
+    content: $md-iconset-reddit;
+  }
+}
+.#{$md-icon-prefix}-skype {
+  &:before {
+    content: $md-iconset-skype;
+  }
+}
+.#{$md-icon-prefix}-slideshare {
+  &:before {
+    content: $md-iconset-slideshare;
+  }
+}
+.#{$md-icon-prefix}-soundcloud {
+  &:before {
+    content: $md-iconset-soundcloud;
+  }
+}
+.#{$md-icon-prefix}-tumblr {
+  &:before {
+    content: $md-iconset-tumblr;
+  }
+}
+.#{$md-icon-prefix}-twitch {
+  &:before {
+    content: $md-iconset-twitch;
+  }
+}
+.#{$md-icon-prefix}-vimeo {
+  &:before {
+    content: $md-iconset-vimeo;
+  }
+}
+.#{$md-icon-prefix}-whatsapp {
+  &:before {
+    content: $md-iconset-whatsapp;
+  }
+}
+.#{$md-icon-prefix}-xbox {
+  &:before {
+    content: $md-iconset-xbox;
+  }
+}
+.#{$md-icon-prefix}-yahoo {
+  &:before {
+    content: $md-iconset-yahoo;
+  }
+}
+.#{$md-icon-prefix}-youtube-play {
+  &:before {
+    content: $md-iconset-youtube-play;
+  }
+}
+.#{$md-icon-prefix}-youtube {
+  &:before {
+    content: $md-iconset-youtube;
   }
 }

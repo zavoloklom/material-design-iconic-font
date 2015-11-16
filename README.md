@@ -11,7 +11,7 @@
 
 [![Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/img/Material-Design-Iconic-Font.png)](http://zavoloklom.github.io/material-design-iconic-font/)
 
-#### Material Design Iconic Font and CSS toolkit
+### Material Design Iconic Font and CSS toolkit
 
 Material Design Iconic Font is a full suite of official material design icons (created and maintained by [Google](https://github.com/google/material-design-icons)), with additional community-designed and [brands icons](https://github.com/zavoloklom/material-design-iconic-font/tree/master/svg/brands) for easy scalable vector graphics on websites or desktop.
 
@@ -23,12 +23,12 @@ Material Design Icons are the official open-source [icons](http://www.google.com
 
 **Issue with cheatsheet**: If you think icons do not match the cheatsheet page, please read [issue 47](https://github.com/zavoloklom/material-design-iconic-font/issues/47).
 
-## Install
+### Install
 **Download:**    [2.2.0 (ZIP)](https://github.com/zavoloklom/material-design-iconic-font/releases/download/2.2.0/material-design-iconic-font.zip)   
 **Bower:**       `bower install material-design-iconic-font`   
 **NPM:**         `npm install material-design-iconic-font`
 
-## Getting started
+### Getting started
 #### EASY: CSS on [CDNjs](https://cdnjs.com/libraries/material-design-iconic-font)
 Thanks to the cdnjs.cloudflare.com, you can use CDNjs to add MD Iconic Font into your website without downloading or installing anything!   
 - Paste the following code into the <head> section of your site's HTML.  
@@ -58,10 +58,10 @@ Use this method to customize Material Design Iconic Font using LESS or SCSS.
 - Re-compile your LESS if using a static compiler.
 - Check out the [Examples pages](http://zavoloklom.github.io/material-design-iconic-font/examples.html) to start using Material Design Iconic Font!
 
-## Licence
+### Licence
 The full details of how Material Design Iconic Font is licensed and 'Thanks to' section: [License page](http://zavoloklom.github.io/material-design-iconic-font/license.html).
 
-## Browser Support
+### Browser Support
 - Chrome 21+   
 - Firefox 22+   
 - Opera 12.1+   
@@ -72,7 +72,7 @@ The full details of how Material Design Iconic Font is licensed and 'Thanks to' 
 
 In fact it can work in earlier versions of browsers accordingly to [caniuse.com](http://caniuse.com/) portal (you can check ttf, woff, transform and animation properties), but i can't test it.
 
-## Changelog   
+### Changelog   
 v2.2.0:   
 - add 33 new icons   
 - change `main` section in bower.json   
@@ -124,7 +124,7 @@ v2.0.0:
 - add nested pseudo classes for less/sass   
 [2.0.0 GitHub milestones](https://github.com/zavoloklom/material-design-iconic-font/issues?milestone=3&page=1&state=closed)
 
-## Versioning
+### Versioning
 Material Design Iconic Font will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
 
 `<major>.<minor>.<patch>`
@@ -137,12 +137,12 @@ And constructed with the following guidelines:
 
 For more information on SemVer, please visit http://semver.org.
 
-## Author
+### Author
 - Email: s.kupletsky@gmail.com
 - Twitter: https://twitter.com/zavoloklom/
 - GitHub: https://github.com/zavoloklom/
 - CodePen: http://codepen.io/zavoloklom/
 - Dribble: https://dribbble.com/zavoloklom/
 
-## Donate
-- You can support me via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=s%2ekupletsky%40gmail%2ecom&lc=US&item_name=Material%20Design%20Iconic%20Font&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted), [WebMoney](https://funding.webmoney.ru/material-design-iconic-font/donate) or [Gratipay](http://gratipay.com/zavoloklom/)
+### Donate
+- You can support me via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=s%2ekupletsky%40gmail%2ecom&lc=US&item_name=Material%20Design%20Iconic%20Font&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted), [WebMoney](https://funding.webmoney.ru/material-design-web-projects) or [Gratipay](http://gratipay.com/zavoloklom/)

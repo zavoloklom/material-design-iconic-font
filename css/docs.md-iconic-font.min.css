@@ -10311,11 +10311,22 @@ footer p-inverse {
   color: #ffffff;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
 }
-.icon-set div {
+.container div[role="main"] {
+  background: #1e88e5;
+}
+.container div[role="main"] h2 {
+  color: white;
+  text-align: center;
+}
+.container div[role="main"] section {
+  border-top: 1px solid #e0e7ec;
+}
+.icon-set {
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
 }
-.icon-set div .icon p {
+.icon-set .icon p {
   width: 80px;
   height: 80px;
   color: #0d47a1;
@@ -10327,19 +10338,19 @@ footer p-inverse {
   align-items: center;
   justify-content: center;
 }
-.icon-set div .icon p i.zmdi {
+.icon-set .icon p i.zmdi {
   font-size: 36px;
 }
-.icon-set div .icon p span {
+.icon-set .icon p span {
   font-size: 10px;
   line-height: 1.2;
   display: none;
 }
-.icon-set div .icon p:hover {
+.icon-set .icon p:hover {
   border: 4px solid #ffee55;
   cursor: pointer;
 }
-.icon-set div .icon p.selected {
+.icon-set .icon p.selected {
   border: 4px solid #eeaa33;
   background: white;
 }
@@ -10359,7 +10370,7 @@ footer p-inverse {
   text-align: center;
   color: #0d47a1;
 }
-input#search {
+.search input#search {
   box-sizing: border-box;
   font-size: 16px;
   height: 40px;
@@ -10371,8 +10382,11 @@ input#search {
   transition: all .3s;
   vertical-align: middle;
 }
-input#search:focus {
+.search input#search:focus {
   color: #333;
   outline: none;
   border-color: #eeaa33;
+}
+.alert-warning {
+  margin-top: 10px;
 }

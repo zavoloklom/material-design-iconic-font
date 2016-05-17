@@ -1,11 +1,26 @@
-.icon-set div{
+@light-blue: #e0e7ec;
+@blue:       #1e88e5;
+@dark-blue:  #0d47a1;
+
+.container div[role="main"] {
+    background: @blue;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    section {
+      border-top: 1px solid @light-blue;
+    }
+}
+.icon-set {
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
 
   .icon p{
     width: 80px;
     height: 80px;
-    color: #0d47a1;
+    color: @dark-blue;
     text-align: center;
     margin: 2px;
     border-radius: 4px;
@@ -48,25 +63,28 @@
     line-height: 40px;
     width: 40px;
     text-align: center;
-    color: #0d47a1;
+    color: @dark-blue;
+  }
+  input#search {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    padding-left: 40px;
+    border-radius: calc(40px / 2);
+    border: 2px solid @blue;
+    background-color: white;
+    transition: all .3s;
+    vertical-align: middle;
+    &:focus {
+      color: #333;
+      outline: none;
+      border-color: #eeaa33;
+    }
   }
 }
 
-input#search {
-  box-sizing: border-box;
-  font-size: 16px;
-  height: 40px;
-  width: 100%;
-  padding-left: 40px;
-  border-radius: calc(40px / 2);
-  border: 2px solid #1e88e5;
-  background-color: white;
-  transition: all .3s;
-  vertical-align: middle;
-}
 
-input#search:focus {
-  color: #333;
-  outline: none;
-  border-color: #eeaa33;
+.alert-warning {
+  margin-top: 10px;
 }

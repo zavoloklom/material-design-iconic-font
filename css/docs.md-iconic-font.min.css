@@ -10311,7 +10311,68 @@ footer p-inverse {
   color: #ffffff;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
 }
-body {
-  font-size: 20px;
-  line-height: 1.8em;
+.icon-set div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon-set div .icon p {
+  width: 80px;
+  height: 80px;
+  color: #0d47a1;
+  margin: 2px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-set div .icon p i.zmdi {
+  font-size: 36px;
+}
+.icon-set div .icon p span {
+  font-size: 10px;
+  line-height: 1.2;
+  display: none;
+}
+.icon-set div .icon p:hover {
+  border: 4px solid #ffee55;
+  cursor: pointer;
+}
+.icon-set div .icon p.selected {
+  border: 4px solid #eeaa33;
+  background: white;
+}
+.search {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+.search:before {
+  position: absolute;
+  font-family: "Material-Design-Iconic-Font";
+  content: "\f1c3";
+  font-size: 24px;
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
+  color: #0d47a1;
+}
+input#search {
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+  padding-left: 40px;
+  border-radius: calc(20px);
+  border: 2px solid #1e88e5;
+  background-color: white;
+  transition: all .3s;
+  vertical-align: middle;
+}
+input#search:focus {
+  color: #333;
+  outline: none;
+  border-color: #eeaa33;
 }

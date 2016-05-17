@@ -9,4 +9,26 @@ module.exports = function(grunt) {
             }
         }
     });
+
+    grunt.initConfig({
+      watch: {
+        css: {
+          files: ['less/*.less'],
+          tasks: ['less']
+        }
+      },
+      less: {
+            development: {
+                options: {
+                    paths: ["css/"],
+                },
+                files: {
+                    "css/docs.md-iconic-font.min.css": "less/docs.md-iconic-font.less"
+                }
+            },
+        }
+    });
+
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 };

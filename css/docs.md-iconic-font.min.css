@@ -10311,56 +10311,51 @@ footer p-inverse {
   color: #ffffff;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
 }
-.container div[role="main"] {
-  background: #1e88e5;
+body.cheatsheet .container div[role="main"] h2 {
+  color: #0d47a1;
+  font-size: 1rem;
+  margin: 0;
 }
-.container div[role="main"] h2 {
-  color: white;
-  text-align: center;
-}
-.container div[role="main"] section {
-  border-top: 1px solid #e0e7ec;
-}
-.icon-set {
-  padding: 10px;
+body.cheatsheet .icon-set {
   display: flex;
   flex-wrap: wrap;
+  background: #1e88e5;
 }
-.icon-set .icon p {
+body.cheatsheet .icon-set .icon {
   width: 80px;
   height: 80px;
   color: #0d47a1;
-  margin: 2px;
-  border-radius: 4px;
+  margin: 5px;
+  border-radius: 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.icon-set .icon p i.zmdi {
+body.cheatsheet .icon-set .icon i.zmdi {
   font-size: 36px;
 }
-.icon-set .icon p span {
+body.cheatsheet .icon-set .icon span {
   font-size: 10px;
   line-height: 1.2;
   display: none;
 }
-.icon-set .icon p:hover {
+body.cheatsheet .icon-set .icon:hover {
   border: 4px solid #ffee55;
   cursor: pointer;
 }
-.icon-set .icon p.selected {
+body.cheatsheet .icon-set .icon.selected {
   border: 4px solid #eeaa33;
   background: white;
 }
-.search {
+body.cheatsheet .search {
   display: inline-block;
   position: relative;
   vertical-align: middle;
   width: 100%;
 }
-.search:before {
+body.cheatsheet .search:before {
   position: absolute;
   font-family: "Material-Design-Iconic-Font";
   content: "\f1c3";
@@ -10370,7 +10365,7 @@ footer p-inverse {
   text-align: center;
   color: #0d47a1;
 }
-.search input#search {
+body.cheatsheet .search input#search {
   box-sizing: border-box;
   font-size: 16px;
   height: 40px;
@@ -10382,11 +10377,32 @@ footer p-inverse {
   transition: all .3s;
   vertical-align: middle;
 }
-.search input#search:focus {
+body.cheatsheet .search input#search:focus {
   color: #333;
   outline: none;
   border-color: #eeaa33;
 }
-.alert-warning {
+body.cheatsheet .alert-warning {
   margin-top: 10px;
+}
+body.cheatsheet .hint label {
+  color: #666;
+  display: block;
+  margin: 15px 0 5px 0;
+}
+body.cheatsheet .hint textarea {
+  width: 100%;
+  padding: 4px;
+  border: 2px solid #1e88e5;
+  background-color: #e0e7ec;
+  font-family: monospace;
+  font-size: 1em;
+  resize: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+body.cheatsheet .hint textarea:focus {
+  outline: none;
+  border: 2px solid #eeaa33;
+  background-color: #fff;
 }

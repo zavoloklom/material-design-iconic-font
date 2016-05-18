@@ -1,19 +1,51 @@
-$(window).scroll(function() {
-  if ($(this).scrollTop() > $('#navbar').height() + $('.header').height()) {
-    $(".filter-control").width($('section').width()).addClass("sticky");
-  } else {
-    $(".filter-control").removeClass("sticky");
-  }
+$(function(){
+  $.ajax({
+    url: "keywords",
+    type: 'GET',
+    dataType: 'text',
+    success: function(data) {
+      data = txtToJSON(data);
+      tagKeywords(data);
+    }
+  }).done(function(){
+    $('#search').keyup(function(){
+      $(this).filterIcons();
+    });
+  });
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > $('#navbar').height() + $('.header').height()) {
+      $(".filter-control").width($('section').width()).addClass("sticky");
+    } else {
+      $(".filter-control").removeClass("sticky");
+    }
+  });
+
+  $('.icon').on('click', function(){
+    $('.icon').removeClass('selected');
+    $(this).addClass('selected').showHint();
+  });
+
 });
 
-$('#search').keyup(function(){
-  $(this).filterIcons();
-});
+var txtToJSON = function(txt){
+	var pairArray = txt.split('\n');
+	var data = [];
 
-$('.icon').on('click', function(){
-  $('.icon').removeClass('selected');
-  $(this).addClass('selected').showHint();
-});
+	pairArray.forEach(function(d){
+		var pair = d.split(' ');
+		data.push({'name': pair[0], 'code': pair[1]});
+	});
+	return data.slice(0, data.length - 1);
+}
+
+var tagKeywords = function(dataArray) {
+	dataArray.forEach(function(d){
+		var target = $(`.icon-set .icon[data-name = ${d.name}]`),
+				keywords = target.data('keywords') ? target.data('keywords') + d.code : d.code;
+		target.attr('data-keywords', keywords);
+	});
+}
 
 $.fn.extend({
 	showHint: function(){

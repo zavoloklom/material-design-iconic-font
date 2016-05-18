@@ -10406,3 +10406,10 @@ body.cheatsheet .hint textarea:focus {
   border: 2px solid #eeaa33;
   background-color: #fff;
 }
+body.cheatsheet .filter-control.sticky {
+  background: white;
+  position: fixed;
+  top: 0;
+  padding: 20px 0;
+  border-bottom: 5px solid #0d47a1;
+}

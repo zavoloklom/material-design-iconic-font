@@ -105,7 +105,7 @@
 </div>
 
 <div class="container">
-  <div class="row">
+  <div class="row header">
     <h1 class="col-md-12">Cheatsheet</h1>
     <p class="col-md-8">Print this page to PDF for the complete set of vectors. Or to use on the desktop, install <a href="https://github.com/zavoloklom/material-design-iconic-font/tree/gh-pages/fonts" target="_blank">Material-Design-Iconic-Font.ttf</a>, set it as the font in your application, and copy and paste the icons (not the unicode, if your switch to show it) directly from this page into your designs.</p>
     <p class="alert alert-danger col-md-4"><strong>Issue with cheatsheet</strong>: If you think icons do not match the cheatsheet page, please read <a href="https://github.com/zavoloklom/material-design-iconic-font/issues/47" target="_blank">issue 47</a>.</p>
@@ -114,32 +114,34 @@
     <div class="row">
 
         <div class="col-md-10 col-xs-12" role="main">
-          <div class="search">
-            <input type="text" placeholder="Filter icons by name or keywords" id="search">
-          </div>
-          <div class="hint row">
-            <div class="col-md-6 col-md-12">
-              <label>
-                Copy-Paste in Drawing Tools:
-              </label>
-              <textarea readonly rows='1' class="copy"></textarea>
-
-              <label>
-                Insert Icon in CSS:
-              </label>
-              <textarea readonly rows="4" class="css"></textarea>
+          <div class="filter-control">
+            <div class="search">
+              <input type="text" placeholder="Filter icons by name or keywords" id="search">
             </div>
-            <div class="col-md-6 col-md-12">
-              <label>
-                Use HTML Entity in IE9'n Below:
-              </label>
-              <textarea readonly rows="1" class="ie9"></textarea>
+            <div class="hint row">
+              <div class="col-md-6 col-md-12">
+                <label>
+                  Copy-Paste in Drawing Tools:
+                </label>
+                <textarea readonly rows='1' class="copy"></textarea>
 
-              <label>
-                Use Ligatures in Modern Browsers:
-              </label>
-              <textarea readonly rows="4" class="html"></textarea>
-            </div>
+                <label>
+                  Insert Icon in CSS:
+                </label>
+                <textarea readonly rows="4" class="css"></textarea>
+              </div>
+              <div class="col-md-6 col-md-12">
+                <label>
+                  Use HTML Entity in IE9'n Below:
+                </label>
+                <textarea readonly rows="1" class="ie9"></textarea>
+
+                <label>
+                  Use Ligatures in Modern Browsers:
+                </label>
+                <textarea readonly rows="4" class="html"></textarea>
+              </div>
+            </div>  
           </div>
 
             <section id="application">

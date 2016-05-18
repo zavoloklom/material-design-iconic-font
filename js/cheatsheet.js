@@ -1,4 +1,10 @@
-
+$(window).scroll(function() {
+  if ($(this).scrollTop() > $('#navbar').height() + $('.header').height()) {
+    $(".filter-control").width($('section').width()).addClass("sticky");
+  } else {
+    $(".filter-control").removeClass("sticky");
+  }
+});
 
 $('#search').keyup(function(){
   $(this).filterIcons();

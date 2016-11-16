@@ -10,7 +10,7 @@
   ],
   "author": "Sergey Kupletsky <s.kupletsky@gmail.com> (http://github.com/zavoloklom)",
   "license": "MIT",
-  "main": [
+  "files": [
     "./dist/css/*",
     "./dist/fonts/*"
   ],

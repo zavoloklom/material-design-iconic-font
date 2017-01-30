@@ -10,9 +10,9 @@
   ],
   "author": "Sergey Kupletsky <s.kupletsky@gmail.com> (http://github.com/zavoloklom)",
   "license": "MIT",
-  "main": "dist/material-design-iconic-font.css",
+  "main": "dist/css/material-design-iconic-font.css",
   "files": [
-    "dist/css/material-design-iconic-font.css",
+    "dist/css",
     "dist/fonts"
   ],
   "homepage": "https://zavoloklom.github.io/material-design-iconic-font/",

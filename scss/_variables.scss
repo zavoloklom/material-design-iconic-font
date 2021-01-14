@@ -2,7 +2,7 @@
 // --------------------------
 
 $zmdi-font-name:      "Material-Design-Iconic-Font" !default;
-$zmdi-font-path:      "../fonts" !default;
+$zmdi-font-path:      "../dist/fonts" !default;
 $zmdi-css-prefix:     zmdi-hc !default;
 $zmdi-icon-prefix:    zmdi !default;
 $zmdi-version:        "2.2.0" !default;
@@ -13,7 +13,7 @@ $zmdi-li-width:       (30em / 14) !default;
 
 // Legacy code for backward capability with 2.0.x version
 
-$md-font-path:        "../fonts" !default;
+$md-font-path:        "../dist/fonts" !default;
 $md-css-prefix:       zmd !default;
 $md-icon-prefix:      zmdi !default;
 $md-version:          "2.2.0" !default;

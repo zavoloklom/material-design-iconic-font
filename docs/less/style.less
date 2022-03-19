@@ -1,0 +1,439 @@
+.margin-top {
+  margin-top: 10px !important;
+}
+.padding-top-sm {
+  padding-top: 5px !important;
+}
+
+/* jumbotron */
+.jumbotron {
+  color: @mdc-white-dark;
+  background-color: @mdc-light-blue-500;
+  text-shadow: 0 2px 0 @mdc-black-lighter;
+
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 0;
+  padding: 20px 0 40px;
+}
+.jumbotron a,
+.jumbotron a:hover,
+.jumbotron a:visited {
+  color: @mdc-grey-200;
+}
+.jumbotron .btn-lg {
+  margin: 10px 0;
+  font-size: 24px;
+  padding: 17px 30px;
+  color: @mdc-white-dark;
+  border-color: @mdc-grey-200;
+  background-color: transparent;
+
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+  }
+}
+.jumbotron .btn-lg:hover {
+  background-color: @mdc-grey-200;
+  border-color: @mdc-grey-100;
+  color: @mdc-light-blue-700;
+  text-shadow: none;
+}
+.jumbotron h1, .jumbotron .h1 {
+  color: @mdc-white-darker;
+}
+.jumbotron p {
+  margin: 8px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: @mdc-white-dark;
+}
+.jumbotron .logo {
+  float: left;
+  padding-top: 15px;
+  padding-right: 24px;
+  margin: 20px 0;
+}
+.jumbotron-img {
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron h1, .jumbotron .h1 {
+    font-size: 48px;
+  }
+}
+
+.actions {
+  padding-top: 16px;
+}
+
+#social-buttons {
+  padding: 12px 0;
+  text-align: center;
+  background-color: @mdc-grey-200;
+  border-top: 1px solid @mdc-white-dark;
+  border-bottom: 1px solid @mdc-grey-300;
+}
+#social-buttons li {
+  vertical-align: top;
+}
+#social-buttons .git-tip img {
+  margin-top: -4px;
+}
+#download-buttons {
+  padding: 22px 0 17px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+/* navbar */
+.navbar {
+  position: relative;
+  min-height: 80px;
+  padding: 15px 0;
+  margin: 0;
+  border: 0;
+}
+.navbar-default .navbar-brand {
+  color: @mdc-light-blue-700;
+}
+.navbar-default .navbar-brand:hover {
+  color: @mdc-light-blue-900;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: @mdc-light-blue-700;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: @mdc-light-blue-900;
+}
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    border-radius: 2px;
+  }
+}
+.navbar-toggle {
+  padding: 8px;
+  margin: 6px 16px;
+  margin-left: 0;
+  border: 0;
+  border-radius: 2px;
+  font-size: 22px;
+}
+
+/* dropdown */
+.dropdown {
+  display: inline-block;
+}
+.dropdown-menu {
+  top: 0;
+  right: 0;
+  left: auto;
+  min-width: 160px;
+  margin: 0;
+  padding: 4px 0;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+}
+.dropdown-menu .divider {
+  position: relative;
+  display: block;
+  height: 1px;
+  margin: 4px 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: @mdc-black-lighter;
+}
+.dropdown-menu > li > a {
+  padding: 8px 16px;
+  line-height: inherit;
+  color: @mdc-black-dark;
+  background-color: transparent;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a.hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: @mdc-black-darker;
+  background-color: @mdc-black-lighter;
+}
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover,
+.dropdown-menu .active > a:focus {
+  color: @mdc-black-darker;
+  background-color: transparent;
+}
+.dropdown-menu .disabled > a,
+.dropdown-menu .disabled > a:hover,
+.dropdown-menu .disabled > a:focus {
+  color: @mdc-black-light;
+}
+.dropdown-header {
+  padding: 8px 16px;
+  .zmdt-caption();
+  color: @mdc-black-darker;
+}
+.dropup .dropdown-menu {
+  bottom: 0;
+  margin: 0;
+}
+
+/* sidebar */
+.bs-docs-sidebar.affix {
+  position: static
+}
+@media (min-width: 992px) {
+  .bs-docs-sidebar.affix, .bs-docs-sidebar.affix-bottom {
+    width: 213px;
+  }
+  .bs-docs-sidebar.affix {
+    position: fixed;
+    top: 0;
+  }
+  .bs-docs-sidebar.affix-bottom {
+    position: absolute;
+  }
+}
+@media (min-width: 1200px) {
+  .bs-docs-sidebar.affix-bottom, .bs-docs-sidebar.affix {
+    width: 263px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bs-docs-sidebar {
+    padding-left: 20px
+  }
+}
+.bs-docs-sidenav {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+.bs-docs-sidebar .nav>li>a {
+  display: block;
+  padding: 4px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: @mdc-black-dark;
+}
+.bs-docs-sidebar .nav>li>a:focus,
+.bs-docs-sidebar .nav>li>a:hover {
+  padding-left: 19px;
+  text-decoration: none;
+  background-color: transparent;
+  color: @mdc-light-blue-700;
+  border-left: 1px solid @mdc-light-blue-700;
+}
+.bs-docs-sidebar .nav>.active:focus>a,
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active>a {
+  padding-left: 18px;
+  background-color: transparent;
+  font-weight: 500;
+  color: @mdc-light-blue-500;
+  border-left: 2px solid @mdc-light-blue-500;
+}
+.bs-docs-sidebar .nav .nav {
+  display: none;
+  padding-bottom: 10px
+}
+.bs-docs-sidebar .nav .nav>li>a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  font-size: 12px;
+}
+.bs-docs-sidebar .nav .nav>li>a:focus,
+.bs-docs-sidebar .nav .nav>li>a:hover {
+  padding-left: 29px
+}
+.bs-docs-sidebar .nav .nav>.active:focus>a,
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active>a {
+  padding-left: 28px;
+  font-weight: 500
+}
+@media (min-width: 992px) {
+  .bs-docs-sidebar .nav>.active>ul {
+    display: block;
+  }
+}
+.back-to-top {
+  display: none;
+  padding: 4px 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: @mdc-black-dark;
+}
+@media (min-width: 768px) {
+  .back-to-top {
+    display: block;
+  }
+}
+
+/* modal */
+//
+// Modals
+// --------------------------------------------------
+
+.shadow-z-5 {
+  -webkit-box-shadow: 0 19px 38px rgba(0,0,0,.30),
+  0 15px 12px rgba(0,0,0,.22);
+  -moz-box-shadow:    0 19px 38px rgba(0,0,0,.30),
+  0 15px 12px rgba(0,0,0,.22);
+  box-shadow:         0 19px 38px rgba(0,0,0,.30),
+  0 15px 12px rgba(0,0,0,.22);
+}
+
+// .modal-open      - body class for killing the scroll
+// .modal           - container to scroll within
+// .modal-dialog    - positioning shell for the actual modal
+// .modal-content   - actual modal w/ bg and corners and shit
+
+// To fix right padding on pages with scroll and fixed application bar
+.modal-open {
+  padding-right: 0;
+
+  .modal {
+    overflow: hidden;
+  }
+}
+
+// Shell div to position the modal with bottom padding
+.modal-dialog {
+  position: relative;
+  width: auto;
+  height: 100%;
+  margin: 48px;
+}
+
+// Actual modal
+.modal-content {
+  max-height: ~"calc(100% - 96px)";
+  overflow-y: auto;
+  padding: 8px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  .shadow-z-5();
+}
+
+// Modal background
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  // Fade for backdrop
+  &.in { opacity: .5; }
+}
+
+// Modal header
+// Top section of the modal w/ title and dismiss
+.modal-header {
+  padding: 16px;
+  padding-bottom: 0;
+  border: 0;
+  min-height: inherit;
+}
+// Close icon
+.modal-header .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+  padding: 0;
+
+  height: 56px;
+  width: 56px;
+  min-width: 56px;
+  font-size: 24px;
+  line-height: 56px;
+}
+
+// Title text within header
+.modal-title {
+  .zmdt-title();
+  margin: 0;
+}
+
+// Modal body
+// Where all modal content resides (sibling of .modal-header and .modal-footer)
+.modal-body {
+  //.font-variant(subhead-1);
+  color: @mdc-black-darker;
+  padding: 16px;
+}
+
+// Footer (for actions)
+.modal-footer {
+  height: 48px;
+  padding: 8px 16px;
+  text-align: right; // right align buttons
+  border: 0;
+}
+
+// Fixed positions
+// TODO: fixed bottom
+
+
+// Scale up the modal
+@media (min-width: 768px) {
+  // Automatically set modal's width for larger viewports
+  .modal-dialog {
+    width: 600px;
+    margin: 48px auto;
+  }
+  .modal-content {
+    .shadow-z-5();
+  }
+
+  // Modal sizes
+  .modal-sm { width: 300px; }
+}
+
+@media (min-width: 992px) {
+  .modal-lg { width: 900px; }
+}
+
+
+
+/* footer */
+footer {
+  color: @mdc-black-dark;
+  text-align: center;
+
+  p {
+    .zmdt-subhead-1();
+  }
+}
+
+/* icons page */
+.icon a {
+  display: block;
+  color: @mdc-black-darker;
+  padding: 8px;
+  line-height: 32px;
+  transition: all .3s ease;
+  border-radius: 2px;
+
+  &:hover,&:focus {
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: @mdc-light-blue-500;
+    color: @mdc-white-darker;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  }
+}

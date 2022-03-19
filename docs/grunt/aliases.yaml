@@ -1,0 +1,15 @@
+default:
+  description: 'Default (production) build'
+  tasks:
+    - prod
+prod:
+  description: 'Production build'
+  tasks:
+    - 'clean:prod'
+    - 'less'
+    - 'copy:font'
+    - 'copy:animatecss'
+    - 'copy:jssocial-css'
+    - 'copy:jssocial-js'
+    - 'copy:highlight'
+    - 'pleeease'

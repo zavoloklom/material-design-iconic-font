@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="YES" />
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon-180x180.png">
+    <meta name="apple-mobile-web-app-title" content="MD Iconic Font">
+    <link rel="shortcut icon" href="../icons/favicon.ico">
+    <link rel="icon" type="image/png" href="../icons/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="../icons/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="../icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="../icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../icons/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="../icons/mstile-144x144.png">
+    <meta name="msapplication-config" content="../icons/browserconfig.xml">
+    <meta name="application-name" content="MD Iconic Font">
+
+    <meta name="google-site-verification" content="XHNX_nkb_oo_RNBCPHJPYaON8gh65P5t7cRMVrUjiXw" />
+
+    <title>Material Design Iconic Font upgrade</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/docs.md-iconic-font.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@GitHub">
+    <meta name="twitter:creator" content="@zavoloklom">
+    <meta name="twitter:title" content="Material Design Iconic Font">
+    <meta name="twitter:description" content="Material Design Iconic Font is a full suite of material design icons (created and maintained by Google) for easy scalable vector graphics on websites.">
+    <meta name="twitter:image:src" content="http://zavoloklom.github.io/material-design-iconic-font/img/Material-Design-Iconic-Font.png">
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+<div id="top"></div>
+
+<div id="navbar" class="navbar navbar-default navbar-static-top hidden-print">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="md md-menu md-lg"></i>
+            </button>
+            <a class="navbar-brand" href="../../../../../Users/skupl/Downloads"><strong>Material Design</strong> Iconic Font</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="../index.html">Upgrade to version 2</a></li>
+                <li><a href="../icons.html">Icons</a></li>
+                <li><a href="../cheatsheet.html">Cheatsheet</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-img hidden-print">
+    <div class="container">
+        <div class="col-xs-12">
+            <img class="logo" src="../icons/favicon-96x96.png">
+            <h1>Material Design Iconic Font</h1>
+            <p>Material Design Iconic Font is a full suite of material design icons (created and maintained by <a href="https://github.com/google/material-design-icons" target="_blank">Google</a>) for easy scalable vector graphics on websites.</p>
+            <div class="inflated-egos">
+                Version 1.1.1
+                &nbsp;&nbsp;
+                <a href="https://github.com/zavoloklom/material-design-iconic-font" target="_blank">GitHub Project</a>
+                &nbsp;&nbsp;
+                Created by <a href="http://twitter.com/zavoloklom">Sergey Kupletsky</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="social-buttons" class="hidden-xs">
+    <div id="jssocial"></div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-9 col-xs-12" role="main">
+
+            <section id="upgrade">
+                <h2 class="page-header">Upgrading from 1.x to 2.x</h2>
+
+                <p class="lead">
+                    First of all you need to know that accordingly to Semantic Versioning guidelines version 2.x don't has backwards compatibility to version 1.x!
+                </p>
+            </section>
+
+            <section id="assets">
+                <h3>Assets (fonts, stylesheets)</h3>
+                <p>You need to update the Material Design Iconic Font assets, check that font files and <code>*.css</code> are new.</p>
+            </section>
+
+            <section id="syntax">
+                <h3>New default syntax</h3>
+                <p>For icons: <code>md md-*</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi zmdi-*</code> (Note: <code>zmdi</code>, base class is only needed by icons and is necessary)</p>
+                <p>For helper classes: <code>md-*</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-hc-*</code></p>
+            </section>
+
+            <section id="icons">
+                <h3>New icons names</h3>
+                <p><i class="zmd-fw zmdi zmdi-male"></i><code>md-accessibility</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-male</code></p>
+                <p><i class="zmd-fw zmdi zmdi-balance"></i><code>md-account-balance</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-balance</code></p>
+                <p><i class="zmd-fw zmdi zmdi-balance-wallet"></i><code>md-account-balance-wallet</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-balance-wallet</code></p>
+                <p><i class="zmd-fw zmdi zmdi-accounts-alt"></i><code>md-account-child</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-accounts-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-shopping-cart-add"></i><code>md-add-shopping-cart</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-shopping-cart-add</code> (or <code>zmdi-shopping-cart-plus</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-alarm-check"></i><code>md-alarm-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alarm-check</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-sign"></i><code>md-announcement</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-alert</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chart"></i><code>md-assessment</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chart</code></p>
+                <p><i class="zmd-fw zmdi zmdi-assignment-account"></i><code>md-assignment-ind</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-assignment-account</code></p>
+                <p><i class="zmd-fw zmdi zmdi-assignment-alert"></i><code>md-assignment-late</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-assignment-alert</code></p>
+                <p><i class="zmd-fw zmdi zmdi-assignment-check"></i><code>md-assignment-turned-in</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-assignment-check</code></p>
+                <p><i class="zmd-fw zmdi zmdi-refresh"></i><code>md-autorenew</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-refresh</code></p>
+                <p><i class="zmd-fw zmdi zmdi-cloud-upload"></i><code>md-backup</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-cloud-upload</code></p>
+                <p><i class="zmd-fw zmdi zmdi-bug"></i><code>md-bug-report</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-bug</code></p>
+                <p><i class="zmd-fw zmdi zmdi-refresh-alt"></i><code>md-cached</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-refresh-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-book"></i><code>md-class</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-book</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card"></i><code>md-credit-card</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card</code></p>
+                <p><i class="zmd-fw zmdi zmdi-view-dashboard"></i><code>md-dashboard</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-view-dashboard</code></p>
+                <p><i class="zmd-fw zmdi zmdi-file-text"></i><code>md-description</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-file-text</code></p>
+                <p><i class="zmd-fw zmdi zmdi-check"></i><code>md-done</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-check</code></p>
+                <p><i class="zmd-fw zmdi zmdi-check-all"></i><code>md-done-all</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-check-all</code></p>
+                <p><i class="zmd-fw zmdi zmdi-calendar"></i><code>md-event</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-calendar</code></p>
+                <p><i class="zmd-fw zmdi zmdi-sign-in"></i><code>md-exit-to-app</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-sign-in</code></p>
+                <p><i class="zmd-fw zmdi zmdi-compass"></i><code>md-explore</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-compass</code></p>
+                <p><i class="zmd-fw zmdi zmdi-puzzle-piece"></i><code>md-extension</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-puzzle-piece</code></p>
+                <p><i class="zmd-fw zmdi zmdi-face"></i><code>md-face-unlock</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-face</code></p>
+                <p><i class="zmd-fw zmdi zmdi-search-in-file"></i><code>md-find-in-page</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-search-in-file</code></p>
+                <p><i class="zmd-fw zmdi zmdi-search-replace"></i><code>md-find-replace</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-search-replace</code></p>
+                <p><i class="zmd-fw zmdi zmdi-download"></i><code>md-get-app</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-download</code></p>
+                <p><i class="zmd-fw zmdi zmdi-star"></i><code>md-grade</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-star</code></p>
+                <p><i class="zmd-fw zmdi zmdi-close-circle-o"></i><code>md-highlight-remove</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-close-circle-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-time-restore"></i><code>md-history</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-time-restore</code></p>
+                <p><i class="zmd-fw zmdi zmdi-lock"></i><code>md-https</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-lock</code></p>
+                <p><i class="zmd-fw zmdi zmdi-square-right"></i><code>md-input</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-square-right</code></p>
+                <p><i class="zmd-fw zmdi zmdi-globe-alt"></i><code>md-language</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-globe-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-open-in-new"></i><code>md-launch</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-open-in-new</code></p>
+                <p><i class="zmd-fw zmdi zmdi-view-list-alt"></i><code>md-list</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-view-list-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-label-heart"></i><code>md-loyalty</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-label-heart</code></p>
+                <p><i class="zmd-fw zmdi zmdi-file-add"></i><code>md-note-add</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-file-add</code> (or <code>zmdi-file-plus</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-arrows"></i><code>md-open-with</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-arrows</code></p>
+                <p><i class="zmd-fw zmdi zmdi-search-in-page"></i><code>md-pageview</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-search-in-page</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card"></i><code>md-payment</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card</code></p>
+                <p><i class="zmd-fw zmdi zmdi-camera-mic"></i><code>md-perm-camera-mic</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-camera-mic</code></p>
+                <p><i class="zmd-fw zmdi zmdi-account-calendar"></i><code>md-perm-contact-cal</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-account-calendar</code> (or <code>zmdi-calendar-account</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-network-setting"></i><code>md-perm-data-setting</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-setting</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone-info"></i><code>md-perm-device-info</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone-info</code></p>
+                <p><i class="zmd-fw zmdi zmdi-account-o"></i><code>md-perm-identity</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-account-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-folder-image"></i><code>md-perm-media</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-folder-image</code></p>
+                <p><i class="zmd-fw zmdi zmdi-phone-msg"></i><code>md-perm-phone-msg</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-phone-msg</code></p>
+                <p><i class="zmd-fw zmdi zmdi-network-wifi-scan"></i><code>md-perm-scan-wifi</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-wifi-scan</code> (or <code>zmdi-network-wifi-info</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-time"></i><code>md-query-builder</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-time</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comments"></i><code>md-question-answer</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comments</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card-giftcard"></i><code>md-redeem</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-giftcard</code></p>
+                <p><i class="zmd-fw zmdi zmdi-alert-triangle"></i><code>md-report-problem</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alert-triangle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-time-restore"></i><code>md-restore</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-time-restore</code></p>
+                <p><i class="zmd-fw zmdi zmdi-pin"></i><code>md-room</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-pin</code></p>
+                <p><i class="zmd-fw zmdi zmdi-time"></i><code>md-schedule</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-time</code></p>
+                <p><i class="zmd-fw zmdi zmdi-settings-square"></i><code>md-settings-applications</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-settings-square</code></p>
+                <p><i class="zmd-fw zmdi zmdi-time-restore-setting"></i><code>md-settings-backup-restore</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-time-restore-setting</code></p>
+                <p><i class="zmd-fw zmdi zmdi-bluetooth-setting"></i><code>md-settings-bluetooth</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-bluetooth-setting</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone-setting"></i><code>md-settings-cell</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone-setting</code></p>
+                <p><i class="zmd-fw zmdi zmdi-brightness-setting"></i><code>md-settings-display</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-brightness-setting</code></p>
+                <p><i class="zmd-fw zmdi zmdi-code-setting"></i><code>md-settings-ethernet</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-code-setting</code></p>
+                <p><i class="zmd-fw zmdi zmdi-input-antenna"></i><code>md-settings-input-antenna</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-input-antenna</code></p>
+                <p><i class="zmd-fw zmdi zmdi-input-composite"></i><code>md-settings-input-component</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-input-composite</code></p>
+                <p><i class="zmd-fw zmdi zmdi-input-composite"></i><code>md-settings-input-composite</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-input-composite</code></p>
+                <p><i class="zmd-fw zmdi zmdi-input-hdmi"></i><code>md-settings-input-hdmi</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-input-hdmi</code></p>
+                <p><i class="zmd-fw zmdi zmdi-input-svideo"></i><code>md-settings-input-svideo</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-input-svideo</code></p>
+                <p><i class="zmd-fw zmdi zmdi-fullscreen-alt"></i><code>md-settings-overscan</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-fullscreen-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-phone-setting"></i><code>md-settings-phone</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-phone-setting</code></p>
+                <p><i class="zmd-fw zmdi zmdi-power-off-setting"></i><code>md-settings-power</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-power-off-setting</code></p>
+                <p><i class="zmd-fw zmdi zmdi-remote-control"></i><code>md-settings-remote</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-remote-control</code></p>
+                <p><i class="zmd-fw zmdi zmdi-mic-setting"></i><code>md-settings-voice</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-mic-setting</code></p>
+                <p><i class="zmd-fw zmdi zmdi-case-play"></i><code>md-shop</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-case-play</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-case-play"></i><code>md-shop-two</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-case-play</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-list"></i><code>md-speaker-notes</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-list</code></p>
+                <p><i class="zmd-fw zmdi zmdi-star"></i><code>md-star-rate</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-star</code></p>
+                <p><i class="zmd-fw zmdi zmdi-star-circle"></i><code>md-stars</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-star-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-local-store"></i><code>md-store</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-local-store</code></p>
+                <p><i class="zmd-fw zmdi zmdi-format-subject"></i><code>md-subject</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-format-subject</code></p>
+                <p><i class="zmd-fw zmdi zmdi-swap"></i><code>md-swap-horiz</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-swap</code></p>
+                <p><i class="zmd-fw zmdi zmdi-swap-vertical-"></i><code>md-swap-vert</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-swap-vertical-</code> (Yes, I know... So use <code>zmdi-swap-vertical</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-swap-vertical-circle"></i><code>md-swap-vert-circle</code> <i class="zmdi zmdi-trending-flat"></i> <code></code></p>
+                <p><i class="zmd-fw zmdi zmdi-square-down"></i><code>md-system-update-tv</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-square-down</code></p>
+                <p><i class="zmd-fw zmdi zmdi-movie-alt"></i><code>md-theaters</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-movie-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-thumb-up-down"></i><code>md-thumbs-up-down</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-thumb-up-down</code></p>
+                <p><i class="zmd-fw zmdi zmdi-view-toc"></i><code>md-toc</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-view-toc</code></p>
+                <p><i class="zmd-fw zmdi zmdi-calendar-alt"></i><code>md-today</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-calendar-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-portable-wifi-changes"></i><code>md-track-changes</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-portable-wifi-changes</code></p>
+                <p><i class="zmd-fw zmdi zmdi-trending-flat"></i><code>md-trending-neutral</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-trending-flat</code></p>
+                <p><i class="zmd-fw zmdi zmdi-bookmark"></i><code>md-turned-in</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-bookmark</code></p>
+                <p><i class="zmd-fw zmdi zmdi-bookmark-outline"></i><code>md-turned-in-not</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-bookmark-outline</code></p>
+                <p><i class="zmd-fw zmdi zmdi-shield-check"></i><code>md-verified-user</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-shield-check</code></p>
+                <p><i class="zmd-fw zmdi zmdi-eye"></i><code>md-visibility</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-eye</code></p>
+                <p><i class="zmd-fw zmdi zmdi-eye-off"></i><code>md-visibility-off</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-eye-off</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card-giftcard"></i><code>md-wallet-giftcard</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-giftcard</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card-membership"></i><code>md-wallet-membership</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-membership</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card-travel"></i><code>md-wallet-travel</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-travel</code></p>
+                <p><i class="zmd-fw zmdi zmdi-case"></i><code>md-work</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-case</code></p>
+                <p><i class="zmd-fw zmdi zmdi-alert-circle"></i><code>md-error</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alert-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-alert-triangle"></i><code>md-warning</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alert-triangle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-time-countdown"></i><code>md-av-timer</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-time-countdown</code></p>
+                <p><i class="zmd-fw zmdi zmdi-gamepad"></i><code>md-games</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-gamepad</code></p>
+                <p><i class="zmd-fw zmdi zmdi-hq"></i><code>md-high-quality</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-hq</code></p>
+                <p><i class="zmd-fw zmdi zmdi-refresh-sync"></i><code>md-loop</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-refresh-sync</code></p>
+                <p><i class="zmd-fw zmdi zmdi-mic-outline"></i><code>md-mic-none</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-mic-outline</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-add"></i><code>md-my-library-add</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-add</code> (or <code>zmdi-collection-plus</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-collection-text"></i><code>md-my-library-books</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-text</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-music"></i><code>md-my-library-music</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-music</code></p>
+                <p><i class="zmd-fw zmdi zmdi-alert-polygon"></i><code>md-new-releases</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alert-polygon</code></p>
+                <p><i class="zmd-fw zmdi zmdi-block"></i><code>md-not-interested</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-block</code></p>
+                <p><i class="zmd-fw zmdi zmdi-pause-circle"></i><code>md-pause-circle-fill</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-pause-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-play"></i><code>md-play-arrow</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-play</code></p>
+                <p><i class="zmd-fw zmdi zmdi-play-circle"></i><code>md-play-circle-fill</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-play-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-format-playlist-add"></i><code>md-playlist-add</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-format-playlist-add</code> (or <code>zmdi-playlist-plus</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-case-play"></i><code>md-play-shopping-bag</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-case-play</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-add"></i><code>md-queue</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-add</code> (or <code>zmdi-collection-plus</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-format-queue-music"></i><code>md-queue-music</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-format-queue-music</code> (or <code>zmdi-playlist-audio</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-accounts-list"></i><code>md-recent-actors</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-accounts-list</code></p>
+                <p><i class="zmd-fw zmdi zmdi-alarm-snooze"></i><code>md-snooze</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alarm-snooze</code></p>
+                <p><i class="zmd-fw zmdi zmdi-view-subtitles"></i><code>md-subtitles</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-view-subtitles</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-video"></i><code>md-video-collection</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-video</code></p>
+                <p><i class="zmd-fw zmdi zmdi-view-web"></i><code>md-web</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-view-web</code></p>
+                <p><i class="zmd-fw zmdi zmdi-city-alt"></i><code>md-business</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-city-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-phone"></i><code>md-call</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-phone</code></p>
+                <p><i class="zmd-fw zmdi zmdi-phone-end"></i><code>md-call-end</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-phone-end</code></p>
+                <p><i class="zmd-fw zmdi zmdi-arrow-out"></i><code>md-call-made</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-arrow-out</code></p>
+                <p><i class="zmd-fw zmdi zmdi-arrow-merge"></i><code>md-call-merge</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-arrow-merge</code></p>
+                <p><i class="zmd-fw zmdi zmdi-arrow-missed"></i><code>md-call-missed</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-arrow-missed</code></p>
+                <p><i class="zmd-fw zmdi zmdi-arrow-in"></i><code>md-call-received</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-arrow-in</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-text-alt"></i><code>md-chat</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-text-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-format-clear-all"></i><code>md-clear-all</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-format-clear-all</code></p>
+                <p><i class="zmd-fw zmdi zmdi-accounts-list-alt"></i><code>md-contacts</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-accounts-list-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-phone-sip"></i><code>md-dialer-sip</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-phone-sip</code></p>
+                <p><i class="zmd-fw zmdi zmdi-block-alt"></i><code>md-dnd-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-block-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comments"></i><code>md-forum</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comments</code></p>
+                <p><i class="zmd-fw zmdi zmdi-swap-vertical-"></i><code>md-import-export</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-swap-vertical-</code> (Yes, I know... So use <code>zmdi-swap-vertical</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-invert-colors"></i><code>md-invert-colors-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-invert-colors</code></p>
+                <p><i class="zmd-fw zmdi zmdi-pin-help"></i><code>md-live-help</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-pin-help</code></p>
+                <p><i class="zmd-fw zmdi zmdi-pin-off"></i><code>md-location-off</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-pin-off</code></p>
+                <p><i class="zmd-fw zmdi zmdi-pin"></i><code>md-location-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-pin</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-text"></i><code>md-message</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-text</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment"></i><code>md-messenger</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card-off"></i><code>md-no-sim</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-off</code></p>
+                <p><i class="zmd-fw zmdi zmdi-account-box-phone"></i><code>md-quick-contacts-dialer</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-account-box-phone</code></p>
+                <p><i class="zmd-fw zmdi zmdi-account-box-mail"></i><code>md-quick-contacts-mail</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-account-box-mail</code></p>
+                <p><i class="zmd-fw zmdi zmdi-phone-ring"></i><code>md-ring-volume</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-phone-ring</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone-landscape"></i><code>md-stay-current-landscape</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone-landscape</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone"></i><code>md-stay-current-portrait</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone-landscape"></i><code>md-stay-primary-landscape</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone-landscape</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone"></i><code>md-stay-primary-portrait</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone</code></p>
+                <p><i class="zmd-fw zmdi zmdi-swap-alt"></i><code>md-swap-calls</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-swap-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-dots"></i><code>md-textsms</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-dots</code></p>
+                <p><i class="zmd-fw zmdi zmdi-key"></i><code>md-vpn-key</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-key</code></p>
+                <p><i class="zmd-fw zmdi zmdi-plus"></i><code>md-add</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plus</code></p>
+                <p><i class="zmd-fw zmdi zmdi-plus-box"></i><code>md-add-box</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plus-box</code> (or <code>zmdi-plus-square</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-plus-circle"></i><code>md-add-circle</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plus-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-plus-circle-o"></i><code>md-add-circle-outline</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plus-circle-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-tag-backspace"></i><code>md-backspace</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-tag-backspace</code> (or <code>zmdi-tag-close</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-close"></i><code>md-clear</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-close</code></p>
+                <p><i class="zmd-fw zmdi zmdi-copy"></i><code>md-content-copy</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-copy</code></p>
+                <p><i class="zmd-fw zmdi zmdi-cut"></i><code>md-content-cut</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-cut</code></p>
+                <p><i class="zmd-fw zmdi zmdi-assignment-o"></i><code>md-content-paste</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-assignment-o</code> (or <code>zmdi-paste</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-edit"></i><code>md-create</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-edit</code></p>
+                <p><i class="zmd-fw zmdi zmdi-email-open"></i><code>md-drafts</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-email-open</code></p>
+                <p><i class="zmd-fw zmdi zmdi-email"></i><code>md-mail</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-email</code></p>
+                <p><i class="zmd-fw zmdi zmdi-email"></i><code>md-markunread</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-email</code></p>
+                <p><i class="zmd-fw zmdi zmdi-minus"></i><code>md-remove</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-minus</code></p>
+                <p><i class="zmd-fw zmdi zmdi-minus-circle"></i><code>md-remove-circle</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-minus-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-minus-circle-outline"></i><code>md-remove-circle-outline</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-minus-circle-outline</code></p>
+                <p><i class="zmd-fw zmdi zmdi-mail-reply"></i><code>md-reply</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-mail-reply</code></p>
+                <p><i class="zmd-fw zmdi zmdi-mail-reply-all"></i><code>md-reply-all</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-mail-reply-all</code></p>
+                <p><i class="zmd-fw zmdi zmdi-alert-octagon"></i><code>md-report</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alert-octagon</code></p>
+                <p><i class="zmd-fw zmdi zmdi-mail-send"></i><code>md-send</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-mail-send</code></p>
+                <p><i class="zmd-fw zmdi zmdi-alarm"></i><code>md-access-alarm</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alarm</code></p>
+                <p><i class="zmd-fw zmdi zmdi-alarm"></i><code>md-access-alarms</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alarm</code></p>
+                <p><i class="zmd-fw zmdi zmdi-time"></i><code>md-access-time</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-time</code></p>
+                <p><i class="zmd-fw zmdi zmdi-alarm-add"></i><code>md-add-alarm</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-alarm-add</code> (or <code>zmdi-alarm-plus</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-airplanemode-inactive"></i><code>md-airplanemode-off</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-airplanemode-inactive</code> (or <code>zmdi-airplane-off</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-airplanemode-active"></i><code>md-airplanemode-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-airplanemode-active</code> (or <code>zmdi-airplane</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-20</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-30</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-50</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-60</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-80</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-90</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-charging-20</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-charging-30</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-charging-50</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-charging-60</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-charging-80</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-battery-charging-90</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi zmdi-battery-charging"></i><code>md-battery-charging-full</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-battery-charging</code> (or <code>zmdi-battery-flash</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-battery"></i><code>md-battery-full</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-battery</code></p>
+                <p><i class="zmd-fw zmdi zmdi-battery"></i><code>md-battery-std</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-battery</code></p>
+                <p><i class="zmd-fw zmdi zmdi-bluetooth-off"></i><code>md-bluetooth-disabled</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-bluetooth-off</code></p>
+                <p><i class="zmd-fw zmdi zmdi-bluetooth-search"></i><code>md-bluetooth-searching</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-bluetooth-search</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chart-donut"></i><code>md-data-usage</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chart-donut</code></p>
+                <p><i class="zmd-fw zmdi zmdi-code-smartphone"></i><code>md-developer-mode</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-code-smartphone</code> (or <code>zmdi-smartphone-code</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-tv-list"></i><code>md-dvr</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-tv-list</code></p>
+                <p><i class="zmd-fw zmdi zmdi-gps-dot"></i><code>md-gps-fixed</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-gps-dot</code></p>
+                <p><i class="zmd-fw zmdi zmdi-gps"></i><code>md-gps-not-fixed</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-gps</code></p>
+                <p><i class="zmd-fw zmdi zmdi-gps-off"></i><code>md-location-disabled</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-gps-off</code></p>
+                <p><i class="zmd-fw zmdi zmdi-gps"></i><code>md-location-searching</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-gps</code></p>
+                <p><i class="zmd-fw zmdi zmdi-graphic-eq"></i><code>md-multitrack-audio</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-graphic-eq</code></p>
+                <p><i class="zmd-fw zmdi zmdi-network"></i><code>md-network-cell</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network</code></p>
+                <p><i class="zmd-fw zmdi zmdi-wallpaper"></i><code>md-now-wallpaper</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-wallpaper</code></p>
+                <p><i class="zmd-fw zmdi zmdi-widgets"></i><code>md-now-widgets</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-widgets</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone-landscape-lock"></i><code>md-screen-lock-landscape</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone-landscape-lock</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone-portrait-lock"></i><code>md-screen-lock-portrait</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone-portrait-lock</code></p>
+                <p><i class="zmd-fw zmdi zmdi-screen-rotation-lock"></i><code>md-screen-lock-rotation</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-screen-rotation-lock</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card-sd"></i><code>md-sd-storage</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-sd</code></p>
+                <p><i class="zmd-fw zmdi zmdi-daydream-setting"></i><code>md-settings-system-daydream</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-daydream-setting</code> (or <code>zmdi-cloud-box</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-network-outline"></i><code>md-signal-cellular-0-bar</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-outline</code></p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-cellular-1-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-cellular-2-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-cellular-3-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi zmdi-network"></i><code>md-signal-cellular-4-bar</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network</code></p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-cellular-connected-no-internet-0-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-cellular-connected-no-internet-1-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-cellular-connected-no-internet-2-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-cellular-connected-no-internet-3-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi zmdi-network-warning"></i><code>md-signal-cellular-connected-no-internet-4-bar</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-warning</code> (or <code>zmdi-network-alert</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-card-off"></i><code>md-signal-cellular-no-sim</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-off</code></p>
+                <p><i class="zmd-fw zmdi zmdi-network-outline"></i><code>md-signal-cellular-null</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-outline</code></p>
+                <p><i class="zmd-fw zmdi zmdi-network-off"></i><code>md-signal-cellular-off</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-off</code></p>
+                <p><i class="zmd-fw zmdi zmdi-network-wifi-outline"></i><code>md-signal-wifi-0-bar</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-wifi-outline</code> since 2.1.0</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-wifi-1-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-wifi-2-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi "></i><code>md-signal-wifi-3-bar</code> <i class="zmdi zmdi-trending-flat"></i> deprecated</p>
+                <p><i class="zmd-fw zmdi zmdi-network-wifi"></i><code>md-signal-wifi-4-bar</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-wifi</code></p>
+                <p><i class="zmd-fw zmdi zmdi-network-wifi-off"></i><code>md-signal-wifi-off</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-wifi-off</code></p>
+                <p><i class="zmd-fw zmdi zmdi-network-wifi-lock"></i><code>md-wifi-lock</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-network-wifi-lock</code></p>
+                <p><i class="zmd-fw zmdi zmdi-portable-wifi"></i><code>md-wifi-tethering</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-portable-wifi</code></p>
+                <p><i class="zmd-fw zmdi zmdi-attachment-alt"></i><code>md-attach-file</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-attachment-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-money"></i><code>md-attach-money</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-money</code></p>
+                <p><i class="zmd-fw zmdi zmdi-format-underlined"></i><code>md-format-underline</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-format-underlined</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chart"></i><code>md-insert-chart</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chart</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-alt-text"></i><code>md-insert-comment</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-alt-text</code></p>
+                <p><i class="zmd-fw zmdi zmdi-file"></i><code>md-insert-drive-file</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-file</code></p>
+                <p><i class="zmd-fw zmdi zmdi-mood"></i><code>md-insert-emoticon</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-mood</code></p>
+                <p><i class="zmd-fw zmdi zmdi-calendar"></i><code>md-insert-invitation</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-calendar</code></p>
+                <p><i class="zmd-fw zmdi zmdi-link"></i><code>md-insert-link</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-link</code></p>
+                <p><i class="zmd-fw zmdi zmdi-image"></i><code>md-insert-photo</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-image</code></p>
+                <p><i class="zmd-fw zmdi zmdi-arrow-merge"></i><code>md-merge-type</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-arrow-merge</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-alt"></i><code>md-mode-comment</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-edit"></i><code>md-mode-edit</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-edit</code></p>
+                <p><i class="zmd-fw zmdi zmdi-upload"></i><code>md-publish</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-upload</code></p>
+                <p><i class="zmd-fw zmdi zmdi-format-valign-bottom"></i><code>md-vertical-align-bottom</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-format-valign-bottom</code></p>
+                <p><i class="zmd-fw zmdi zmdi-format-valign-center"></i><code>md-vertical-align-center</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-format-valign-center</code></p>
+                <p><i class="zmd-fw zmdi zmdi-format-valign-top"></i><code>md-vertical-align-top</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-format-valign-top</code></p>
+                <p><i class="zmd-fw zmdi zmdi-cloud-outline"></i><code>md-cloud-queue</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-cloud-outline</code></p>
+                <p><i class="zmd-fw zmdi zmdi-download"></i><code>md-file-download</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-download</code></p>
+                <p><i class="zmd-fw zmdi zmdi-upload"></i><code>md-file-upload</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-upload</code></p>
+                <p><i class="zmd-fw zmdi zmdi-folder-outline"></i><code>md-folder-open</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-folder-outline</code></p>
+                <p><i class="zmd-fw zmdi zmdi-laptop"></i><code>md-computer</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-laptop</code></p>
+                <p><i class="zmd-fw zmdi zmdi-mood"></i><code>md-keyboard-alt</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-mood</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chevron-down"></i><code>md-keyboard-arrow-down</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chevron-down</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chevron-left"></i><code>md-keyboard-arrow-left</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chevron-left</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chevron-right"></i><code>md-keyboard-arrow-right</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chevron-right</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chevron-up"></i><code>md-keyboard-arrow-up</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chevron-up</code></p>
+                <p><i class="zmd-fw zmdi zmdi-long-arrow-left"></i><code>md-keyboard-backspace</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-long-arrow-left</code></p>
+                <p><i class="zmd-fw zmdi zmdi-eject-alt"></i><code>md-keyboard-capslock</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-eject-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-more-horiz"></i><code>md-keyboard-control</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-more-horiz</code> (or <code>zmdi-more</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-long-arrow-return"></i><code>md-keyboard-return</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-long-arrow-return</code></p>
+                <p><i class="zmd-fw zmdi zmdi-long-arrow-tab"></i><code>md-keyboard-tab</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-long-arrow-tab</code></p>
+                <p><i class="zmd-fw zmdi zmdi-mic"></i><code>md-keyboard-voice</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-mic</code></p>
+                <p><i class="zmd-fw zmdi zmdi-laptop"></i><code>md-laptop-windows</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-laptop</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone-android"></i><code>md-phone-android</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone-android</code></p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone-iphone"></i><code>md-phone-iphone</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone-iphone</code></p>
+                <p><i class="zmd-fw zmdi zmdi-devices"></i><code>md-phonelink</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-devices</code></p>
+                <p><i class="zmd-fw zmdi zmdi-devices-off"></i><code>md-phonelink-off</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-devices-off</code></p>
+                <p><i class="zmd-fw zmdi zmdi-shield-security"></i><code>md-security</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-shield-security</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card-sim"></i><code>md-sim-card</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-sim</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-add"></i><code>md-add-to-photos</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-add</code> (or <code>zmdi-collection-plus</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-dot-circle-alt"></i><code>md-adjust</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-dot-circle-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-flag"></i><code>md-assistant-photo</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-flag</code></p>
+                <p><i class="zmd-fw zmdi zmdi-audio"></i><code>md-audiotrack</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-audio</code></p>
+                <p><i class="zmd-fw zmdi zmdi-blur"></i><code>md-blur-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-blur</code></p>
+                <p><i class="zmd-fw zmdi zmdi-circle"></i><code>md-brightness-1</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-image"></i><code>md-collections</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-image</code></p>
+                <p><i class="zmd-fw zmdi zmdi-palette"></i><code>md-color-lens</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-palette</code></p>
+                <p><i class="zmd-fw zmdi zmdi-plus-circle-o"></i><code>md-control-point</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plus-circle-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-plus-circle-o-duplicate"></i><code>md-control-point-duplicate</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plus-circle-o-duplicate</code></p>
+                <p><i class="zmd-fw zmdi zmdi-triangle-down"></i><code>md-details</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-triangle-down</code></p>
+                <p><i class="zmd-fw zmdi zmdi-neg-1"></i><code>md-exposure-minus-1</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-neg-1</code></p>
+                <p><i class="zmd-fw zmdi zmdi-neg-2"></i><code>md-exposure-minus-2</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-neg-2</code></p>
+                <p><i class="zmd-fw zmdi zmdi-zero"></i><code>md-exposure-zero</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-zero</code></p>
+                <p><i class="zmd-fw zmdi zmdi-plus-1"></i><code>md-exposure-plus-1</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plus-1</code></p>
+                <p><i class="zmd-fw zmdi zmdi-plus-2"></i><code>md-exposure-plus-2</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plus-2</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-image-o"></i><code>md-filter</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-image-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-1"></i><code>md-filter-1</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-1</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-2"></i><code>md-filter-2</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-2</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-3"></i><code>md-filter-3</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-3</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-4"></i><code>md-filter-4</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-4</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-5"></i><code>md-filter-5</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-5</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-6"></i><code>md-filter-6</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-6</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-7"></i><code>md-filter-7</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-7</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-8"></i><code>md-filter-8</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-8</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-9"></i><code>md-filter-9</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-9</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item-9-plus"></i><code>md-filter-9-plus</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item-9-plus</code></p>
+                <p><i class="zmd-fw zmdi zmdi-cloud-outline-alt"></i><code>md-filter-drama</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-cloud-outline-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-landscape"></i><code>md-filter-hdr</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-landscape</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-item"></i><code>md-filter-none</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-item</code></p>
+                <p><i class="zmd-fw zmdi zmdi-flower"></i><code>md-filter-vintage</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-flower</code></p>
+                <p><i class="zmd-fw zmdi zmdi-flash"></i><code>md-flash-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-flash</code></p>
+                <p><i class="zmd-fw zmdi zmdi-grid"></i><code>md-grid-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-grid</code></p>
+                <p><i class="zmd-fw zmdi zmdi-hdr"></i><code>md-hdr-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-hdr</code></p>
+                <p><i class="zmd-fw zmdi zmdi-plaster"></i><code>md-healing</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plaster</code></p>
+                <p><i class="zmd-fw zmdi zmdi-aspect-ratio"></i><code>md-image-aspect-ratio</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-aspect-ratio</code></p>
+                <p><i class="zmd-fw zmdi zmdi-exposure-alt"></i><code>md-iso</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-exposure-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-leak"></i><code>md-leak-add</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-leak</code></p>
+                <p><i class="zmd-fw zmdi zmdi-circle"></i><code>md-lens</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-n-1-square"></i><code>md-looks-1</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-n-1-square</code></p>
+                <p><i class="zmd-fw zmdi zmdi-n-2-square"></i><code>md-looks-2</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-n-2-square</code></p>
+                <p><i class="zmd-fw zmdi zmdi-n-3-square"></i><code>md-looks-3</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-n-3-square</code></p>
+                <p><i class="zmd-fw zmdi zmdi-n-4-square"></i><code>md-looks-4</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-n-4-square</code></p>
+                <p><i class="zmd-fw zmdi zmdi-n-5-square"></i><code>md-looks-5</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-n-5-square</code></p>
+                <p><i class="zmd-fw zmdi zmdi-n-6-square"></i><code>md-looks-6</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-n-6-square</code></p>
+                <p><i class="zmd-fw zmdi zmdi-movie"></i><code>md-movie-creation</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-movie</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chevron-left"></i><code>md-navigate-before</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chevron-left</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chevron-right"></i><code>md-navigate-next</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chevron-right</code></p>
+                <p><i class="zmd-fw zmdi zmdi-image-alt"></i><code>md-panorama</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-image-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-circle-o"></i><code>md-panorama-fisheye</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-circle-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-image"></i><code>md-photo</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-image</code></p>
+                <p><i class="zmd-fw zmdi zmdi-book-photo"></i><code>md-photo-album</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-book-photo</code> (or <code>zmdi-book-image</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-camera"></i><code>md-photo-camera</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-camera</code></p>
+                <p><i class="zmd-fw zmdi zmdi-collection-image"></i><code>md-photo-library</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-collection-image</code></p>
+                <p><i class="zmd-fw zmdi zmdi-account-box-o"></i><code>md-portrait</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-account-box-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-eye"></i><code>md-remove-red-eye</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-eye</code></p>
+                <p><i class="zmd-fw zmdi zmdi-ruler"></i><code>md-straighten</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-ruler</code></p>
+                <p><i class="zmd-fw zmdi zmdi-labels"></i><code>md-style</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-labels</code></p>
+                <p><i class="zmd-fw zmdi zmdi-camera-switch"></i><code>md-switch-camera</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-camera-switch</code></p>
+                <p><i class="zmd-fw zmdi zmdi-videocam-switch"></i><code>md-switch-video</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-videocam-switch</code></p>
+                <p><i class="zmd-fw zmdi zmdi-mood"></i><code>md-tag-faces</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-mood</code></p>
+                <p><i class="zmd-fw zmdi zmdi-time-interval"></i><code>md-timelapse</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-time-interval</code></p>
+                <p><i class="zmd-fw zmdi zmdi-sec-3"></i><code>md-timer-3</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-sec-3</code></p>
+                <p><i class="zmd-fw zmdi zmdi-sec-10"></i><code>md-timer-10</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-sec-10</code></p>
+                <p><i class="zmd-fw zmdi zmdi-account"></i><code>md-timer-auto</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-account</code></p>
+                <p><i class="zmd-fw zmdi zmdi-cloud"></i><code>md-wb-cloudy</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-cloud</code></p>
+                <p><i class="zmd-fw zmdi zmdi-incandescent"></i><code>md-wb-incandescent</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-incandescent</code> (or <code>zmdi-lamp</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-wb-iridescent"></i><code>md-wb-irradescent</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-wb-iridescent</code> (or <code>zmdi-iridescent</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-sun"></i><code>md-wb-sunny</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-sun</code></p>
+                <p><i class="zmd-fw zmdi zmdi-badge-check"></i><code>md-beenhere</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-badge-check</code></p>
+                <p><i class="zmd-fw zmdi zmdi-directions-subway"></i><code>md-directions-transit</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-directions-subway</code></p>
+                <p><i class="zmd-fw zmdi zmdi-airplanemode-active"></i><code>md-flight</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-airplanemode-active</code> (or <code>zmdi-airplane</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-local-activity"></i><code>md-local-attraction</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-local-activity</code></p>
+                <p><i class="zmd-fw zmdi zmdi-local-printshop"></i><code>md-local-print-shop</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-local-printshop</code></p>
+                <p><i class="zmd-fw zmdi zmdi-local-dining"></i><code>md-local-restaurant</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-local-dining</code></p>
+                <p><i class="zmd-fw zmdi zmdi-pin-account"></i><code>md-location-history</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-pin-account</code></p>
+                <p><i class="zmd-fw zmdi zmdi-pin"></i><code>md-place</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-pin</code></p>
+                <p><i class="zmd-fw zmdi zmdi-local-dining"></i><code>md-restaurant-menu</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-local-dining</code></p>
+                <p><i class="zmd-fw zmdi zmdi-local-store"></i><code>md-store-mall-directory</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-local-store</code></p>
+                <p><i class="zmd-fw zmdi zmdi-landscape"></i><code>md-terrain</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-landscape</code></p>
+                <p><i class="zmd-fw zmdi zmdi-close-circle"></i><code>md-cancel</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-close-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-caret-down-circle"></i><code>md-arrow-drop-down-circle</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-caret-down-circle</code></p>
+                <p><i class="zmd-fw zmdi zmdi-caret-down"></i><code>md-arrow-drop-down</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-caret-down</code></p>
+                <p><i class="zmd-fw zmdi zmdi-caret-up"></i><code>md-arrow-drop-up</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-caret-up</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chevron-up"></i><code>md-expand-less</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chevron-up</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chevron-down"></i><code>md-expand-more</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chevron-down</code></p>
+                <p><i class="zmd-fw zmdi zmdi-bluetooth-search"></i><code>md-bluetooth-audio</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-bluetooth-search</code></p>
+                <p><i class="zmd-fw zmdi zmdi-block-alt"></i><code>md-dnd-forwardslash</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-block-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-block"></i><code>md-do-not-disturb</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-block</code></p>
+                <p><i class="zmd-fw zmdi zmdi-directions-car"></i><code>md-drive-eta</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-directions-car</code></p>
+                <p><i class="zmd-fw zmdi zmdi-calendar-check"></i><code>md-event-available</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-calendar-check</code></p>
+                <p><i class="zmd-fw zmdi zmdi-calendar-remove"></i><code>md-event-busy</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-calendar-remove</code> (or <code>zmdi-calendar-close</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-calendar-note"></i><code>md-event-note</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-calendar-note</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-image"></i><code>md-mms</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-image</code></p>
+                <p><i class="zmd-fw zmdi zmdi-tag-more"></i><code>md-more</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-tag-more</code></p>
+                <p><i class="zmd-fw zmdi zmdi-phone-bluetooth"></i><code>md-phone-bluetooth-speaker</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-phone-bluetooth</code></p>
+                <p><i class="zmd-fw zmdi zmdi-case-download"></i><code>md-play-download</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-case-download</code> since 2.1.0</p>
+                <p><i class="zmd-fw zmdi zmdi-case-check"></i><code>md-play-install</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-case-check</code> since 2.1.0</p>
+                <p><i class="zmd-fw zmdi zmdi-card-sd"></i><code>md-sd-card</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-sd</code></p>
+                <p><i class="zmd-fw zmdi zmdi-card-alert"></i><code>md-sim-card-alert</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-card-alert</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-dots"></i><code>md-sms</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-dots</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-alert"></i><code>md-sms-failed</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-alert</code></p>
+                <p><i class="zmd-fw zmdi zmdi-refresh-sync"></i><code>md-sync</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-refresh-sync</code></p>
+                <p><i class="zmd-fw zmdi zmdi-refresh-sync-disabled"></i><code>md-sync-disabled</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-refresh-sync-disabled</code> (or <code>zmdi-refresh-sync-off</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-refresh-sync-problem"></i><code>md-sync-problem</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-refresh-sync-problem</code> (or <code>zmdi-refresh-sync-alert</code> since 2.1.0)</p>
+                <p><i class="zmd-fw zmdi zmdi-smartphone-download"></i><code>md-system-update</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-smartphone-download</code></p>
+                <p><i class="zmd-fw zmdi zmdi-directions-car"></i><code>md-time-to-leave</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-directions-car</code></p>
+                <p><i class="zmd-fw zmdi zmdi-comment-video"></i><code>md-voice-chat</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-comment-video</code></p>
+                <p><i class="zmd-fw zmdi zmdi-globe-lock"></i><code>md-vpn-lock</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-globe-lock</code></p>
+                <p><i class="zmd-fw zmdi zmdi-city-alt"></i><code>md-domain</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-city-alt</code></p>
+                <p><i class="zmd-fw zmdi zmdi-city"></i><code>md-location-city</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-city</code></p>
+                <p><i class="zmd-fw zmdi zmdi-notifications-active"></i><code>md-notifications-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-notifications-active</code></p>
+                <p><i class="zmd-fw zmdi zmdi-camera-party-mode"></i><code>md-party-mode</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-camera-party-mode</code></p>
+                <p><i class="zmd-fw zmdi zmdi-accounts"></i><code>md-group</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-accounts</code></p>
+                <p><i class="zmd-fw zmdi zmdi-accounts-add"></i><code>md-group-add</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-accounts-add</code></p>
+                <p><i class="zmd-fw zmdi zmdi-accounts"></i><code>md-people</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-accounts</code></p>
+                <p><i class="zmd-fw zmdi zmdi-accounts-outline"></i><code>md-people-outline</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-accounts-outline</code></p>
+                <p><i class="zmd-fw zmdi zmdi-account"></i><code>md-person</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-account</code></p>
+                <p><i class="zmd-fw zmdi zmdi-account-add"></i><code>md-person-add</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-account-add</code></p>
+                <p><i class="zmd-fw zmdi zmdi-account-o"></i><code>md-person-outline</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-account-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-plus-1"></i><code>md-plus-one</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-plus-1</code></p>
+                <p><i class="zmd-fw zmdi zmdi-chart"></i><code>md-poll</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-chart</code></p>
+                <p><i class="zmd-fw zmdi zmdi-globe"></i><code>md-public</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-globe</code></p>
+                <p><i class="zmd-fw zmdi zmdi-graduation-cap"></i><code>md-school</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-graduation-cap</code></p>
+                <p><i class="zmd-fw zmdi zmdi-fire"></i><code>md-whatshot</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-fire</code></p>
+                <p><i class="zmd-fw zmdi zmdi-check-square"></i><code>md-check-box</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-check-square</code></p>
+                <p><i class="zmd-fw zmdi zmdi-square-o"></i><code>md-check-box-outline-blank</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-square-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-circle-o"></i><code>md-radio-button-off</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-circle-o</code></p>
+                <p><i class="zmd-fw zmdi zmdi-dot-circle"></i><code>md-radio-button-on</code> <i class="zmdi zmdi-trending-flat"></i> <code>zmdi-dot-circle</code></p>
+
+                <p class="alert alert-warning"><i class="zmdi zmdi-alert-circle"></i> If you think that I forgot something - let me know via <a target="_blank" href="https://github.com/zavoloklom/material-design-iconic-font/issues">GitHub issue</a>.</p>
+
+            </section>
+
+            <section id="other">
+            </section>
+
+        </div>
+
+        <div class="col-md-3 hidden-sm hidden-xs hidden-print">
+            <div data-spy="affix" data-offset-top="470" data-offset-bottom="70" class="bs-docs-sidebar" role="complementary">
+                <ul class="nav bs-docs-sidenav">
+                    <li><a href="#upgrade">Upgrading from 1.x to 2.x</a></li>
+                    <li><a href="#assets">Assets (fonts, stylesheets)</a></li>
+                    <li><a href="#syntax">New default syntax</a></li>
+                    <li><a href="#icons">New icon names</a></li>
+                </ul>
+                <a class="back-to-top" href="#top">Back to top</a>
+                <!-- Affix sidebar -->
+                <ins class="adsbygoogle"
+                     style="display:block; max-width: 200px; width:100%; height:200px; padding-top: 24px"
+                     data-ad-client="ca-pub-1677266632116401"
+                     data-ad-slot="5771234977"></ins>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="container">
+    <div class="col-md-9 col-xs-12">
+        <hr />
+        <span class="pull-left"><a href="https://github.com/zavoloklom" target="_blank"><img src="../img/doctocat.png"></a></span>
+        <p class="mdt-subhead-2"><strong>Donate:</strong> You can support me via <a class="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=s%2ekupletsky%40gmail%2ecom&lc=US&item_name=Material%20Design%20Iconic%20Font&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">PayPal</a>, <a class="webmoney" href="https://funding.webmoney.ru/material-design-web-projects">WebMoney</a> or <a class="gratipay" href="http://gratipay.com/zavoloklom/" target="_blank">Gratipay</a></p>
+        <p class="mdt-body-1">
+            <a href="https://github.com">GitHub</a> is the best way to build and ship software.<br>
+            Powerful collaboration, code review, and code management for open source and private projects.
+        </p>
+    </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="../js/jssocials.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/jquery.highlight.js"></script>
+<script>
+    $(document).ready(function(){
+        $('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+    });
+</script>
+
+<!-- Google Adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- Google Analytics -->
+<script src='//apis.google.com/js/platform.js'></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-56068812-1', 'auto');
+    ga('send', 'pageview');
+
+    // Custom events
+    jQuery('.paypal').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'Paypal');
+    });
+    jQuery('.webmoney').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'Webmoney');
+    });
+    jQuery('.gratipay').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'Gratipay');
+    });
+    jQuery('.download-btn').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'Download');
+    });
+</script>
+<!-- /Google Analytics -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter27687525 = new Ya.Metrika({id:27687525,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    trackHash:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/27687525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+</html>

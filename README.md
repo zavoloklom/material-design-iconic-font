@@ -1,9 +1,8 @@
 # [Material Design Iconic Font 2.2.0](http://zavoloklom.github.io/material-design-iconic-font)
 
-[![Latest Version](https://img.shields.io/github/release/zavoloklom/material-design-iconic-font.svg?style=flat-square&label=latest version)](https://github.com/zavoloklom/material-design-iconic-font/tags)
-[![Software License](https://img.shields.io/badge/license-MIT License/SIL OFL 1.1-blue.svg?style=flat-square)](LICENSE)
+[![Latest Version](https://img.shields.io/github/release/zavoloklom/material-design-iconic-font.svg?style=flat-square&label=latest%20version)](https://github.com/zavoloklom/material-design-iconic-font/tags)
+[![Software License](https://img.shields.io/badge/license-MIT%20License/SIL%20OFL%201.1-blue.svg?style=flat-square)](LICENSE)
 [![Total Downloads](https://img.shields.io/github/downloads/zavoloklom/material-design-iconic-font/latest/total.svg)](https://github.com/zavoloklom/material-design-iconic-font/tags)
-
 [![NPM](https://img.shields.io/npm/v/material-design-iconic-font.svg?style=flat-square)](https://www.npmjs.com/package/material-design-iconic-font)
 [![Dependency](https://img.shields.io/david/zavoloklom/material-design-iconic-font.svg?style=flat-square)](https://david-dm.org/zavoloklom/material-design-iconic-font)
 [![DevDependency](https://img.shields.io/david/dev/zavoloklom/material-design-iconic-font.svg?style=flat-square)](https://david-dm.org/zavoloklom/material-design-iconic-font#info=devDependencies)
